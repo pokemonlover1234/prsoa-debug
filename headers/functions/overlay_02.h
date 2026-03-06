@@ -1,0 +1,11 @@
+void FUN_overlay_02__0211c9e0(int param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4);
+undefined4 FUN_overlay_02__0211d08c(int param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4);
+undefined4 FUN_overlay_02__0211d108(undefined4 param_1);
+void FUN_overlay_02__0211d124(void);
+void FUN_overlay_02__0211d128(void);
+void FUN_overlay_02__0211d12c(void);
+void FUN_overlay_02__0211d130(void);
+void FUN_overlay_02__0211d134(void);
+void FUN_overlay_02__0211d138(void);
+undefined4 FUN_overlay_02__0211d13c(void);
+undefined4 FUN_overlay_02__0211d144(undefined4 param_1);
