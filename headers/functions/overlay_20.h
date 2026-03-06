@@ -1,1 +1,10 @@
-// Oops, forgot this one!
+undefined4 * FUN_overlay_20__0211c9e0(undefined4 *param_1);
+undefined4 FUN_overlay_20__0211ca08(undefined4 param_1);
+undefined4 FUN_overlay_20__0211ca1c(undefined4 param_1);
+undefined4 FUN_overlay_20__0211ca38(int param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4);
+void FUN_overlay_20__0211ccfc(void);
+void FUN_overlay_20__0211cd30(void);
+void FUN_overlay_20__0211cd34(void);
+void FUN_overlay_20__0211ce54(int param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4);
+void FUN_overlay_20__0211cf30(int param_1);
+undefined4 FUN_overlay_20__0211cf90(void);
