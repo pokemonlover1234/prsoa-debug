@@ -54,3 +54,4 @@ undefined4 UNK_FUN_overlay_25__0211f840(int32_t* param_1);
 undefined4 UNK_FUN_overlay_25__0211f890(int32_t* param_1);
 undefined4 UNK_FUN_overlay_25__0211fa20(int32_t* param_1);
 undefined4 UNK_FUN_overlay_25__0211fa54(int32_t param_1);
+void thunk_UNK_FUN_02007d98(void);
