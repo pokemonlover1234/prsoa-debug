@@ -2147,3 +2147,11 @@ undefined4 UNK_FUN_overlay_00__0217294c(int32_t param_1, undefined4 param_2, und
 undefined4 UNK_FUN_overlay_00__02172b94(int32_t param_1);
 undefined4 UNK_FUN_overlay_00__02172bf4(void);
 undefined4 UNK_FUN_overlay_00__02172bfc(undefined4 param_1);
+void UNK_FUN_0211c9e0(int32_t param_1);
+void UNK_FUN_0211ca50(void);
+undefined4 UNK_FUN_0211def8(uint32_t param_1, uint32_t param_2, uint32_t* param_3);
+void thunk_UNK_FUN_02007cc4(void);
+void thunk_UNK_FUN_0203efe4(void);
+void thunk_UNK_FUN_0203f034(void);
+void thunk_UNK_FUN_020579d0(void);
+void thunk_UNK_FUN_02057d50(void);
