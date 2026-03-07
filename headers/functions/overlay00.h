@@ -2147,7 +2147,6 @@ undefined4 unk_fun_overlay_00_0217294c(int32_t param_1, undefined4 param_2, unde
 undefined4 unk_fun_overlay_00_02172b94(int32_t param_1);
 undefined4 unk_fun_overlay_00_02172bf4(void);
 undefined4 unk_fun_overlay_00_02172bfc(undefined4 param_1);
-void thunk_unk_fun_overlay_00_0211c9e0(int32_t param_1);
 void unk_fun_overlay_00_0211ca50(void);
 undefined4 unk_fun_overlay_00_0211def8(uint32_t param_1, uint32_t param_2, uint32_t* param_3);
 void thunk_unk_fun_overlay_00_02007cc4(void);

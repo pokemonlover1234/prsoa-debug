@@ -13,6 +13,13 @@ overlay10:
     JP: 0xC0
   description: Unknown.
   functions:
+    - name: UNK_FUN_overlay_10__0211c9e0
+      address:
+        NA: 0x211C9E0
+      description: |-
+        Does nothing but return. Likely a debug hook for the above function.
+        
+        No params. 
     - name: unk_fun_overlay_10_0211c9e4
       address:
         NA: 0x211C9E4
