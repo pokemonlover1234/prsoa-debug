@@ -13,13 +13,6 @@ overlay25:
     JP: 0x3340
   description: Unknown.
   functions:
-    - name: thunk_unk_fun_overlay_25_02007d98
-      address:
-        NA: 0x211cef0
-      description: |-
-        Use unknown.
-        
-        No params.
     - name: unk_fun_overlay_25_0211c9e0
       address:
         NA: 0x211C9E0
@@ -58,6 +51,13 @@ overlay25:
     - name: unk_fun_overlay_25_0211ceec
       address:
         NA: 0x211CEEC
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: thunk_unk_fun_overlay_25_02007d98
+      address:
+        NA: 0x211CEF0
       description: |-
         Use unknown.
         

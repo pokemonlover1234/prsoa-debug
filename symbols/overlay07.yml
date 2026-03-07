@@ -13,13 +13,6 @@ overlay7:
     JP: 0x2E80
   description: Unknown.
   functions:
-    - name: thunk_unk_fun_overlay_07_02007d98
-      address:
-        NA: 0x211cd70
-      description: |-
-        Use unknown.
-        
-        No params.
     - name: unk_fun_overlay_07_0211c9e0
       address:
         NA: 0x211C9E0
@@ -91,6 +84,13 @@ overlay7:
         Use unknown.
         
         r0: int32_t
+    - name: thunk_unk_fun_overlay_07_02007d98
+      address:
+        NA: 0x211CD70
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_07_0211cd7c
       address:
         NA: 0x211CD7C

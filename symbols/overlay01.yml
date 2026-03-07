@@ -13,20 +13,6 @@ overlay1:
     JP: 0x25D40
   description: Unknown.
   functions:
-    - name: thunk_unk_fun_overlay_01_020120b0
-      address:
-        NA: 0x2127280
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: thunk_unk_fun_overlay_01_020121f4
-      address:
-        NA: 0x212e48c
-      description: |-
-        Use unknown.
-        
-        No params.
     - name: unk_fun_overlay_01_0211c9e0
       address:
         NA: 0x211C9E0
@@ -1048,6 +1034,13 @@ overlay1:
         
         r0: int32_t
         r1: int32_t
+    - name: thunk_unk_fun_overlay_01_020120b0
+      address:
+        NA: 0x2127280
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_01_0212728c
       address:
         NA: 0x212728C
@@ -3211,6 +3204,13 @@ overlay1:
         Use unknown.
         
         r0: int32_t
+    - name: thunk_unk_fun_overlay_01_020121f4
+      address:
+        NA: 0x212E48C
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_01_0212e498
       address:
         NA: 0x212E498
@@ -6514,7 +6514,7 @@ overlay1:
         r0: int32_t
     - name: thunk_unk_fun_overlay_01_0213e12c
       address:
-        NA: 0x213e7b8
+        NA: 0x213E7B8
       description: |-
         Use unknown.
         

@@ -21,6 +21,13 @@ overlay0:
         
         r0: undefined4 pointer
         r1: int32_t
+    - name: unk_fun_0211ca50
+      address:
+        NA: 0x211CA50
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_00_0211cb28
       address:
         NA: 0x211CB28
@@ -45,6 +52,15 @@ overlay0:
         r1: undefined4
         r2: undefined4
         r3: undefined4
+    - name: unk_fun_0211def8
+      address:
+        NA: 0x211DEF8
+      description: |-
+        Use unknown.
+        
+        r0: uint32_t
+        r1: uint32_t
+        r2: uint32_t pointer
     - name: unk_fun_overlay_00_0211e3fc
       address:
         NA: 0x211E3FC
@@ -104,53 +120,9 @@ overlay0:
         Use unknown.
         
         r0: int32_t
-    - name: unk_fun_0211ca50
-      address:
-        NA: 0x211CA50
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: unk_fun_0211def8
-      address:
-        NA: 0x211DEF8
-      description: |-
-        Use unknown.
-        
-        r0: uint32_t
-        r1: uint32_t
-        r2: uint32_t pointer
     - name: thunk_unk_fun_overlay_00_02007cc4
       address:
-        NA: 0x21220a0
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: thunk_unk_fun_overlay_00_0203efe4
-      address:
-        NA: 0x213c654
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: thunk_unk_fun_overlay_00_0203f034
-      address:
-        NA: 0x213c660
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: thunk_unk_fun_overlay_00_020579d0
-      address:
-        NA: 0x214c900
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: thunk_unk_fun_overlay_00_02057d50
-      address:
-        NA: 0x214c90c
+        NA: 0x21220A0
       description: |-
         Use unknown.
         
@@ -2827,6 +2799,20 @@ overlay0:
         Use unknown.
         
         r0: undefined4
+    - name: thunk_unk_fun_overlay_00_0203efe4
+      address:
+        NA: 0x213C654
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: thunk_unk_fun_overlay_00_0203f034
+      address:
+        NA: 0x213C660
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_00_0213c66c
       address:
         NA: 0x213C66C
@@ -4704,6 +4690,18 @@ overlay0:
         Use unknown.
         
         r0: int32_t
+    - name: thunk_unk_fun_overlay_00_02142240
+      address:
+        NA:
+          - 0x2146568
+          - 0x2146A48
+          - 0x214759C
+          - 0x2148034
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: int32_t
     - name: unk_fun_overlay_00_02146574
       address:
         NA: 0x2146574
@@ -4943,18 +4941,6 @@ overlay0:
         Use unknown.
         
         r0: int32_t
-    - name: thunk_unk_fun_overlay_00_02142240
-      address:
-        NA: 
-          - 0x214759c
-          - 0x2146a48
-          - 0x2146568
-          - 0x2148034
-      description: |-
-        Use unknown.
-        
-        r0: int32_t
-        r1: int32_t
     - name: unk_fun_overlay_00_021475a8
       address:
         NA: 0x21475A8
@@ -6319,6 +6305,20 @@ overlay0:
         Use unknown.
         
         r0: int32_t
+    - name: thunk_unk_fun_overlay_00_020579d0
+      address:
+        NA: 0x214C900
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: thunk_unk_fun_overlay_00_02057d50
+      address:
+        NA: 0x214C90C
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_00_0214c918
       address:
         NA: 0x214C918
@@ -7828,7 +7828,7 @@ overlay0:
         r0: byte pointer
     - name: thunk_unk_fun_overlay_00_02142264
       address:
-        NA: 0x214ff68
+        NA: 0x214FF68
       description: |-
         Use unknown.
         
@@ -9100,7 +9100,7 @@ overlay0:
         r0: undefined4
     - name: thunk_unk_fun_overlay_00_02159ca8
       address:
-        NA: 0x2159d70
+        NA: 0x2159D70
       description: |-
         Use unknown.
         
@@ -10338,7 +10338,7 @@ overlay0:
         r0: int32_t
     - name: thunk_unk_fun_overlay_00_0215f4c8
       address:
-        NA: 0x215f518
+        NA: 0x215F518
       description: |-
         Use unknown.
         
@@ -11007,7 +11007,7 @@ overlay0:
         r0: int32_t
     - name: thunk_unk_fun_overlay_00_02162b08
       address:
-        NA: 0x2162b78
+        NA: 0x2162B78
       description: |-
         Use unknown.
         
@@ -11583,7 +11583,7 @@ overlay0:
         r0: int32_t pointer
     - name: thunk_unk_fun_overlay_00_02165410
       address:
-        NA: 0x21652bc
+        NA: 0x21652BC
       description: |-
         Use unknown.
         
@@ -11695,7 +11695,7 @@ overlay0:
         r0: int32_t pointer
     - name: thunk_unk_fun_overlay_00_0216596c
       address:
-        NA: 0x216590c
+        NA: 0x216590C
       description: |-
         Use unknown.
         
@@ -13505,7 +13505,7 @@ overlay0:
         r0: undefined4 pointer
     - name: thunk_unk_fun_overlay_00_0216ee9c
       address:
-        NA: 0x216ee10
+        NA: 0x216EE10
       description: |-
         Use unknown.
         
@@ -13713,7 +13713,7 @@ overlay0:
         r0: undefined4 pointer
     - name: thunk_unk_fun_overlay_00_0216ff58
       address:
-        NA: 0x216fe98
+        NA: 0x216FE98
       description: |-
         Use unknown.
         
@@ -13955,7 +13955,7 @@ overlay0:
         r0: undefined4 pointer
     - name: thunk_unk_fun_overlay_00_02171010
       address:
-        NA: 0x2170e9c
+        NA: 0x2170E9C
       description: |-
         Use unknown.
         
@@ -14097,7 +14097,7 @@ overlay0:
         r1: undefined4
     - name: thunk_unk_fun_overlay_00_02171890
       address:
-        NA: 0x21717f0
+        NA: 0x21717F0
       description: |-
         Use unknown.
         

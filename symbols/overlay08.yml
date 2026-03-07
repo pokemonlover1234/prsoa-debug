@@ -321,14 +321,14 @@ overlay8:
         r0: int32_t
     - name: thunk_unk_fun_overlay_08_0211d9e8
       address:
-        NA: 0x211d8a0
+        NA: 0x211D8A0
       description: |-
         Use unknown.
         
         r0: int32_t
     - name: thunk_unk_fun_overlay_08_0211e170
       address:
-        NA: 0x211d8ac
+        NA: 0x211D8AC
       description: |-
         Use unknown.
         
