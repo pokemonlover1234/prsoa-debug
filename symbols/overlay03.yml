@@ -11,7 +11,7 @@ overlay3:
     EU: 0xF000
     NA: 0xEB20
     JP: 0xED40
-  description: Unknown.
+  description: Controls the title screen.
   functions:
     - name: unk_fun_overlay_03_0211c9e0
       address:

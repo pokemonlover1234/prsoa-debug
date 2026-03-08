@@ -11,7 +11,7 @@ overlay0:
     EU: 0x5E6E0
     NA: 0x5E6E0
     JP: 0x5E740
-  description: Unknown.
+  description: Likely controls the "ground" mode for overworlds and cutscenes.
   functions:
     - name: unk_fun_overlay_00_0211c9e0
       address:

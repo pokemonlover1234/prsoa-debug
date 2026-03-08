@@ -11,7 +11,7 @@ overlay1:
     EU: 0x25940
     NA: 0x25820
     JP: 0x25D40
-  description: Unknown.
+  description: Likely controls battles.
   functions:
     - name: unk_fun_overlay_01_0211c9e0
       address:

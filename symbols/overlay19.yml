@@ -11,7 +11,7 @@ overlay19:
     EU: 0x1CA0
     NA: 0x1C80
     JP: 0x1C80
-  description: Unknown.
+  description: Seems to be used right after selecting "new game." Controls player gender selection, maybe more?
   functions:
     - name: unk_fun_overlay_19_0211c9e0
       address:
