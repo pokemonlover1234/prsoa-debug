@@ -33804,8 +33804,6 @@ struct ranger_data {
     undefined field33797_0x8756;
     undefined field33798_0x8757;
     struct ranger_records records;
-    bool has_max_play_time;
-    int8_t styler_level;
     undefined field33802_0x87dc;
     undefined field33803_0x87dd;
     undefined field33804_0x87de;
@@ -34364,7 +34362,7 @@ struct ranger_data {
     undefined field34357_0x8b42;
     undefined field34358_0x8b43;
     char string_buffer[32];
-    enum battle_result battle_result;
+    struct battle_result_8 battle_result;
     undefined field34361_0x8b65;
     undefined field34362_0x8b66;
     undefined field34363_0x8b67;

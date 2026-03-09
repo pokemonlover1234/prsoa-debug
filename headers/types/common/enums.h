@@ -88,6 +88,10 @@ enum battle_result {
     RESULT_UNK_0x6 = 6,
     RESULT_UNK_0x7 = 7
 };
+// This is usually stored as 16-bit integer
+#pragma pack(push, 1)
+ENUM_8_BIT(battle_result);
+#pragma pack(pop)
 
 enum capture_rank { RANK_S = 0b00, RANK_A = 0b01, RANK_B = 0b10, RANK_C = 0b11 };
 
