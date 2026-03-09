@@ -15269,13 +15269,14 @@ arm9:
         Use unknown.
         
         r0: int32_t
-    - name: unk_fun_02048c1c
+    - name: close
       address:
         NA: 0x2048C1C
       description: |-
-        Use unknown.
+        Closes a file descriptor.
         
-        r0: int32_t
+        r0: file descriptor
+        return: 0 on success, or a negative value representing an error
     - name: unk_fun_02048cec
       address:
         NA: 0x2048CEC
@@ -15447,58 +15448,82 @@ arm9:
         r1: undefined4
         r2: undefined4
         r3: undefined4
-    - name: unk_fun_020494f4
+    - name: socket
       address:
         NA: 0x20494F4
       description: |-
-        Use unknown.
+        Creates a socket file descriptor for network activity.
         
-        r0: undefined4
-        r1: int32_t
-    - name: unk_fun_02049520
+        r0: domain
+        r1: family
+        r2: protocol
+        return: socket file descriptor on success, negative value indicating error otherwise
+    - name: bind
       address:
         NA: 0x2049520
       description: |-
-        Use unknown.
+        Binds a socket to an address.
         
-        r0: undefined4
-        r1: int32_t
-    - name: unk_fun_0204954c
+        r0: socket file descriptor
+        r1: address
+        return: 0 on success, or a negative value representing an error
+    - name: connect
       address:
         NA: 0x204954C
       description: |-
-        Use unknown.
+        Connects a socket to an address.
         
-        r0: undefined4
-        r1: int32_t
-    - name: unk_fun_020495a8
+        r0: socket file descriptor
+        r1: address
+        return: 0 on success, or a negative value representing an error
+    - name: recv
       address:
         NA: 0x20495A8
       description: |-
-        Use unknown.
+        Receives a message from a connected socket.
         
-        No params.
-    - name: unk_fun_020495cc
+        r0: socket file descriptor
+        r1: destination buffer
+        r2: size of buffer
+        r3: flags
+        return: number of bytes read, or a negative value representing an error
+    - name: recvfrom
       address:
         NA: 0x20495CC
       description: |-
-        Use unknown.
+        Receives a message from a connectionless socket, also returning the source address that sent data.
         
-        No params.
-    - name: unk_fun_0204965c
+        r0: socket file descriptor
+        r1: destination buffer
+        r2: size of buffer
+        r3: flags
+        stack[0]: destination address; can be NULL
+        stack[1]: length of destination address
+        return: number of bytes read, or a negative value representing an error
+    - name: send
       address:
         NA: 0x204965C
       description: |-
-        Use unknown.
+        Sends a message to a connected socket.
         
-        No params.
-    - name: unk_fun_02049680
+        r0: socket file descriptor
+        r1: source buffer
+        r2: size of buffer
+        r3: flags
+        return: number of bytes sent, or a negative value representing an error
+    - name: sendto
       address:
         NA: 0x2049680
       description: |-
-        Use unknown.
+        Sends a message to a connectionless socket.
         
-        No params.
+        r0: socket file descriptor
+        r1: source buffer
+        r2: size of buffer
+        r3: flags
+        stack[0]: target address
+        stack[1]: length of target address
+        return: number of bytes sent, or a negative value representing an error
     - name: thunk_unk_fun_02048b0c
       address:
         NA: 0x2049704
@@ -15506,13 +15531,16 @@ arm9:
         Use unknown.
         
         No params.
-    - name: thunk_unk_fun_02048c1c
+    - name: CloseVeneer
       address:
         NA: 0x2049710
       description: |-
-        Use unknown.
+        Likely a linker-generated veneer for close.
         
-        No params.
+        See https://developer.arm.com/documentation/dui0474/k/image-structure-and-generation/linker-generated-veneers/what-is-a-veneer-
+        
+        r0: file descriptor
+        return: 0 on success, or a negative value representing an error
     - name: unk_fun_0204971c
       address:
         NA: 0x204971C
