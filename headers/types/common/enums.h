@@ -492,5 +492,9 @@ enum room_id {
     OCEAN_ROUTE = 0x181,
     OCEAN_ROUTE_1 = 0x182
 };
+// This is usually stored as 16-bit integer
+#pragma pack(push, 1)
+ENUM_16_BIT(room_id);
+#pragma pack(pop)
 
 #endif
