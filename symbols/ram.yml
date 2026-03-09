@@ -21,7 +21,7 @@ ram:
   data:
     - name: MISSION_QUEST_DATA
       address:
-        NA: 0x20b2638
+        NA: 0x20B2638
       length:
         NA: 0x5C
       description: "Likely a small portion of the save file, storing the current mission/quest and mission/quest progression."
