@@ -115,8 +115,7 @@ ASSERT_SIZE(struct mission_quest_data, 92);
 // Data type for befriended pokemon
 struct pokemon_data {
     int16_t species_id;
-    undefined field1_0x2;
-    undefined field2_0x3;
+    enum room_id_16 room_caught;
     undefined field3_0x4;
     undefined field4_0x5;
     undefined field5_0x6;
