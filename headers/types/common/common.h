@@ -1311,7 +1311,6 @@ struct ranger_glossary {
 
 ASSERT_SIZE(struct ranger_glossary, 48);
 
-
 #include "ranger_data.h"
 
 #endif

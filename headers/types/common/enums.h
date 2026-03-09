@@ -93,7 +93,6 @@ enum battle_result {
 ENUM_8_BIT(battle_result);
 #pragma pack(pop)
 
-
 enum capture_rank { RANK_S = 0b00, RANK_A = 0b01, RANK_B = 0b10, RANK_C = 0b11 };
 
 enum species_status {
