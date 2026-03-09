@@ -4,6 +4,7 @@
 #define HEADERS_TYPES_COMMON_H_
 
 #include "util.h"
+#include "enums.h"
 
 // Parameters used by the NitroSDK to read the ROM.
 struct start_module_params {
@@ -1376,5 +1377,8 @@ struct ranger_glossary {
 };
 
 ASSERT_SIZE(struct ranger_glossary, 48);
+
+
+#include "ranger_data.h"
 
 #endif

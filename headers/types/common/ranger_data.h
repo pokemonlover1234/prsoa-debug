@@ -1,4 +1,7 @@
-#include "common.h"
+#ifndef HEADERS_TYPES_COMMON_RANGER_DATA_H_
+#define HEADERS_TYPES_COMMON_RANGER_DATA_H_
+
+#include "enums.h"
 
 struct ranger_data {
     struct ranger_core_data core_data;
@@ -34368,3 +34371,5 @@ struct ranger_data {
     // This is MUCH longer, but I do not know how long yet!
 };
 ASSERT_SIZE(struct ranger_data, 35688);
+
+#endif
