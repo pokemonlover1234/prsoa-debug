@@ -1352,6 +1352,7 @@ struct ranger_glossary {
     enum glossary_table_entry unk_entry_02 : 2;
     enum glossary_table_entry unk_entry_03 : 2;
     enum glossary_table_entry unk_entry_04 : 2;
+    undefined field_0x17;
     undefined field_0x18;
     undefined field_0x19;
     undefined field_0x1a;
