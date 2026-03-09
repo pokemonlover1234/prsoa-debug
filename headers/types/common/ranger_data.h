@@ -33801,8 +33801,6 @@ struct ranger_data {
     undefined field33797_0x8756;
     undefined field33798_0x8757;
     struct ranger_records records;
-    bool has_max_play_time;
-    int8_t styler_level;
     undefined field33802_0x87dc;
     undefined field33803_0x87dd;
     undefined field33804_0x87de;
