@@ -684,7 +684,7 @@ undefined4 unk_fun_02016268(ranger_data *param_1,undefined4 param_2);
 void unk_fun_020162bc(ranger_data *param_1,int param_2);
 void unk_fun_0201630c(ranger_data *param_1,int *param_2,int *param_3,undefined4 param_4);
 void update_play_time(ranger_data *param_1);
-void debug_printf(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4);
+void debug_print(char* param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4);
 void assign_partner_moods(ranger_data *param_1);
 uint unk_fun_02016c14(ranger_data *param_1,int param_2);
 void unk_fun_02016c40(ranger_data *param_1,int param_2,int param_3);

@@ -5482,7 +5482,7 @@ arm9:
       address:
         NA:  0x020150B8
       description: |-
-        [MANUAL DESCRIPTION]
+        Zeroes an entire pokemon_data struct.
         
         r0: pokemon_data pointer
     - name: unk_fun_020150f4
@@ -5796,16 +5796,16 @@ arm9:
       address:
         NA:  0x0201668C
       description: |-
-        [MANUAL DESCRIPTION]
+        Copies the most recent play_time struct over the backup.
         
         r0: ranger_data pointer
-    - name: debug_printf
+    - name: debug_print
       address:
         NA:  0x02016794
       description: |-
-        [MANUAL DESCRIPTION]
+        Seems to be a debug print function. Accepts standard C string formatting.
         
-        r0: undefined4 
+        r0: Debug String pointer
         r1: undefined4 
         r2: undefined4 
         r3: undefined4 
@@ -5813,7 +5813,7 @@ arm9:
       address:
         NA:  0x020167B4
       description: |-
-        [MANUAL DESCRIPTION]
+        Seems to assign the mood of each of the 17 pokemon partners. Details unknown.
         
         r0: ranger_data pointer
     - name: unk_fun_02016c14
@@ -5845,23 +5845,23 @@ arm9:
       address:
         NA:  0x02016D4C
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the player_exp field of RANGER_DATA.
         
         r0: ranger_data pointer
-        r1: uint 
+        r1: value to assign
     - name: add_and_get_player_exp
       address:
         NA:  0x02016D64
       description: |-
-        [MANUAL DESCRIPTION]
+        Adds to the player_exp field of RANGER_DATA, then returns the result.
         
         r0: ranger_data pointer
-        r1: int 
+        r1: value to assign
     - name: set_max_steps_record
       address:
         NA:  0x02016D88
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the max_steps_record field of ranger_data->ranger_records.
         
         r0: ranger_data pointer
         r1: uint 
@@ -5869,7 +5869,7 @@ arm9:
       address:
         NA:  0x02016DA4
       description: |-
-        [MANUAL DESCRIPTION]
+        Adds to the ranger_data->ranger_records.max_steps_record field, then returns the result.
         
         r0: ranger_data pointer
         r1: int 
@@ -5877,7 +5877,7 @@ arm9:
       address:
         NA:  0x02016DD0
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the conversations_record field of ranger_data->ranger_records.
         
         r0: ranger_data pointer
         r1: uint 
@@ -5885,7 +5885,7 @@ arm9:
       address:
         NA:  0x02016DEC
       description: |-
-        [MANUAL DESCRIPTION]
+        Adds to the ranger_data->ranger_records.conversations_record field, then returns the result.
         
         r0: ranger_data pointer
         r1: int 
@@ -5893,7 +5893,7 @@ arm9:
       address:
         NA:  0x02016E18
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the targets_checked_record field of ranger_data->ranger_records.
         
         r0: ranger_data pointer
         r1: uint 
@@ -5901,7 +5901,7 @@ arm9:
       address:
         NA:  0x02016E34
       description: |-
-        [MANUAL DESCRIPTION]
+        Adds to the ranger_data->ranger_records.targets_checked_record field, then returns the result.
         
         r0: ranger_data pointer
         r1: int 
@@ -5909,7 +5909,7 @@ arm9:
       address:
         NA:  0x02016E60
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the games_saved_record field of ranger_data->ranger_records.
         
         r0: ranger_data pointer
         r1: uint 
@@ -5917,7 +5917,7 @@ arm9:
       address:
         NA:  0x02016E7C
       description: |-
-        [MANUAL DESCRIPTION]
+        Adds to the ranger_data->ranger_records.game_saves_record field, then returns the result.
         
         r0: ranger_data pointer
         r1: int 
@@ -5925,7 +5925,7 @@ arm9:
       address:
         NA:  0x02016EA8
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the pokemon_rides_record field of ranger_data->ranger_records.
         
         r0: ranger_data pointer
         r1: uint 
@@ -5933,7 +5933,7 @@ arm9:
       address:
         NA:  0x02016EC4
       description: |-
-        [MANUAL DESCRIPTION]
+        Adds to the ranger_data->ranger_records.pokemon_rides_record field, then returns the result.
         
         r0: ranger_data pointer
         r1: int 
@@ -5966,7 +5966,7 @@ arm9:
       address:
         NA:  0x02017020
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the capture_line_len_record field of ranger_data->ranger_records.
         
         r0: ranger_data pointer
         r1: uint 
@@ -5974,7 +5974,7 @@ arm9:
       address:
         NA:  0x0201703C
       description: |-
-        [MANUAL DESCRIPTION]
+        Adds to the ranger_data->ranger_records.capture_line_len_record field, then returns the result.
         
         r0: ranger_data pointer
         r1: int 
@@ -5982,7 +5982,7 @@ arm9:
       address:
         NA:  0x02017068
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the num_loops_record field of ranger_data->ranger_records.
         
         r0: ranger_data pointer
         r1: uint 
@@ -5990,7 +5990,7 @@ arm9:
       address:
         NA:  0x02017084
       description: |-
-        [MANUAL DESCRIPTION]
+        Adds to the ranger_data->ranger_records.num_loops_record field, then returns the result.
         
         r0: ranger_data pointer
         r1: int 
@@ -5998,7 +5998,7 @@ arm9:
       address:
         NA:  0x020170B0
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the pokemon_captured_record field of ranger_data->ranger_records.
         
         r0: ranger_data pointer
         r1: int16_t 
@@ -6006,7 +6006,7 @@ arm9:
       address:
         NA:  0x020170D0
       description: |-
-        [MANUAL DESCRIPTION]
+        Adds to the ranger_data->ranger_records.pokemon_captured_record field, then returns the result.
         
         r0: ranger_data pointer
         r1: short 
@@ -6014,7 +6014,7 @@ arm9:
       address:
         NA:  0x02017100
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the fled_pokemon_record field of ranger_data->ranger_records.
         
         r0: ranger_data pointer
         r1: int16_t 
@@ -6022,7 +6022,7 @@ arm9:
       address:
         NA:  0x02017120
       description: |-
-        [MANUAL DESCRIPTION]
+        Adds to the ranger_data->ranger_records.fled_pokemon_record field, then returns the result.
         
         r0: ranger_data pointer
         r1: short 
@@ -6030,7 +6030,7 @@ arm9:
       address:
         NA:  0x02017150
       description: |-
-        [MANUAL DESCRIPTION]
+        Writes to the poke_assists_used_record field of ranger_data->ranger_records.
         
         r0: ranger_data pointer
         r1: int16_t 
@@ -6038,7 +6038,7 @@ arm9:
       address:
         NA:  0x02017170
       description: |-
-        [MANUAL DESCRIPTION]
+        Adds to the ranger_data->ranger_records.poke_assists_used_record field, then returns the result.
         
         r0: ranger_data pointer
         r1: short 
