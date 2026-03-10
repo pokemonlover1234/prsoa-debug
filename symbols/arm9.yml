@@ -11586,42 +11586,42 @@ arm9:
       address:
         NA:  0x020337EC
       description: |-
-        [MANUAL DESCRIPTION]
+        Resets the timer fields in RANGER_DATA, but seems to do something else too.
         
         No params.
     - name: init_timer_type_1
       address:
         NA:  0x0203381C
       description: |-
-        [MANUAL DESCRIPTION]
+        Begins a timer of type 1 by initializing relevant fields in RANGER_DATA.
         
-        r0: int pointer
+        r0: pointer to the timer duration, in frames.
     - name: init_timer_type_2
       address:
         NA:  0x02033844
       description: |-
-        [MANUAL DESCRIPTION]
+        Begins a timer of type 2 by initializing relevant fields in RANGER_DATA.
         
-        r0: int pointer
+        r0: pointer to the timer 2 "duration", in frames.
     - name: set_timer_type_none
       address:
         NA:  0x0203386C
       description: |-
-        [MANUAL DESCRIPTION]
+        Sets only the timer type field in RANGER_DATA to 0.
         
         No params.
     - name: set_timer_type_1
       address:
         NA:  0x02033884
       description: |-
-        [MANUAL DESCRIPTION]
+        Sets only the timer type field in RANGER_DATA to 1.
         
         No params.
     - name: set_timer_type_2
       address:
         NA:  0x020338A0
       description: |-
-        [MANUAL DESCRIPTION]
+        Sets only the timer type field in RANGER_DATA to 2.
         
         No params.
     - name: unk_fun_020338bc
@@ -11642,21 +11642,21 @@ arm9:
       address:
         NA:  0x020338FC
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the current timer 1 duration in frames, from RANGER_DATA.
         
         No params.
     - name: set_timer_1_duration
       address:
         NA:  0x02033918
       description: |-
-        [MANUAL DESCRIPTION]
+        Sets only the current timer 1 duration in RANGER_DATA.
         
-        r0: int pointer
+        r0: pointer to the duration of the timer in frames.
     - name: timer_is_active
       address:
         NA:  0x02033934
       description: |-
-        [MANUAL DESCRIPTION]
+        Returns true if the timer type is 1 or 2, but not 0.
         
         No params.
     - name: unk_fun_02033968
@@ -28943,7 +28943,7 @@ arm9:
         
         r0: undefined4
         r1: undefined4
-        r2: code pointerUNRECOVERED_JUMPTABLE
+        r2: code?
     - name: unk_fun_020839b0
       address:
         NA: 0x20839B0
