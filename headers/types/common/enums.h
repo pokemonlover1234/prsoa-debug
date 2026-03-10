@@ -95,6 +95,8 @@ ENUM_8_BIT(battle_result);
 
 enum capture_rank { RANK_S = 0b00, RANK_A = 0b01, RANK_B = 0b10, RANK_C = 0b11 };
 
+enum partner_unlock_flag { PARTNER_UNLOCKED = 0b1, PARTNER_NOT_UNLOCKED = 0b0 };
+
 enum species_status {
     STATUS_NOT_SEEN = 0,
     STATUS_SEEN = 1,

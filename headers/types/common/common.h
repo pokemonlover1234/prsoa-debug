@@ -30,23 +30,7 @@ struct ranger_core_data {
     undefined field6_0x6;
     undefined field7_0x7;
     undefined field8_0x8;
-    undefined field9_0x9;
-    undefined field10_0xa;
-    undefined field11_0xb;
-    undefined field12_0xc;
-    undefined field13_0xd;
-    undefined field14_0xe;
-    undefined field15_0xf;
-    undefined field16_0x10;
-    undefined field17_0x11;
-    undefined field18_0x12;
-    undefined field19_0x13;
-    undefined field20_0x14;
-    undefined field21_0x15;
-    undefined field22_0x16;
-    undefined field23_0x17;
-    undefined field24_0x18;
-    undefined field25_0x19;
+    int8_t partner_pokemon_moods[17]; // 0x0 normal, 0x1 happy, 0x2 very happy?
     struct room_id_16 room;
     int16_t player_coordinates[2];
     undefined field28_0x20;
@@ -1171,19 +1155,28 @@ struct ranger_records {
     int16_t pokemon_fled_record;
     int16_t poke_assists_used_record;
     undefined field78_0x66;
-    undefined field79_0x67;
-    undefined field80_0x68;
-    undefined field81_0x69;
-    undefined field82_0x6a;
-    undefined field83_0x6b;
-    undefined field84_0x6c;
-    undefined field85_0x6d;
-    undefined field86_0x6e;
-    undefined field87_0x6f;
-    undefined field88_0x70;
-    undefined field89_0x71;
-    undefined field90_0x72;
-    undefined field91_0x73;
+    int8_t timer_type_active; // 0 = no timer, 1 = timer counting down, 2 = unknown
+    int32_t timer_1_frames_left;
+    int32_t timer_2_frames_left; // May count upwards. More clarification needed.
+    enum partner_unlock_flag
+        munchlax_met : 1; // This seems to be the internal order used by the partners.
+    enum partner_unlock_flag chimchar_met : 1;
+    enum partner_unlock_flag piplup_met : 1;
+    enum partner_unlock_flag turtwig_met : 1;
+    enum partner_unlock_flag pachirisu_met : 1;
+    enum partner_unlock_flag snorunt_met : 1;
+    enum partner_unlock_flag machop_met : 1;
+    enum partner_unlock_flag croagunk_met : 1;
+    enum partner_unlock_flag hippopotas_met : 1;
+    enum partner_unlock_flag starly_met : 1;
+    enum partner_unlock_flag mime_jr_met : 1;
+    enum partner_unlock_flag kricketot_met : 1;
+    enum partner_unlock_flag cranidos_met : 1;
+    enum partner_unlock_flag misdreavus_met : 1;
+    enum partner_unlock_flag gible_met : 1;
+    enum partner_unlock_flag sneasel_met : 1;
+    enum partner_unlock_flag shieldon_met : 1;
+    enum partner_unlock_flag unused_flags : 15;
     struct play_time last_play_time;
     struct play_time current_play_time;
 };
