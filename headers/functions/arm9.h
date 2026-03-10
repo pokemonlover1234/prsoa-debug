@@ -701,7 +701,7 @@ undefined4 unk_fun_02016268(struct ranger_data *param_1,undefined4 param_2);
 void unk_fun_020162bc(struct ranger_data *param_1,int32_t param_2);
 void unk_fun_0201630c(struct ranger_data *param_1,int32_t *param_2,int32_t *param_3,undefined4 param_4);
 void update_play_time(struct ranger_data *param_1);
-void debug_printf(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4);
+void debug_print(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4);
 void assign_partner_moods(struct ranger_data *param_1);
 uint32_t unk_fun_02016c14(struct ranger_data *param_1,int32_t param_2);
 void unk_fun_02016c40(struct ranger_data *param_1,int32_t param_2,int32_t param_3);
