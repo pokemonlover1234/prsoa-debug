@@ -7549,7 +7549,7 @@ overlay0:
         Use unknown.
         
         No params.
-    - name: GetCaptureLinLenRecordSimple
+    - name: GetCaptureLineLenRecordSimple
       address:
         NA: 0x214F6E4
       description: |-

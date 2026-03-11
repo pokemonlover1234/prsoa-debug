@@ -1079,8 +1079,8 @@ void unk_fun_overlay_00_0214f478(undefined4 param_1);
 undefined* unk_fun_overlay_00_0214f488(int param_1, undefined4 param_2, undefined4 param_3,
                                        undefined4 param_4);
 undefined4 unk_fun_overlay_00_0214f6dc(void);
-int64_t GetCaptureLinLenRecordSimple(void);
-void SetCaptureLinLenRecordSimple(int param_1);
+int64_t GetCaptureLineLenRecordSimple(void);
+void SetCaptureLineLenRecordSimple(int param_1);
 int32_t GetNumLoopsRecordSimple(void);
 void SetNumLoopsRecordSimple(undefined4 param_1);
 int16_t GetPokemonCapturedRecordSimple(void);
