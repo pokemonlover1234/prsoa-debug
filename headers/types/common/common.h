@@ -95,7 +95,6 @@ struct ranger_core_data {
 
 ASSERT_SIZE(struct ranger_core_data, 48);
 
-
 // Data type for befriended pokemon
 struct pokemon_data {
     int16_t form_id;               // NOT natdex number! Will be an enum at some point!
@@ -1160,7 +1159,7 @@ struct ranger_records {
     int32_t timer_1_frames_left;
     int32_t timer_2_frames_left; // May count upwards. More clarification needed.
     // This seems to be the internal order used by the partners.
-    enum partner_unlock_flag munchlax_met : 1; 
+    enum partner_unlock_flag munchlax_met : 1;
     enum partner_unlock_flag chimchar_met : 1;
     enum partner_unlock_flag piplup_met : 1;
     enum partner_unlock_flag turtwig_met : 1;
