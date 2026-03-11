@@ -2,11 +2,9 @@
 #define HEADERS_FUNCTIONS_OVERLAY00_H_
 
 undefined4 * unk_fun_overlay_00_0211c9e0(undefined4 *param_1,int param_2);
-undefined4 * unk_fun_overlay_21_0211ca50(undefined4 *param_1);
 undefined4 * unk_fun_overlay_00_0211cb28(undefined4 *param_1);
 void unk_fun_overlay_00_0211cb88(void);
 void unk_fun_overlay_00_0211cd5c(int param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4);
-void unk_fun_overlay_19_0211def8(int param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4);
 undefined4 unk_fun_overlay_00_0211e3fc(undefined4 param_1);
 void unk_fun_overlay_00_0211e410(int param_1,undefined4 param_2,undefined4 param_3,undefined *param_4);
 int * unk_fun_overlay_00_0211e95c(int *param_1);
