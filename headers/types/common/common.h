@@ -19,6 +19,34 @@ struct start_module_params {
     uint32_t nitrocode_le;
 };
 
+// Contains critical player data, such as their gender, HP, position, and exp.
+struct ranger_core_data {
+    bool ranger_is_female;
+    int8_t current_hp;
+    int8_t max_hp;
+    int8_t ranger_n_styler_rank;
+    undefined field4_0x4;
+    undefined field5_0x5;
+    undefined field6_0x6;
+    undefined field7_0x7;
+    undefined field8_0x8;
+    int8_t partner_pokemon_moods[17]; // 0x0 normal, 0x1 happy, 0x2 very happy?
+    struct room_id_16 room;
+    int16_t player_coordinates[2];
+    undefined field28_0x20;
+    undefined field29_0x21;
+    undefined field30_0x22;
+    undefined field31_0x23;
+    undefined field32_0x24;
+    undefined field33_0x25;
+    undefined field34_0x26;
+    undefined field35_0x27;
+    int32_t current_styler_exp;
+    int32_t current_player_exp;
+};
+
+ASSERT_SIZE(struct ranger_core_data, 48);
+
 // Individual entry in the quest table
 struct quest_table_entry {
     int8_t is_available : 1; // bit 0
@@ -66,35 +94,6 @@ struct mission_quest_data {
 };
 
 ASSERT_SIZE(struct mission_quest_data, 92);
-
-// Contains critical player data, such as their gender, HP, position, and exp.
-struct ranger_core_data {
-    bool ranger_is_female;
-    int8_t current_hp;
-    int8_t max_hp;
-    int8_t ranger_n_styler_rank;
-    undefined field4_0x4;
-    undefined field5_0x5;
-    undefined field6_0x6;
-    undefined field7_0x7;
-    undefined field8_0x8;
-    int8_t partner_pokemon_moods[17]; // 0x0 normal, 0x1 happy, 0x2 very happy?
-    struct room_id_16 room;
-    int16_t player_coordinates[2];
-    undefined field28_0x20;
-    undefined field29_0x21;
-    undefined field30_0x22;
-    undefined field31_0x23;
-    undefined field32_0x24;
-    undefined field33_0x25;
-    undefined field34_0x26;
-    undefined field35_0x27;
-    int32_t current_styler_exp;
-    int32_t current_player_exp;
-};
-
-ASSERT_SIZE(struct ranger_core_data, 48);
-
 
 // Data type for befriended pokemon
 struct pokemon_data {
@@ -1159,8 +1158,8 @@ struct ranger_records {
     int8_t timer_type_active; // 0 = no timer, 1 = timer counting down, 2 = unknown
     int32_t timer_1_frames_left;
     int32_t timer_2_frames_left; // May count upwards. More clarification needed.
-    // This seems to be the internal order used by the partners.
-    enum partner_unlock_flag munchlax_met : 1; 
+    enum partner_unlock_flag
+        munchlax_met : 1; // This seems to be the internal order used by the partners.
     enum partner_unlock_flag chimchar_met : 1;
     enum partner_unlock_flag piplup_met : 1;
     enum partner_unlock_flag turtwig_met : 1;
@@ -1184,7 +1183,6 @@ struct ranger_records {
 ASSERT_SIZE(struct ranger_records, 132);
 
 struct ranger_glossary {
-    // Start of the "Field" glossary bitfield
     enum glossary_table_entry friend_pokemon_entry : 2;
     enum glossary_table_entry partner_pokemon_entry : 2;
     enum glossary_table_entry partner_energy_entry : 2;
@@ -1205,19 +1203,6 @@ struct ranger_glossary {
     enum glossary_table_entry change_screen_button_entry : 2;
     enum glossary_table_entry unk_entry_0 : 2;
     enum glossary_table_entry unk_entry_1 : 2;
-    // Presumed to be padding.
-    undefined field_0x5;
-    undefined field_0x6;
-    undefined field_0x7;
-    undefined field_0x8;
-    undefined field_0x9;
-    undefined field_0xa;
-    undefined field_0xb;
-    undefined field_0xc;
-    undefined field_0xd;
-    undefined field_0xe;
-    undefined field_0xf;
-    // Start of the "Capture" glossary bitfield
     enum glossary_table_entry capture_disc_entry : 2;
     enum glossary_table_entry capture_line_entry : 2;
     enum glossary_table_entry capture_entry : 2;
@@ -1250,16 +1235,6 @@ struct ranger_glossary {
     enum glossary_table_entry poke_assist_ice_entry : 2;
     enum glossary_table_entry poke_assist_dragon_entry : 2;
     enum glossary_table_entry poke_assist_special_effects_entry : 2;
-    // Presumed to be padding.
-    undefined field_0x18;
-    undefined field_0x19;
-    undefined field_0x1a;
-    undefined field_0x1b;
-    undefined field_0x1c;
-    undefined field_0x1d;
-    undefined field_0x1e;
-    undefined field_0x1f;
-    // Start of the "Terms" header glossary bitfield
     enum glossary_table_entry pokemon_rangers_entry : 2;
     enum glossary_table_entry student_rangers_entry : 2;
     enum glossary_table_entry top_rangers_entry : 2;
@@ -1300,7 +1275,25 @@ struct ranger_glossary {
     enum glossary_table_entry unk_entry_02 : 2;
     enum glossary_table_entry unk_entry_03 : 2;
     enum glossary_table_entry unk_entry_04 : 2;
-    // Presumed to be padding.
+    undefined field_0x17;
+    undefined field_0x18;
+    undefined field_0x19;
+    undefined field_0x1a;
+    undefined field_0x1b;
+    undefined field_0x1c;
+    undefined field_0x1d;
+    undefined field_0x1e;
+    undefined field_0x1f;
+    undefined field_0x20;
+    undefined field_0x21;
+    undefined field_0x22;
+    undefined field_0x23;
+    undefined field_0x24;
+    undefined field_0x25;
+    undefined field_0x26;
+    undefined field_0x27;
+    undefined field_0x28;
+    undefined field_0x29;
     undefined field_0x2a;
     undefined field_0x2b;
     undefined field_0x2c;
