@@ -25,6 +25,18 @@ This is a list of tools that UsernameFodder has suggested for NDS research that 
 - [SkyTemple](https://skytemple.org/) (cross-platform), primarily for getting up to speed on things the community has already figured out.
 - [Hex Fiend](https://hexfiend.com/) (macOS only) and [HxD](https://mh-nexus.de/en/hxd/) (Windows only) on the rare occasion I need to do raw hex editing, but honestly any hex editor works.
 
+## Tools created for SoA
+This is a list of tools or projects created for _Shadows of Almia_. It aims to give a comprehensive index of what is available on the internet specifically created for use with the game. Some document varying features of the game and/or overlap with documentation provided by other tools. They are listed in no particular order.
+- [AlmiaE](https://github.com/SunakazeKun/AlmiaE), a complete editing suite for map data and Pokémon data written in Java. Documents a large basis for the structure map data takes.
+- [almia-randomizer](https://github.com/ronitsinha/almia-randomizer), a Pokémon randomizer for SoA written in C. It is currently not playable from a new save.
+- [almiascript](https://gitlab.com/Fexean/almiascript), a tool for disassembling and compiling .fsb script files found in SoA written in C. Documents the structure of .fsb scripts and lists and documents opcodes and syscalls.
+- [Almiamap](https://gitlab.com/Fexean/almiamap), a WIP level editor. Documents the structure map data takes. Expands on research by AlmiaE.
+- [ra23mes](https://github.com/SombrAbsol/ra23mes)m MES text file converters for _Pokémon Ranger: Shadows of Almia_ and _Pokémon Ranger: Guardian Signs_. Documents the MES format and lists control characters.
+- [PRSA---Rom-Manager-](https://github.com/etienerodri/PRSA---Rom-Manager-), a ROM manager tool with graphical interface. Documents map data.
+- [PRSA-Pokemon-Palette-Editor-
+](https://github.com/etienerodri/PRSA-Pokemon-Palette-Editor), a palette editor for the Pokémon found in SoA with graphical interface.
+- [ArchipelagoAlmia](https://github.com/WCutePy/ArchipelagoAlmia), an Archipelago implementation for SoA (the reason this repository was originally made!)
+  
 ## I don't know any of this and I'm feeling overwhelmed!
 There's a lot to learn if you're just starting out, especially if you don't already have a background in computer science. If you want just _one_ thing to sink your teeth into initially, I recommend AnonymousRandomPerson's [_Reverse Engineering a DS Game_](https://www.starcubelabs.com/reverse-engineering-ds/). It'll teach you how to read assembly, guide you through setting up and using reverse engineering tools like [Ghidra](https://ghidra-sre.org/), and share basic reverse engineering strategies through practical examples.
 
