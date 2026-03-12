@@ -1259,7 +1259,7 @@ undefined4 unk_fun_0202dd48(undefined4* param_1);
 undefined4 unk_fun_0202dd88(undefined4* param_1);
 undefined4 unk_fun_0202dee8(undefined4* param_1);
 undefined4 unk_fun_0202e070(int32_t* param_1);
-void unk_fun_0202e1f0(undefined4 param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4);
+void DebugPrintError(char* string);
 undefined4 unk_fun_0202e210(undefined4* param_1);
 undefined4 unk_fun_0202e330(int32_t param_1);
 undefined4 unk_fun_0202e43c(int32_t param_1);
@@ -1807,10 +1807,14 @@ void unk_fun_020441ac(void);
 void unk_fun_020441b0(void);
 void unk_fun_02044200(char* param_1);
 void unk_fun_02044260(undefined* param_1, undefined4 param_2, undefined4 param_3, void* param_4);
-void unk_fun_020442cc(undefined4 param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4);
-void unk_fun_02044308(undefined4 param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4);
-void thunk_unk_fun_020442cc(void);
-void unk_fun_02044340(undefined4 param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4);
+void DebugPrintInternal(undefined4 param_1, undefined4 param_2, undefined4 param_3,
+                        undefined4 param_4);
+void unk_fun_02044308(undefined4 param_1, undefined4 param_2, undefined4 param_3,
+                      undefined4 param_4);
+void DebugPrintInternalVeneer(undefined4 param_1, undefined4 param_2, undefined4 param_3,
+                              undefined4 param_4);
+void unk_fun_02044340(undefined4 param_1, undefined4 param_2, undefined4 param_3,
+                      undefined4 param_4);
 void thunk_unk_fun_02044308(void);
 void unk_fun_0204436c(void);
 undefined4 unk_fun_0204439c(int32_t param_1, uint32_t param_2);
