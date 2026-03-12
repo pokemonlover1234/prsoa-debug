@@ -3215,7 +3215,7 @@ void OSi_InsertLinkToQueue(struct os_thread_queue* queue, struct thread* thread)
 int32_t unk_fun_02065038(int32_t* param_1);
 int32_t unk_fun_0206506c(int32_t* param_1, int32_t param_2);
 int32_t unk_fun_020650c0(int32_t* param_1);
-void InsertThreadIntoList(struct thread* thread);
+void OSi_InsertThreadToList(struct thread* thread);
 void unk_fun_02065150(int32_t param_1);
 void OS_RescheduleThread(void);
 void OS_InitThread(void);
@@ -3243,7 +3243,7 @@ os_switch_thread_callback OS_SetSwitchThreadCallback(os_switch_thread_callback c
 void OSi_IdleThreadProc(void* arg);
 int32_t unk_fun_02065a28(void);
 int32_t unk_fun_02065a5c(void);
-void SetThreadField0xB4(struct thread* thread, int value);
+void OS_SetThreadDestructor(struct thread* thread, int value);
 void unk_fun_02065a98(undefined4* param_1, int32_t param_2, int32_t param_3);
 bool OS_SaveContext(struct os_context* context);
 void OS_LoadContext(struct os_context* context);

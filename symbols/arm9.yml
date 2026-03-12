@@ -22642,7 +22642,7 @@ arm9:
         Use unknown.
         
         r0: int pointer
-    - name: InsertThreadIntoList
+    - name: OSi_InsertThreadToList
       address:
         NA: 0x20650F0
     - name: unk_fun_02065150
@@ -22813,7 +22813,7 @@ arm9:
         Use unknown.
         
         No params.
-    - name: SetThreadField0xB4
+    - name: OS_SetThreadDestructor
       address:
         NA: 0x2065A90
     - name: unk_fun_02065a98
