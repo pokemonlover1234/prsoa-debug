@@ -10212,13 +10212,13 @@ arm9:
         Use unknown.
         
         r0: int pointer
-    - name: unk_fun_0202e1f0
+    - name: DebugPrintError
       address:
         NA: 0x202E1F0
       description: |-
-        Use unknown.
+        Identical to DebugPrint, but seems to be primarily used for error messages.
         
-        r0: undefined4
+        r0: Debug String pointer
         r1: undefined4
         r2: undefined4
         r3: undefined4
@@ -14529,11 +14529,11 @@ arm9:
         r1: undefined4
         r2: undefined4
         r3: code pointer
-    - name: unk_fun_020442cc
+    - name: DebugPrintInternal
       address:
         NA: 0x20442CC
       description: |-
-        Use unknown.
+        Called by DebugPrint and DebugPrintError; all(?) debug messages pass through here.
         
         r0: undefined4
         r1: undefined4
@@ -14549,13 +14549,18 @@ arm9:
         r1: undefined4
         r2: undefined4
         r3: undefined4
-    - name: thunk_unk_fun_020442cc
+    - name: DebugPrintInternalVeneer
       address:
         NA: 0x2044334
       description: |-
-        Use unknown.
+        Likely a linker-generated veneer for DebugPrintInternal.
         
-        No params.
+        See https://developer.arm.com/documentation/dui0474/k/image-structure-and-generation/linker-generated-veneers/what-is-a-veneer-
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
     - name: unk_fun_02044340
       address:
         NA: 0x2044340
