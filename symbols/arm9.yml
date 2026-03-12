@@ -23550,7 +23550,6 @@ arm9:
     - name: MIi_CheckDma0SourceAddress
       address:
         NA: 0x2067D2C
-      description: |-
     - name: MIi_CpuClear16
       address:
         NA: 0x2067D80
