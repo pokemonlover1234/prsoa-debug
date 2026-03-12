@@ -21242,13 +21242,9 @@ arm9:
         Does nothing but return. Likely a debug hook for the above function.
         
         No params.
-    - name: unk_fun_020612a0
+    - name: GX_Init
       address:
         NA: 0x20612A0
-      description: |-
-        Use unknown.
-        
-        No params.
     - name: unk_fun_020613ec
       address:
         NA: 0x20613EC
@@ -21310,13 +21306,9 @@ arm9:
         
         r0: ushort pointer
         r1: int
-    - name: unk_fun_020615ac
+    - name: GX_InitGxState
       address:
         NA: 0x20615AC
-      description: |-
-        Use unknown.
-        
-        No params.
     - name: unk_fun_0206160c
       address:
         NA: 0x206160C
@@ -22433,21 +22425,12 @@ arm9:
         Use unknown.
         
         r0: int
-    - name: unk_fun_020648ac
+    - name: OS_InitIrqTable
       address:
         NA: 0x20648AC
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: unk_fun_020648c4
+    - name: OS_SetIrqFunction
       address:
         NA: 0x20648C4
-      description: |-
-        Use unknown.
-        
-        r0: uint
-        r1: undefined4
     - name: unk_fun_0206494c
       address:
         NA: 0x206494C
@@ -22473,55 +22456,31 @@ arm9:
         r0: int
         r1: undefined4
         r2: undefined4
-    - name: unk_fun_02064a68
+    - name: OS_SetIrqMask
       address:
         NA: 0x2064A68
-      description: |-
-        Use unknown.
-        
-        r0: undefined4
-    - name: unk_fun_02064a94
+    - name: OS_EnableIrqMask
       address:
         NA: 0x2064A94
       description: |-
         Use unknown.
         
         r0: uint
-    - name: unk_fun_02064ac4
+    - name: OS_DisableIrqMask
       address:
         NA: 0x2064AC4
-      description: |-
-        Use unknown.
-        
-        r0: uint
-    - name: unk_fun_02064af4
+    - name: OS_ResetRequestIrqMask
       address:
         NA: 0x2064AF4
-      description: |-
-        Use unknown.
-        
-        r0: undefined4
-    - name: unk_fun_02064b20
+    - name: OS_SetIrqStackChecker
       address:
         NA: 0x2064B20
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: unk_fun_02064b54
+    - name: OS_InitLock
       address:
         NA: 0x2064B54
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: unk_fun_02064c6c
+    - name: OS_LockByWord
       address:
         NA: 0x2064C6C
-      description: |-
-        Use unknown.
-        
-        No params.
     - name: unk_fun_02064c7c
       address:
         NA: 0x2064C7C
@@ -22532,13 +22491,9 @@ arm9:
         r1: undefined4 pointer
         r2: code pointer
         r3: int
-    - name: unk_fun_02064cf0
+    - name: OS_UnlockByWord
       address:
         NA: 0x2064CF0
-      description: |-
-        Use unknown.
-        
-        No params.
     - name: unk_fun_02064d00
       address:
         NA: 0x2064D00
@@ -22605,13 +22560,9 @@ arm9:
         Use unknown.
         
         r0: int
-    - name: unk_fun_02064e78
+    - name: OS_GetLockID
       address:
         NA: 0x2064E78
-      description: |-
-        Use unknown.
-        
-        No params.
     - name: unk_fun_02064ee0
       address:
         NA: 0x2064EE0
@@ -22713,20 +22664,12 @@ arm9:
         Use unknown.
         
         r0: int
-    - name: unk_fun_02065198
+    - name: OS_RescheduleThread
       address:
         NA: 0x2065198
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: unk_fun_02065260
+    - name: OS_InitThread
       address:
         NA: 0x2065260
-      description: |-
-        Use unknown.
-        
-        No params.
     - name: unk_fun_020653a8
       address:
         NA: 0x20653A8
@@ -23095,7 +23038,7 @@ arm9:
         Use unknown.
         
         No params.
-    - name: unk_fun_02066150
+    - name: OS_Init
       address:
         NA: 0x2066150
       description: |-
@@ -23469,20 +23412,23 @@ arm9:
         Use unknown.
         
         No params.
-    - name: unk_fun_02067364
+    - name: OS_DisableInterrupts
       address:
         NA: 0x2067364
       description: |-
-        Use unknown.
+        Disables processor interrupts by setting the i flag in the program status register (cpsr).
+        pmdsky-debug: EnableIrqFlag
         
-        No params.
-    - name: unk_fun_02067378
+        return: Old value of cpsr & 0x80 (0x80 if interrupts were already disabled, 0x0 if they were enabled)
+    - name: OS_RestoreInterrupts
       address:
         NA: 0x2067378
       description: |-
-        Use unknown.
+        Sets the value of the processor's interrupt flag according to the specified parameter.
+        pmdsky-debug: SetIrqFlag
         
-        No params.
+        r0: Value to set the flag to (0x80 to set it, which disables interrupts; 0x0 to unset it, which enables interrupts)
+        return: Old value of cpsr & 0x80 (0x80 if interrupts were disabled, 0x0 if they were enabled)
     - name: unk_fun_02067390
       address:
         NA: 0x2067390
@@ -23554,27 +23500,32 @@ arm9:
         Use unknown.
         
         r0: undefined4
-    - name: unk_fun_0206756c
+    - name: OS_GetMacAddress
       address:
         NA: 0x206756C
       description: |-
-        Use unknown.
+        Gets the MAC address of the DS.
         
-        r0: undefined4
-    - name: unk_fun_02067588
+        r0: [output] MAC address pointer
+    - name: OS_GetOwnerInfo
       address:
         NA: 0x2067588
       description: |-
-        Use unknown.
+        Gets the user settings of the DS firmware.
         
-        r0: byte pointer
-    - name: unk_fun_0206760c
+        See https://problemkaputt.de/gbatek.htm#dsfirmwareusersettings
+        
+        pmdsky-debug: GetDsFirmwareUserSettings
+        
+        r0: [output] user_settings pointer
+    - name: Math_CountLeadingZeros
       address:
         NA: 0x206760C
       description: |-
-        Use unknown.
+        Counts the number of leading zeros in a 32-bit integer.
         
-        r0: undefined4
+        r0: x
+        return: clz(x)
     - name: unk_fun_02067614
       address:
         NA: 0x2067614
@@ -23605,18 +23556,24 @@ arm9:
         Use unknown.
         
         r0: uint pointer
-    - name: unk_fun_02067860
+    - name: OS_Panic
       address:
         NA: 0x2067860
       description: |-
-        Use unknown.
+        Calls OS_DisableInterrupts and OS_Halt in an infinite loop.
+        
+        This is called on fatal errors to hang the program indefinitely.
+        pmdsky-debug: WaitForever2
         
         No params.
-    - name: unk_fun_02067870
+    - name: OS_Halt
       address:
         NA: 0x2067870
       description: |-
-        Use unknown.
+        Presumably blocks until the program receives an interrupt.
+        
+        This just calls (in Ghidra terminology) coproc_moveto_Wait_for_interrupt(0). See https://en.wikipedia.org/wiki/ARM_architecture_family#Coprocessors.
+        pmdsky-debug: WaitForInterrupt
         
         No params.
     - name: unk_fun_0206787c
@@ -23722,60 +23679,66 @@ arm9:
         r1: uint
         r2: int
         r3: int
-    - name: unk_fun_02067d80
+    - name: MIi_CpuClear16
       address:
         NA: 0x2067D80
       description: |-
-        Use unknown.
+        Fills an array of 16-bit values with a given value.
+        pmdsky-debug: ArrayFill16
         
-        r0: undefined2
-        r1: int
-        r2: int
-    - name: unk_fun_02067da8
+        r0: value
+        r1: ptr
+        r2: len (# bytes)
+    - name: MIi_CpuCopy16
       address:
         NA: 0x2067DA8
       description: |-
-        Use unknown.
+        Copies an array of 16-bit values to another array of 16-bit values.
+        pmdsky-debug: ArrayCopy16
         
-        r0: int
-        r1: int
-        r2: int
-    - name: unk_fun_02067ddc
+        r0: src
+        r1: dest
+        r2: len (# bytes)
+    - name: MIi_CpuClear32
       address:
         NA: 0x2067DDC
       description: |-
-        Use unknown.
+        Fills an array of 32-bit values with a given value.
+        pmdsky-debug: ArrayFill32
         
-        r0: undefined4
-        r1: undefined4 pointer
-        r2: int
-    - name: unk_fun_02067df8
+        r0: value
+        r1: ptr
+        r2: len (# bytes)
+    - name: MIi_CpuCopy32
       address:
         NA: 0x2067DF8
       description: |-
-        Use unknown.
+        Copies an array of 32-bit values to another array of 32-bit values.
+        pmdsky-debug: ArrayCopy32
         
-        r0: undefined4 pointer
-        r1: undefined4 pointer
-        r2: int
-    - name: unk_fun_02067e20
+        r0: src
+        r1: dest
+        r2: len (# bytes)
+    - name: MIi_CpuClearFast
       address:
         NA: 0x2067E20
       description: |-
-        Use unknown.
+        Does the same thing as MIi_CpuClear32, except the implementation uses an unrolled loop that sets 8 values per iteration, taking advantage of the stmia instruction.
+        pmdsky-debug: ArrayFill32Fast
         
-        r0: undefined4
-        r1: undefined4 pointer
-        r2: uint
-    - name: unk_fun_02067e7c
+        r0: value
+        r1: ptr
+        r2: len (# bytes)
+    - name: MIi_CpuCopyFast
       address:
         NA: 0x2067E7C
       description: |-
-        Use unknown.
+        Does the same thing as MIi_CpuCopy32, except the implementation uses an unrolled loop that copies 8 values per iteration, taking advantage of the ldmia/stmia instructions.
+        pmdsky-debug: ArrayCopy32Fast
         
-        r0: undefined4 pointer
-        r1: undefined4 pointer
-        r2: uint
+        r0: src
+        r1: dest
+        r2: len (# bytes)
     - name: unk_fun_02067ef0
       address:
         NA: 0x2067EF0
@@ -23784,24 +23747,32 @@ arm9:
         
         r0: undefined4 pointer
         r1: undefined4 pointer
-    - name: unk_fun_02067f14
+    - name: MI_CpuFill8
       address:
         NA: 0x2067F14
       description: |-
-        Use unknown.
+        A semi-optimized implementation of the memset(3) C library function.
         
-        r0: uint pointer
-        r1: uint
-        r2: uint
-    - name: unk_fun_02067fd0
+        This function is optimized to set values in 4-byte chunks, properly dealing with pointer alignment. However, unlike the libc memset, there are no loop unrolling optimizations.
+        
+        pmdsky-debug: MemsetFast
+        
+        r0: ptr
+        r1: value
+        r2: len (# bytes)
+    - name: MI_CpuCopy8
       address:
         NA: 0x2067FD0
       description: |-
-        Use unknown.
+        Copies bytes from one buffer to another, similar to memcpy(3). Note that the source/destination buffer parameters swapped relative to the standard memcpy.
         
-        r0: undefined4 pointer
-        r1: undefined4 pointer
-        r2: uint
+        This function is optimized to copy values in 4-byte chunks, properly dealing with pointer alignment.
+        
+        pmdsky-debug: MemcpyFast
+        
+        r0: src
+        r1: dest
+        r2: n (# bytes)
     - name: unk_fun_02068150
       address:
         NA: 0x2068150
@@ -25214,13 +25185,13 @@ arm9:
         r1: undefined4
         r2: undefined4
         r3: undefined4
-    - name: unk_fun_0206dc00
+    - name: PM_ForceToPowerOff
       address:
         NA: 0x206DC00
       description: |-
-        Use unknown.
+        Powers off the system.
         
-        No params.
+        return: ?
     - name: unk_fun_0206dc28
       address:
         NA: 0x206DC28
@@ -27278,13 +27249,9 @@ arm9:
         Use unknown.
         
         No params.
-    - name: unk_fun_0207824c
+    - name: Ctrdg_Init
       address:
         NA: 0x207824C
-      description: |-
-        Use unknown.
-        
-        No params.
     - name: unk_fun_02078300
       address:
         NA: 0x2078300
