@@ -1360,16 +1360,16 @@ ASSERT_SIZE(struct save_data, 38020);
 struct save_file {
     struct save_header main_save_header; // 0x0
     struct save_data main_save_0; // 0x1C
-    struct save_data main_save_1; // 0x949E 
-    struct save_header quick_save_header; // 0x12920: Should be zeroed if quicksave not active.
-    struct save_data quick_save; // 0x1293C: So far, no reason to believe different from main save.
-    int8_t ranger_net_mission1[0x3020]; // 0x1BDBE
-    int8_t ranger_net_mission2[0x3020]; // 0x1EDDE
-    int8_t ranger_net_mission3[0x3020]; // 0x21DFE
-    int8_t ranger_net_mission4[0x3020]; // 0x24E1E
-    int8_t ranger_net_mission5[0x3020]; // 0x27E3E
-    int8_t ranger_net_mission6[0x3020]; // 0x2AE5E
+    struct save_data main_save_1; // 0x94A0 
+    struct save_header quick_save_header; // 0x12924: Should be zeroed if quicksave not active.
+    struct save_data quick_save; // 0x12940: So far, no reason to believe different from main save.
+    int8_t ranger_net_mission1[0x3020]; // 0x1BDC4
+    int8_t ranger_net_mission2[0x3020]; // 0x1EDE4
+    int8_t ranger_net_mission3[0x3020]; // 0x21E04
+    int8_t ranger_net_mission4[0x3020]; // 0x24E24
+    int8_t ranger_net_mission5[0x3020]; // 0x27E44
+    int8_t ranger_net_mission6[0x3020]; // 0x2AE64
 };
-ASSERT_SIZE(struct save_file, 188034);
+ASSERT_SIZE(struct save_file, 188036);
 
 #endif
