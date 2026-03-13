@@ -6487,57 +6487,57 @@ arm9:
       address:
         NA: 0x2018E1C
       description: |-
-        [MANUAL DESCRIPTION]
+        Zero an entire settings_and_variables struct.
         
         r0: settings_and_variables pointer
     - name: ZeroEventVariables
       address:
         NA: 0x2018E30
       description: |-
-        [MANUAL DESCRIPTION]
+        Zero the event_variables table of a settings_and_variables struct.
         
         r0: settings_and_variables pointer
     - name: SetEventVariable
       address:
         NA: 0x2018E4C
       description: |-
-        [MANUAL DESCRIPTION]
+        Set a specified index of the event_variables table to a specified value.
         
         r0: settings_and_variables pointer
-        r1: int32_t 
-        r2: int32_t
+        r1: index
+        r2: value
     - name: GetEventVariable
       address:
         NA: 0x2018E54
       description: |-
-        [MANUAL DESCRIPTION]
+        Get the value of a specified index of the event_variables table.
         
         r0: settings_and_variables pointer
-        r1: int32_t
+        r1: index
     - name: ZeroQuestVariables
       address:
         NA: 0x2018E5C
       description: |-
-        [MANUAL DESCRIPTION]
+        Zero the quest_variables table of a settings_and_variables struct.
         
         r0: settings_and_variables pointer
     - name: SetQuestVariable
       address:
         NA: 0x2018E7C
       description: |-
-        [MANUAL DESCRIPTION]
+        Set a specified index of the quest_variables table to a specified value.
         
         r0: settings_and_variables pointer
-        r1: int32_t 
-        r2: int32_t
+        r1: index
+        r2: value
     - name: GetQuestVariable
       address:
         NA: 0x2018E88
       description: |-
-        [MANUAL DESCRIPTION]
+        Get the value of a specified index of the quest_variables table.
         
         r0: settings_and_variables pointer
-        r1: int32_t
+        r1: index
     - name: unk_fun_02018e94
       address:
         NA: 0x2018E94
@@ -6550,19 +6550,19 @@ arm9:
       address:
         NA: 0x201926C
       description: |-
-        [MANUAL DESCRIPTION]
+        Set a specified index of the settings_variables table to a specified value.
         
         r0: settings_and_variables pointer
-        r1: int32_t 
-        r2: int32_t
+        r1: index
+        r2: value
     - name: GetSettingsVariable
       address:
         NA: 0x2019278
       description: |-
-        [MANUAL DESCRIPTION]
+        Get the value of a specified index of the settings_variables table.
         
         r0: settings_and_variables pointer
-        r1: int32_t
+        r1: index
     - name: unk_fun_02019284
       address:
         NA: 0x2019284
@@ -11002,15 +11002,15 @@ arm9:
         Use unknown.
         
         No params.
-    - name: CopyStringToRangerBattleBuffer
+    - name: CopyStringToRangerDebugBuffer
       address:
         NA:
           - 0x202F174
           - 0x2030BB8
       description: |-
-        [MANUAL DESCRIPTION]
+        Copies a text string to the debug buffer in RANGER_DATA.
         
-        r0: char pointer
+        r0: pointer to pointer of text string to copy.
     - name: unk_fun_0202f1ac
       address:
         NA: 0x202F1AC
@@ -11291,18 +11291,18 @@ arm9:
         Use unknown.
         
         No params.
-    - name: GetRangerStylerRankLower
+    - name: GetRangerStylerRank
       address:
         NA: 0x202FA54
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the current styler rank from RANGER_DATA.
         
         No params.
-    - name: GetRangerStylerRankUpper
+    - name: GetRangerStylerType
       address:
         NA: 0x202FA68
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the current styler type from RANGER_DATA.
         
         No params.
     - name: unk_fun_0202fa80
@@ -11351,7 +11351,7 @@ arm9:
       address:
         NA: 0x202FEA4
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the current styler level from RANGER_DATA.
         
         No params.
     - name: unk_fun_0202fec0
@@ -11368,14 +11368,14 @@ arm9:
       address:
         NA: 0x202FF08
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the ranger max HP from RANGER_DATA.
         
         No params.
     - name: GetRangerCurrentHpSafe
       address:
         NA: 0x202FF20
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the current ranger HP from RANGER_DATA.
         
         No params.
     - name: unk_fun_0202ff38
@@ -12435,23 +12435,23 @@ arm9:
       address:
         NA: 0x20327B8
       description: |-
-        [MANUAL DESCRIPTION]
+        Bitwise OR on the partner status bitfield in RANGER_DATA.
         
-        r0: uint32_t pointer
+        r0: pointer to value to bitor with.
     - name: BitandPartnerPokemonStatus
       address:
         NA: 0x20327DC
       description: |-
-        [MANUAL DESCRIPTION]
+        Bitwise AND on the partner status bitfield in RANGER_DATA
         
-        r0: uint32_t pointer
+        r0: pointer to value to bitand with.
     - name: GetPartnerPokemonMood
       address:
         NA: 0x2032804
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the mood of a specified partner by index.
         
-        r0: int32_t pointer
+        r0: pointer to partner index
     - name: unk_fun_02032828
       address:
         NA: 0x2032828
@@ -12873,7 +12873,7 @@ arm9:
       address:
         NA: 0x2033B50
       description: |-
-        [MANUAL DESCRIPTION]
+        Increments the pokemon_rides_record field of RANGER_DATA->ranger_records. 
         
         No params.
     - name: unk_fun_02033b6c
@@ -12894,7 +12894,7 @@ arm9:
       address:
         NA: 0x2033C30
       description: |-
-        [MANUAL DESCRIPTION]
+        Retrieves the game_saves_record from RANGER_DATA->ranger_records.
         
         No params.
     - name: unk_fun_02033c4c

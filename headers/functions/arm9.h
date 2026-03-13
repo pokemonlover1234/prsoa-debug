@@ -1569,7 +1569,7 @@ undefined4 unk_fun_0202f088(undefined4* param_1);
 undefined4 unk_fun_0202f0a8(undefined4* param_1);
 undefined unk_fun_0202f0e4(undefined4* param_1);
 undefined4 unk_fun_0202f13c(void);
-undefined4 CopyStringToRangerBattleBuffer(char** param_1);
+undefined4 CopyStringToRangerDebugBuffer(char** param_1);
 void unk_fun_0202f1ac(void);
 undefined4 unk_fun_0202f1c0(void);
 undefined4 unk_fun_0202f208(undefined4* param_1, undefined4 param_2, undefined4 param_3,
@@ -1618,8 +1618,8 @@ undefined4 unk_fun_0202f9fc(undefined4* param_1, undefined4 param_2, undefined4 
                             undefined4 param_4);
 uint32_t unk_fun_0202fa24(void);
 undefined unk_fun_0202fa44(void);
-int8_t GetRangerStylerRankLower(void);
-int32_t GetRangerStylerRankUpper(void);
+int8_t GetRangerStylerRank(void);
+int32_t GetRangerStylerType(void);
 undefined4 unk_fun_0202fa80(undefined4* param_1);
 undefined4 unk_fun_0202fb38(uint32_t* param_1);
 undefined4 unk_fun_0202fc74(undefined4* param_1);
