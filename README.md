@@ -41,7 +41,7 @@ Here's a bit more explanation about what this repository is for, if you're a beg
 Reverse engineering can be a pretty difficult thing to break into because it requires multiple skills, all working together in tandem. Think of this repository as a centralized resource to make this journey as easy as possible. Besides assuming a basic knowledge of programming, it contains everything you need to start from scratch with reverse engineering SoA, all in a single place (either directly, or indirectly through targeted links). If you're completely new to reverse engineering, check out the [Other Resources](docs/resources.md) page for pointers to help you get started.
 
 ### A shared collection of pre-existing research
-For a mostly unlabeled program like SoA, even once you have all the _skills_ required, there's still one large hurdle you need to overcome: figuring out where the code you care about is actually located within the binaries. This is just "encyclopedic" knowledge; for example, with the North American version of SoA, you either know that 0x208FEA4 in memory has a function that does integer division, or you don't. And if you don't know what the function at 0x208FEA4 does, then it'll be hard to figure out any code that calls into function at 0x208FEA4, and so on.
+For a mostly unlabeled program like SoA, even once you have all the _skills_ required, there's still one large hurdle you need to overcome: figuring out where the code you care about is actually located within the binaries. This is just "encyclopedic" knowledge; for example, with the North American version of SoA, you either know that 0x2081810 in memory has a function that does integer division, or you don't. And if you don't know what the function at 0x2081810 does, then it'll be hard to figure out any code that calls into function at 0x2081810, and so on.
 
 This makes it hard to go searching for "just one thing" about how the game works when you're just starting out (e.g., how damage calculation works in SoA), because you won't be able to figure out anything substantial without already having a solid foundation. There are a few different ways to build this foundation:
 
@@ -54,6 +54,7 @@ The first method has many advantages: debug information is precise, and under id
 This repository is an attempt to implement the first sharing method (machine-readable debug information), in a form that's still easy to make contributions to, and can also simultaneously serve as documentation. If you want to help out, [contributions](docs/contributing.md) are welcome!
 
 ## Pictures
+These pictures are pmdsky-debug leftovers and do not represent actual _Shadows of Almia_ code, but the same idea applies. <!-- TODO: Get screenshots using SoA symbols to replace the EoS ones, and remove this message -->
 ### Technical documentation
 ![Technical documentation](docs/images/top-readme-tech-docs.png)
 

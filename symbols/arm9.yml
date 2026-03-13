@@ -29844,102 +29844,151 @@ arm9:
         Use unknown.
         
         r0: int32_t pointer
-    - name: unk_fun_0207fe5c
+    - name: _dadd
       address:
         NA: 0x207FE5C
       description: |-
-        Use unknown.
+        Implements the addition operator for IEEE 754 double-precision floating-point numbers.
         
-        r0: uint32_t 
-        r1: uint32_t 
-        r2: uint32_t 
-        r3: uint32_t
-    - name: unk_fun_02080174
+        The result is returned in r0 and r1, in accordance with the Procedure Call Standard for the Arm Architecture (see https://github.com/ARM-software/abi-aa/blob/60a8eb8c55e999d74dac5e368fc9d7e36e38dda4/aapcs32/aapcs32.rst#result-return).
+        
+        Analogous to __adddf3 in libgcc.
+        
+        r0: a (low bits)
+        r1: a (high bits)
+        r2: b (low bits)
+        r3: b (high bits)
+        return: a + b
+    - name: _ll_ufrom_d
       address:
         NA: 0x2080174
       description: |-
-        Use unknown.
+        Implements the double to unsigned long long cast operation for IEEE 754 floating-point numbers.
         
-        r0: uint32_t 
-        r1: uint32_t
-    - name: unk_fun_02080200
+        The result is returned in r0 and r1, in accordance with the Procedure Call Standard for the Arm Architecture (see https://github.com/ARM-software/abi-aa/blob/60a8eb8c55e999d74dac5e368fc9d7e36e38dda4/aapcs32/aapcs32.rst#result-return).
+        
+        Analogous to __fixunsdfti in libgcc.
+        
+        r0: double (low bits)
+        r1: double (high bits)
+    - name: _dmul
       address:
         NA: 0x2080200
       description: |-
-        Use unknown.
+        Implements the multiplication operator for IEEE 754 double-precision floating-point numbers.
         
-        r0: uint32_t 
-        r1: uint32_t 
-        r2: uint32_t 
-        r3: uint32_t
-    - name: unk_fun_0208057c
+        The result is returned in r0 and r1, in accordance with the Procedure Call Standard for the Arm Architecture (see https://github.com/ARM-software/abi-aa/blob/60a8eb8c55e999d74dac5e368fc9d7e36e38dda4/aapcs32/aapcs32.rst#result-return).
+        
+        Analogous to __muldf3 in libgcc.
+        
+        r0: a (low bits)
+        r1: a (high bits)
+        r2: b (low bits)
+        r3: b (high bits)
+        return: a * b
+    - name: _drsub
+      address:
+        NA: 0x2080564
+      description: |-
+        The same as _dsub, but with the parameters reversed.
+        
+        This simply swaps the first and second parameters, then falls through to _dsub.
+        
+        The result is returned in r0 and r1, in accordance with the Procedure Call Standard for the Arm Architecture (see https://github.com/ARM-software/abi-aa/blob/60a8eb8c55e999d74dac5e368fc9d7e36e38dda4/aapcs32/aapcs32.rst#result-return).
+        
+        r0: b (low bits)
+        r1: b (high bits)
+        r2: a (low bits)
+        r3: a (high bits)
+        return: a - b
+    - name: _dsub
       address:
         NA: 0x208057C
       description: |-
-        Use unknown.
+        Implements the subtraction operator for IEEE 754 double-precision floating-point numbers.
         
-        r0: uint32_t 
-        r1: uint32_t 
-        r2: uint32_t 
-        r3: uint32_t
-    - name: unk_fun_02080930
+        The result is returned in r0 and r1, in accordance with the Procedure Call Standard for the Arm Architecture (see https://github.com/ARM-software/abi-aa/blob/60a8eb8c55e999d74dac5e368fc9d7e36e38dda4/aapcs32/aapcs32.rst#result-return).
+        
+        Analogous to __subdf3 in libgcc.
+        
+        r0: a (low bits)
+        r1: a (high bits)
+        r2: b (low bits)
+        r3: b (high bits)
+        return: a - b
+    - name: _fadd
       address:
         NA: 0x2080930
       description: |-
-        Use unknown.
+        Implements the addition operator for IEEE 754 floating-point numbers.
         
-        r0: uint32_t 
-        r1: uint32_t
-    - name: unk_fun_02080b54
+        Analogous to __addsf3 in libgcc.
+        
+        r0: a
+        r1: b
+        return: a + b
+    - name: _dls
       address:
         NA: 0x2080B54
       description: |-
-        Use unknown.
+        Implements the < operator for IEEE 754 double-precision floating-point numbers.
         
-        r0: uint32_t 
-        r1: uint32_t 
-        r2: uint32_t 
-        r3: uint32_t
-    - name: unk_fun_02080bf0
+        r0: a (low bits)
+        r1: a (high bits)
+        r2: b (low bits)
+        r3: b (high bits)
+        return: a < b
+    - name: _deq
       address:
         NA: 0x2080BF0
       description: |-
-        Use unknown.
+        Implements the == operator for IEEE 754 double-precision floating-point numbers.
         
-        r0: uint32_t 
-        r1: uint32_t 
-        r2: uint32_t 
-        r3: uint32_t
-    - name: unk_fun_02080c7c
+        r0: a (low bits)
+        r1: a (high bits)
+        r2: b (low bits)
+        r3: b (high bits)
+        return: a == b
+    - name: _fls
       address:
         NA: 0x2080C7C
       description: |-
-        Use unknown.
+        Implements the < operator for IEEE 754 floating-point numbers.
         
-        r0: uint32_t 
-        r1: uint32_t
-    - name: unk_fun_02080ce4
+        r0: a
+        r1: b
+        return: a < b
+    - name: _fdiv
       address:
         NA: 0x2080CE4
       description: |-
-        Use unknown.
+        Implements the division operator for IEEE 754 floating-point numbers.
         
-        r0: uint32_t 
-        r1: uint32_t
-    - name: unk_fun_0208109c
+        Analogous to __divsf3 in libgcc.
+        
+        r0: dividend
+        r1: divisor
+        return: dividend / divisor
+    - name: _ffix
       address:
         NA: 0x208109C
       description: |-
-        Use unknown.
+        Implements the float to int cast operation for IEEE 754 floating-point numbers. The output saturates if the input is out of the representable range for the int type.
         
-        r0: uint32_t
-    - name: unk_fun_020810d0
+        Analogous to __fixsfsi in libgcc.
+        
+        r0: float
+        return: (int)float
+    - name: _fflt
       address:
         NA: 0x20810D0
       description: |-
-        Use unknown.
+        Implements the int to float cast operation for IEEE 754 floating-point numbers.
         
-        r0: uint32_t
+        Analogous to __floatsisf in libgcc.
+        
+        r0: int
+        return: (float)int
     - name: unk_fun_02081118
       address:
         NA: 0x2081118
@@ -29948,86 +29997,142 @@ arm9:
         
         r0: uint32_t 
         r1: uint32_t
-    - name: unk_fun_02081184
+    - name: _fmul
       address:
         NA: 0x2081184
       description: |-
-        Use unknown.
+        Implements the multiplication operator for IEEE 754 floating-point numbers.
         
-        r0: uint32_t 
-        r1: uint32_t
-    - name: unk_fun_02081370
+        Analogous to __mulsf3 in libgcc.
+        
+        r0: a
+        r1: b
+        return: a * b
+    - name: _fsub
       address:
         NA: 0x2081370
       description: |-
-        Use unknown.
+        Implements the subtraction operator for IEEE 754 floating-point numbers.
         
-        r0: uint32_t 
-        r1: uint32_t
-    - name: unk_fun_020815f8
+        Analogous to __subsf3 in libgcc.
+        
+        r0: a
+        r1: b
+        return: a - b
+    - name: _ll_mod
+      address:
+        NA: 0x20815E8
+      description: |-
+        Implements the modulus operator for signed long longs.
+        
+        The result is returned in r0 and r1, in accordance with the Procedure Call Standard for the Arm Architecture (see https://github.com/ARM-software/abi-aa/blob/60a8eb8c55e999d74dac5e368fc9d7e36e38dda4/aapcs32/aapcs32.rst#result-return).
+        
+        Analogous to __modti3 in libgcc.
+        
+        r0: dividend (low bits)
+        r1: dividend (high bits)
+        r2: divisor (low bits)
+        r3: divisor (high bits)
+        return: dividend % divisor
+    - name: _ll_sdiv
       address:
         NA: 0x20815F8
       description: |-
-        Use unknown.
+        Implements the division operator for signed long longs.
         
-        r0: uint32_t 
-        r1: uint32_t 
-        r2: uint32_t 
-        r3: uint32_t
-    - name: unk_fun_020817a8
+        The result is returned in r0 and r1, in accordance with the Procedure Call Standard for the Arm Architecture (see https://github.com/ARM-software/abi-aa/blob/60a8eb8c55e999d74dac5e368fc9d7e36e38dda4/aapcs32/aapcs32.rst#result-return).
+        
+        Analogous to __divti3 in libgcc.
+        
+        r0: dividend (low bits)
+        r1: dividend (high bits)
+        r2: divisor (low bits)
+        r3: divisor (high bits)
+        return: dividend / divisor
+    - name: _ll_udiv
       address:
         NA: 0x20817A8
       description: |-
-        Use unknown.
+        Implements the division operator for unsigned long longs.
         
-        r0: uint32_t 
-        r1: uint32_t 
-        r2: uint32_t 
-        r3: uint32_t
-    - name: unk_fun_020817b4
+        The result is returned in r0 and r1, in accordance with the Procedure Call Standard for the Arm Architecture (see https://github.com/ARM-software/abi-aa/blob/60a8eb8c55e999d74dac5e368fc9d7e36e38dda4/aapcs32/aapcs32.rst#result-return).
+        
+        Analogous to __udivti3 in libgcc.
+        
+        r0: dividend (low bits)
+        r1: dividend (high bits)
+        r2: divisor (low bits)
+        r3: divisor (high bits)
+        return: dividend / divisor
+    - name: _ull_mod
       address:
         NA: 0x20817B4
       description: |-
-        Use unknown.
+        Implements the modulus operator for unsigned long longs.
         
-        r0: uint32_t 
-        r1: uint32_t 
-        r2: uint32_t 
-        r3: uint32_t
-    - name: unk_fun_020817f0
+        The result is returned in r0 and r1, in accordance with the Procedure Call Standard for the Arm Architecture (see https://github.com/ARM-software/abi-aa/blob/60a8eb8c55e999d74dac5e368fc9d7e36e38dda4/aapcs32/aapcs32.rst#result-return).
+        
+        Analogous to __umodti3 in libgcc.
+        
+        r0: dividend (low bits)
+        r1: dividend (high bits)
+        r2: divisor (low bits)
+        r3: divisor (high bits)
+        return: dividend % divisor
+    - name: _ll_mul
       address:
         NA: 0x20817F0
       description: |-
-        Use unknown.
+        Implements the multiplication operator for signed long longs.
         
-        r0: uint32_t 
-        r1: int32_t 
-        r2: uint32_t 
-        r3: int32_t
-    - name: unk_fun_02081810
+        The result is returned in r0 and r1, in accordance with the Procedure Call Standard for the Arm Architecture (see https://github.com/ARM-software/abi-aa/blob/60a8eb8c55e999d74dac5e368fc9d7e36e38dda4/aapcs32/aapcs32.rst#result-return).
+        
+        Analogous to __multi3 in libgcc.
+        
+        r0: a (low bits)
+        r1: a (high bits)
+        r2: b (low bits)
+        r3: b (high bits)
+        return: a * b
+    - name: _s32_div_f
       address:
         NA: 0x2081810
       description: |-
-        Use unknown.
+        Implements the division operator for signed ints.
         
-        r0: uint32_t 
-        r1: uint32_t
-    - name: unk_fun_02081a1c
+        Analogous to __divsi3 in libgcc.
+        
+        The return value is a 64-bit integer, with the quotient (dividend / divisor) in the lower 32 bits and the remainder (dividend % divisor) in the upper 32 bits. In accordance with the Procedure Call Standard for the Arm Architecture (see https://github.com/ARM-software/abi-aa/blob/60a8eb8c55e999d74dac5e368fc9d7e36e38dda4/aapcs32/aapcs32.rst#result-return), this means that the quotient is returned in r0 and the remainder is returned in r1.
+        
+        r0: dividend
+        r1: divisor
+        return: (quotient) | (remainder << 32)
+    - name: _u32_div_f
       address:
         NA: 0x2081A1C
       description: |-
-        Use unknown.
+        Implements the division operator for unsigned ints.
         
-        r0: uint32_t 
-        r1: uint32_t
-    - name: unk_fun_02081a24
+        Analogous to __udivsi3 in libgcc.
+        
+        The return value is a 64-bit integer, with the quotient (dividend / divisor) in the lower 32 bits and the remainder (dividend % divisor) in the upper 32 bits. In accordance with the Procedure Call Standard for the Arm Architecture (see https://github.com/ARM-software/abi-aa/blob/60a8eb8c55e999d74dac5e368fc9d7e36e38dda4/aapcs32/aapcs32.rst#result-return), this means that the quotient is returned in r0 and the remainder is returned in r1.
+        Note: This function falls through to _u32_div_not_0_f.
+        
+        r0: dividend
+        r1: divisor
+        return: (quotient) | (remainder << 32)
+    - name: _u32_div_not_0_f
       address:
         NA: 0x2081A24
       description: |-
-        Use unknown.
+        Subsidiary function to _u32_div_f. Skips the initial check for divisor == 0.
         
-        r0: uint32_t 
-        r1: uint32_t
+        The return value is a 64-bit integer, with the quotient (dividend / divisor) in the lower 32 bits and the remainder (dividend % divisor) in the upper 32 bits. In accordance with the Procedure Call Standard for the Arm Architecture (see https://github.com/ARM-software/abi-aa/blob/60a8eb8c55e999d74dac5e368fc9d7e36e38dda4/aapcs32/aapcs32.rst#result-return), this means that the quotient is returned in r0 and the remainder is returned in r1.
+        This function appears to only be called internally.
+        
+        r0: dividend
+        r1: divisor
+        return: (quotient) | (remainder << 32)
     - name: unk_fun_02081c00
       address:
         NA: 0x2081C00
