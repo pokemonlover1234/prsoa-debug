@@ -46,7 +46,36 @@ struct ranger_data {
     undefined1 field33_0x8756;
     int8_t player_language; // 0 if JP/NA. EU: eng = 1 fre = 2 ger = 3, ita = 4 spa = 5
     struct ranger_records records;
-    struct styler_upgrades styler_upgrades;
+    // struct styler_upgrades styler_upgrades;
+    enum styler_upgrade_level grass_defense : 2;
+    enum styler_upgrade_level water_defense : 2;
+    enum styler_upgrade_level electric_defense : 2;
+    enum styler_upgrade_level fire_defense : 2;
+
+    enum styler_upgrade_level fighting_defense : 2;
+    enum styler_upgrade_level poison_defense : 2;
+    enum styler_upgrade_level psychic_defense : 2;
+    enum styler_upgrade_level bug_defense : 2;
+
+    enum styler_upgrade_level ground_defense : 2;
+    enum styler_upgrade_level flying_defense : 2;
+    enum styler_upgrade_level dark_defense : 2;
+    enum styler_upgrade_level rock_defense : 2;
+    
+    enum styler_upgrade_level ghost_defense : 2;
+    enum styler_upgrade_level ice_defense : 2;
+    enum styler_upgrade_level normal_defense : 2;
+    enum styler_upgrade_level steel_defense : 2;
+
+    enum styler_upgrade_level dragon_defense : 2;
+    enum styler_upgrade_level time_assist : 2;
+    enum styler_upgrade_level latent_power : 2;
+    enum styler_upgrade_level combo_bonus : 2;
+
+    enum styler_upgrade_level recovery : 2;
+    enum styler_upgrade_level energy_plus : 2;
+    enum styler_upgrade_level power_plus : 2;
+    enum styler_upgrade_level long_line : 2;
     undefined field_0x88e2;
     char player_name[7];
     undefined1 field38_0x87ea[22];
@@ -104,7 +133,36 @@ struct ranger_data_old {
     undefined1 field42_0x8756;
     int8_t player_language; // 0 if JP/NA. EU: eng = 1 fre = 2 ger = 3, ita = 4 spa = 5
     struct ranger_records records;
-    struct styler_upgrades styler_upgrades;
+    // struct styler_upgrades styler_upgrades;
+    enum styler_upgrade_level grass_defense : 2;
+    enum styler_upgrade_level water_defense : 2;
+    enum styler_upgrade_level electric_defense : 2;
+    enum styler_upgrade_level fire_defense : 2;
+
+    enum styler_upgrade_level fighting_defense : 2;
+    enum styler_upgrade_level poison_defense : 2;
+    enum styler_upgrade_level psychic_defense : 2;
+    enum styler_upgrade_level bug_defense : 2;
+
+    enum styler_upgrade_level ground_defense : 2;
+    enum styler_upgrade_level flying_defense : 2;
+    enum styler_upgrade_level dark_defense : 2;
+    enum styler_upgrade_level rock_defense : 2;
+    
+    enum styler_upgrade_level ghost_defense : 2;
+    enum styler_upgrade_level ice_defense : 2;
+    enum styler_upgrade_level normal_defense : 2;
+    enum styler_upgrade_level steel_defense : 2;
+
+    enum styler_upgrade_level dragon_defense : 2;
+    enum styler_upgrade_level time_assist : 2;
+    enum styler_upgrade_level latent_power : 2;
+    enum styler_upgrade_level combo_bonus : 2;
+
+    enum styler_upgrade_level recovery : 2;
+    enum styler_upgrade_level energy_plus : 2;
+    enum styler_upgrade_level power_plus : 2;
+    enum styler_upgrade_level long_line : 2;
     undefined field_0x88e2;
     char player_name[7]; // In other languages, the player name has a different length.
     undefined1 field44_0x87ea[22];
