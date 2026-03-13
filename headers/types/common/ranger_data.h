@@ -200,7 +200,7 @@ struct ranger_data_old {
     struct pokemon_data recruited_pokemon_tables_backup[3][10];
     struct following_npc follower_1_backup;
     struct following_npc follower_2_backup;
-    char debug_string_buffer[32]; // Seems to hold the contents of various debug text.
+    char debug_string_buffer_backup[32]; // Seems to hold the contents of various debug text.
     struct battle_result_8 battle_result_backup;
     undefined field67_0x8f31;
     undefined field68_0x8f32;

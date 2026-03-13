@@ -1319,7 +1319,7 @@ struct following_npc {
 };
 
 ASSERT_SIZE(struct following_npc, 56);
-
+/*
 struct styler_upgrades {
     enum styler_upgrade_level grass_defense : 2;
     enum styler_upgrade_level water_defense : 2;
@@ -1353,6 +1353,7 @@ struct styler_upgrades {
 };
 
 ASSERT_SIZE(struct styler_upgrades, 6);
+*/
 
 // Most interactions with these values seem to treat them as tables of ints, rather than individual fields.
 // For ghidra analysis in the short term, this struct will be a simple table for now, even though we know what some of these values mean.
@@ -1381,7 +1382,7 @@ struct settings_variables {
     int32_t window_border; // 0x4: Determines what color the textbox border will be. 
     int32_t text_speed; // 0x8: 0x03 for slow, 0x02 for medium, 0x01 for fast. No other values seem to have an impact. :(
     // If non-zero, opening the styler upgrade menu will unlock a new styler upgrade. 
-    struct styler_unlock_upgrade_type styler_upgrade_interrupt; // 0xC
+    enum styler_unlock_upgrade_type styler_upgrade_interrupt; // 0xC
     // Incremented by the cutscene produced by the above field!
     int32_t num_styler_upgrades; // 0x10
     int32_t unk_settings[25]; // 0x14
