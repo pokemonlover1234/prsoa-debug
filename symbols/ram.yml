@@ -19,7 +19,7 @@ ram:
     TODO: ensure the length is actually correct.
   functions: []
   data:
-    - name: MISSION_QUEST_DATA
+    - name: QUEST
       address:
         NA: 0x20B2638
       length:

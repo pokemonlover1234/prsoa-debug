@@ -1,7 +1,6 @@
 #ifndef HEADERS_FUNCTIONS_OVERLAY00_H_
 #define HEADERS_FUNCTIONS_OVERLAY00_H_
-struct battle_init_struct* unk_fun_overlay_00_0211c9e0(struct battle_init_struct* param_1,
-                                                       int32_t param_2);
+struct battle_init* unk_fun_overlay_00_0211c9e0(struct battle_init* param_1, int32_t param_2);
 undefined4* unk_fun_overlay_00_0211cb28(undefined4* param_1);
 void unk_fun_overlay_00_0211cb88(void);
 void unk_fun_overlay_00_0211cd5c(int32_t param_1, undefined4 param_2, undefined4 param_3,
@@ -27,7 +26,7 @@ void unk_fun_overlay_00_02122f08(int32_t param_1, int32_t param_2, undefined4 pa
                                  undefined4 param_4);
 void unk_fun_overlay_00_02122fec(int32_t param_1, uint32_t param_2, int32_t param_3,
                                  uint32_t param_4);
-int32_t unk_fun_overlay_00_02123060(struct battle_init_struct* param_1, uint32_t param_2);
+int32_t unk_fun_overlay_00_02123060(struct battle_init* param_1, uint32_t param_2);
 int32_t unk_fun_overlay_00_021232a8(int32_t param_1);
 void unk_fun_overlay_00_02123aec(int32_t param_1, undefined4 param_2, int32_t param_3,
                                  undefined4 param_4);
@@ -895,7 +894,7 @@ int32_t unk_fun_overlay_00_0214bdd0(void);
 void unk_fun_overlay_00_0214be08(int32_t param_1);
 int32_t unk_fun_overlay_00_0214beb0(void);
 void unk_fun_overlay_00_0214bee8(int32_t param_1);
-void unk_fun_overlay_00_0214bf94(int32_t param_1, struct battle_init_struct* param_2);
+void unk_fun_overlay_00_0214bf94(int32_t param_1, struct battle_init* param_2);
 undefined4 unk_fun_overlay_00_0214bfb8(void);
 void unk_fun_overlay_00_0214bfe4(int32_t param_1);
 bool unk_fun_overlay_00_0214c010(void);

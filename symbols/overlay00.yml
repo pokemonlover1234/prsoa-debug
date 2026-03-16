@@ -19,7 +19,7 @@ overlay0:
       description: |-
         Use unknown.
         
-        r0: battle_init_struct pointer
+        r0: battle_init pointer
         r1: int32_t
     - name: unk_fun_overlay_00_0211ca50
       address:
@@ -190,7 +190,7 @@ overlay0:
       description: |-
         Use unknown.
         
-        r0: battle_init_struct pointer
+        r0: battle_init pointer
         r1: uint32_t
     - name: unk_fun_overlay_00_021232a8
       address:
@@ -6094,7 +6094,7 @@ overlay0:
         Use unknown.
         
         r0: int32_t
-        r1: battle_init_struct pointer
+        r1: battle_init pointer
     - name: unk_fun_overlay_00_0214bfb8
       address:
         NA: 0x214BFB8

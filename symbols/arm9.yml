@@ -4687,23 +4687,23 @@ arm9:
       address:
         NA: 0x201135C
       description: |-
-        Zeroes the body struct of a mission_quest_data struct.
+        Zeroes the body struct of a quest struct.
         
-        r0: mission_quest_data pointer
+        r0: quest pointer
     - name: unk_fun_02011370
       address:
         NA: 0x2011370
       description: |-
         Use unknown.
         
-        r0: mission_quest_data pointer
+        r0: quest pointer
     - name: ZeroMissionQuestDataFooter
       address:
         NA: 0x2011384
       description: |-
-        Zeroes the footer struct of a mission_quest_data struct.
+        Zeroes the footer struct of a quest struct.
         
-        r0: mission_quest_data pointer
+        r0: quest pointer
     - name: unk_fun_02011394
       address:
         NA: 0x2011394
@@ -9550,7 +9550,7 @@ arm9:
       description: |-
         Use unknown.
         
-        r0: battle_init_struct pointer
+        r0: battle_init pointer
     - name: unk_fun_0202a510
       address:
         NA: 0x202A510

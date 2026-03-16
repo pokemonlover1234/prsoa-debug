@@ -34,7 +34,7 @@ struct quest_table_entry {
 ASSERT_SIZE(struct quest_table_entry, 1);
 
 // Tracks relevant mission and quest data
-struct mission_quest_body {
+struct quest_body {
     bool has_active_mission;
     bool has_active_quest;
     int8_t active_mission_id; // Eventually make this an enum
@@ -56,21 +56,21 @@ struct mission_quest_body {
     undefined field_0x52;
     undefined field_0x53;
 };
-ASSERT_SIZE(struct mission_quest_body, 84);
+ASSERT_SIZE(struct quest_body, 84);
 
-struct mission_quest_footer {
+struct quest_footer {
     undefined* unk_pointer_1;
     undefined* unk_pointer_2;
 };
-ASSERT_SIZE(struct mission_quest_footer, 8);
+ASSERT_SIZE(struct quest_footer, 8);
 
 // Tracks relevant mission and quest data
-struct mission_quest_data {
-    struct mission_quest_body body;
-    struct mission_quest_footer footer;
+struct quest {
+    struct quest_body body;
+    struct quest_footer footer;
 };
 
-ASSERT_SIZE(struct mission_quest_data, 92);
+ASSERT_SIZE(struct quest, 92);
 
 // Contains critical player data, such as their gender, HP, position, and exp.
 struct ranger_core_data {
@@ -1427,11 +1427,11 @@ struct quest_variables {
 ASSERT_SIZE(struct quest_variables, 44);
 
 // This is populated in an unknown way upon starting any battle.
-struct battle_init_struct {
+struct battle_init {
     undefined unk_fields[2048];
 };
 
-ASSERT_SIZE(struct battle_init_struct, 2048);
+ASSERT_SIZE(struct battle_init, 2048);
 
 #include "ranger_data.h"
 
@@ -1452,16 +1452,16 @@ ASSERT_SIZE(struct save_header, 28);
 struct save_data {
     struct ranger_data ranger_data_struct; // 0x0
     // Of the 30 pokemon slots, only the first 8 of each group are stored in the save file...
-    struct pokemon_data party_group_0[8];         // 0x8804
-    struct pokemon_data party_group_1[8];         // 0x88C4
-    struct pokemon_data party_group_2[8];         // 0x8984
-    struct following_npc follower_1;              // 0x8A44
-    struct following_npc follower_2;              // 0x8A7C
-    struct mission_quest_body mission_quest_body; // 0x8AB4
+    struct pokemon_data party_group_0[8]; // 0x8804
+    struct pokemon_data party_group_1[8]; // 0x88C4
+    struct pokemon_data party_group_2[8]; // 0x8984
+    struct following_npc follower_1;      // 0x8A44
+    struct following_npc follower_2;      // 0x8A7C
+    struct quest_body quest_body;         // 0x8AB4
     // Consists of event flags,
     struct settings_and_variables settings_and_variables; // 0x8B08
     undefined unk_field_0x8c04[96];                       // 0x8C04: Permanent home is 0x210C1C0
-    struct battle_init_struct battle_init;                // 0x8C64: Permanent home is 0x210C228
+    struct battle_init battle_init;                       // 0x8C64: Permanent home is 0x210C228
     undefined unk_field_0x9464[4];                        // 0x9464: Permanent home is 0x208B5C0
     undefined unk_field_0x9468[8];                        // 0x9468: Permanent home is 0x20AF5E4
     undefined unk_field_0x9470[8];                        // 0x9470: Permanent home is 0x20AF5F8
