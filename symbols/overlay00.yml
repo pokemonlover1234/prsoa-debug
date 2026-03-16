@@ -21,7 +21,6 @@ overlay0:
         
         r0: battle_init_struct pointer
         r1: int32_t
-
     - name: unk_fun_overlay_00_0211ca50
       address:
         NA: 0x211CA50
@@ -53,7 +52,6 @@ overlay0:
         r1: undefined4
         r2: undefined4
         r3: undefined4
-
     - name: unk_fun_overlay_00_0211def8
       address:
         NA: 0x211DEF8
@@ -6142,7 +6140,6 @@ overlay0:
         r1: undefined4
         r2: undefined4
         r3: undefined4
-
     - name: GetStylerLevel
       address:
         NA: 0x214C0C0
@@ -6800,7 +6797,6 @@ overlay0:
         Use unknown.
         
         r0: undefined4
-
     - name: GetPartner1Status
       address:
         NA: 0x214D814
@@ -6808,7 +6804,6 @@ overlay0:
         Returns true if partner 1 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner1Status
       address:
         NA: 0x214D830
@@ -6816,7 +6811,6 @@ overlay0:
         Assigns the status of partner 1 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner2Status
       address:
         NA: 0x214D860
@@ -6824,7 +6818,6 @@ overlay0:
         Returns true if partner 2 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner2Status
       address:
         NA: 0x214D87C
@@ -6832,7 +6825,6 @@ overlay0:
         Assigns the status of partner 2 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner3Status
       address:
         NA: 0x214D8AC
@@ -6840,7 +6832,6 @@ overlay0:
         Returns true if partner 3 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner3Status
       address:
         NA: 0x214D8C8
@@ -6848,7 +6839,6 @@ overlay0:
         Assigns the status of partner 3 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner4Status
       address:
         NA: 0x214D8F8
@@ -6856,7 +6846,6 @@ overlay0:
         Returns true if partner 4 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner4Status
       address:
         NA: 0x214D914
@@ -6864,7 +6853,6 @@ overlay0:
         Assigns the status of partner 4 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner5Status
       address:
         NA: 0x214D944
@@ -6872,7 +6860,6 @@ overlay0:
         Returns true if partner 5 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner5Status
       address:
         NA: 0x214D960
@@ -6880,7 +6867,6 @@ overlay0:
         Assigns the status of partner 5 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner6Status
       address:
         NA: 0x214D990
@@ -6888,7 +6874,6 @@ overlay0:
         Returns true if partner 6 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner6Status
       address:
         NA: 0x214D9AC
@@ -6896,7 +6881,6 @@ overlay0:
         Assigns the status of partner 6 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner7Status
       address:
         NA: 0x214D9DC
@@ -6904,7 +6888,6 @@ overlay0:
         Returns true if partner 7 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner7Status
       address:
         NA: 0x214D9F8
@@ -6912,7 +6895,6 @@ overlay0:
         Assigns the status of partner 7 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner8Status
       address:
         NA: 0x214DA28
@@ -6920,7 +6902,6 @@ overlay0:
         Returns true if partner 8 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner8Status
       address:
         NA: 0x214DA44
@@ -6928,7 +6909,6 @@ overlay0:
         Assigns the status of partner 8 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner9Status
       address:
         NA: 0x214DA74
@@ -6936,7 +6916,6 @@ overlay0:
         Returns true if partner 9 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner9Status
       address:
         NA: 0x214DA90
@@ -6944,7 +6923,6 @@ overlay0:
         Assigns the status of partner 9 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner10Status
       address:
         NA: 0x214DAC0
@@ -6952,7 +6930,6 @@ overlay0:
         Returns true if partner 10 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner10Status
       address:
         NA: 0x214DADC
@@ -6960,7 +6937,6 @@ overlay0:
         Assigns the status of partner 10 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner11Status
       address:
         NA: 0x214DB0C
@@ -6968,7 +6944,6 @@ overlay0:
         Returns true if partner 11 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner11Status
       address:
         NA: 0x214DB28
@@ -6976,7 +6951,6 @@ overlay0:
         Assigns the status of partner 11 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner12Status
       address:
         NA: 0x214DB58
@@ -6984,7 +6958,6 @@ overlay0:
         Returns true if partner 12 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner12Status
       address:
         NA: 0x214DB74
@@ -6992,7 +6965,6 @@ overlay0:
         Assigns the status of partner 12 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner13Status
       address:
         NA: 0x214DBA4
@@ -7000,7 +6972,6 @@ overlay0:
         Returns true if partner 13 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner13Status
       address:
         NA: 0x214DBC0
@@ -7008,7 +6979,6 @@ overlay0:
         Assigns the status of partner 13 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner14Status
       address:
         NA: 0x214DBF0
@@ -7016,7 +6986,6 @@ overlay0:
         Returns true if partner 14 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner14Status
       address:
         NA: 0x214DC0C
@@ -7024,7 +6993,6 @@ overlay0:
         Assigns the status of partner 14 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner15Status
       address:
         NA: 0x214DC3C
@@ -7032,7 +7000,6 @@ overlay0:
         Returns true if partner 15 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner15Status
       address:
         NA: 0x214DC58
@@ -7040,7 +7007,6 @@ overlay0:
         Assigns the status of partner 15 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner16Status
       address:
         NA: 0x214DC88
@@ -7048,7 +7014,6 @@ overlay0:
         Returns true if partner 16 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner16Status
       address:
         NA: 0x214DCA4
@@ -7056,7 +7021,6 @@ overlay0:
         Assigns the status of partner 16 to "Met" or "Not Met".
         
         r0: bool
-
     - name: GetPartner17Status
       address:
         NA: 0x214DCD4
@@ -7064,7 +7028,6 @@ overlay0:
         Returns true if partner 17 is unlocked, and false otherwise.
         
         No params.
-
     - name: SetPartner17Status
       address:
         NA: 0x214DCF0
@@ -7086,7 +7049,6 @@ overlay0:
         Use unknown.
         
         No params.
-
     - name: GetActiveQuestId
       address:
         NA: 0x214DD9C
@@ -7094,7 +7056,6 @@ overlay0:
         Returns the index of the currently active quest.
         
         No params.
-
     - name: GetActiveMissionId
       address:
         NA: 0x214DDAC
@@ -7591,7 +7552,6 @@ overlay0:
         Use unknown.
         
         No params.
-
     - name: GetCaptureLineLenRecordSimple
       address:
         NA: 0x214F6E4
@@ -7599,7 +7559,6 @@ overlay0:
         Retrieves the capture line length record from RANGER_DATA.
         
         No params.
-
     - name: SetCaptureLineLenRecordSimple
       address:
         NA: 0x214F708
@@ -7607,7 +7566,6 @@ overlay0:
         Writes to the capture line length record from RANGER_DATA.
         
         r0: int32_t
-
     - name: GetNumLoopsRecordSimple
       address:
         NA: 0x214F738
@@ -7615,7 +7573,6 @@ overlay0:
         Retrieves the num loops record from RANGER_DATA.
         
         No params.
-
     - name: SetNumLoopsRecordSimple
       address:
         NA: 0x214F748
@@ -7623,7 +7580,6 @@ overlay0:
         Writes to the num loops record from RANGER_DATA.
         
         r0: undefined4
-
     - name: GetPokemonCapturedRecordSimple
       address:
         NA: 0x214F760
@@ -7631,7 +7587,6 @@ overlay0:
         Retrieves the pokemon captured record from RANGER_DATA.
         
         No params.
-
     - name: SetPokemonCapturedRecordSimple
       address:
         NA: 0x214F770
@@ -7639,7 +7594,6 @@ overlay0:
         Writes to the pokemon captured record from RANGER_DATA.
         
         r0: undefined2
-
     - name: GetPokemonFledRecordSimple
       address:
         NA: 0x214F78C
@@ -7647,7 +7601,6 @@ overlay0:
         Retrieves the pokemon fled record from RANGER_DATA.
         
         No params.
-
     - name: SetPokemonFledRecordSimple
       address:
         NA: 0x214F79C
@@ -7655,7 +7608,6 @@ overlay0:
         Writes to the pokemon fled record from RANGER_DATA.
         
         r0: undefined2
-
     - name: GetPokeAssistsUsedRecordSimple
       address:
         NA: 0x214F7B8
@@ -7663,7 +7615,6 @@ overlay0:
         Retrieves the poke assists used record from RANGER_DATA.
         
         No params.
-
     - name: SetPokeAssistsUsedSimple
       address:
         NA: 0x214F7C8
@@ -7671,7 +7622,6 @@ overlay0:
         Writes to the poke assists used record from RANGER_DATA.
         
         r0: undefined2
-
     - name: GetMaxPlayTimeSeconds
       address:
         NA: 0x214F7E4

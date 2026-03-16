@@ -59,8 +59,8 @@ struct mission_quest_body {
 ASSERT_SIZE(struct mission_quest_body, 84);
 
 struct mission_quest_footer {
-    undefined * unk_pointer_1;
-    undefined * unk_pointer_2;
+    undefined* unk_pointer_1;
+    undefined* unk_pointer_2;
 };
 ASSERT_SIZE(struct mission_quest_footer, 8);
 
@@ -1154,8 +1154,9 @@ struct ranger_records {
     int32_t targets_checked_record;
     int32_t game_saves_record;
     int32_t pokemon_rides_record;
-    // This seems to determine the "Best Partner" Ranger Record in-game. It is unclear what exactly increments these fields.
-    // Maybe Partner Poke-Assists? None of these entries are permitted to exceed 9,999,999.
+    // This seems to determine the "Best Partner" Ranger Record in-game. It is unclear what exactly
+    // increments these fields. Maybe Partner Poke-Assists? None of these entries are permitted to
+    // exceed 9,999,999.
     int32_t best_partner_pokemon_record_table[17];
     int32_t capture_line_len_record;
     int32_t num_loops_record;
@@ -1416,13 +1417,14 @@ ASSERT_SIZE(struct settings_variables, 124);
 // being an arbitrary table of ints.
 struct quest_variables {
     // 0x0: Enabled when the Breeze Hill sign is repaired, disabled when starting a quest?
-    // Either this is a bitflag of some kind, or it's actually used as a subquest progression marker, and only starting a quest resets it?
+    // Either this is a bitflag of some kind, or it's actually used as a subquest progression
+    // marker, and only starting a quest resets it?
     int32_t maybe_quest_progression;
-    int32_t unk_quest_vars[10]; // 0x4: So far no use observed, but likely scratch paper to be used individually by quest.
+    int32_t unk_quest_vars[10]; // 0x4: So far no use observed, but likely scratch paper to be used
+                                // individually by quest.
 };
 
 ASSERT_SIZE(struct quest_variables, 44);
-
 
 // This is populated in an unknown way upon starting any battle.
 struct battle_init_struct {
