@@ -662,7 +662,7 @@ int32_t unk_fun_02011254(int32_t param_1);
 void unk_fun_0201128c(int32_t param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4);
 void unk_fun_020112dc(undefined4 param_1, uint32_t param_2);
 uint32_t unk_fun_02011318(undefined4 param_1, uint32_t param_2);
-void ZeroMissionQuestData(struct mission_quest_data* param_1);
+void ZeroMissionQuestBody(struct mission_quest_data* param_1);
 struct mission_quest_data* unk_fun_02011370(struct mission_quest_data* param_1);
 void ZeroMissionQuestDataFooter(struct mission_quest_data* param_1);
 void unk_fun_02011394(int32_t param_1, undefined4 param_2, undefined4 param_3);
