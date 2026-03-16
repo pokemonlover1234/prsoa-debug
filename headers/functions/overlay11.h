@@ -1431,7 +1431,7 @@ void unk_fun_overlay_11_0215da28(void);
 int32_t unk_fun_overlay_11_0215da3c(int32_t param_1,undefined4 param_2,undefined4 param_3,uint32_t param_4,undefined1 param_5);
 void unk_fun_overlay_11_0215dac8(int32_t param_1,undefined4 param_2);
 void unk_fun_overlay_11_0215dad0(int32_t param_1,undefined4 param_2);
-void unk_fun_overlay_11_0215daf0(int32_t param_1,int32_t param_2);
+void thunk_unk_fun_overlay_11_0215dafc(int32_t param_1,int32_t param_2);
 void unk_fun_overlay_11_0215dafc(int32_t param_1,int32_t param_2);
 void unk_fun_overlay_11_0215db40(int32_t param_1,undefined1 param_2);
 undefined1 unk_fun_overlay_11_0215db58(undefined4 param_1);

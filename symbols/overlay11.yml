@@ -11152,7 +11152,7 @@ overlay11:
         
         r0: int32_t
         r1: undefined4
-    - name: unk_fun_overlay_11_0215daf0
+    - name: thunk_unk_fun_overlay_11_0215dafc
       address:
         NA: 0x215DAF0
       description: |-
