@@ -513,7 +513,7 @@ overlay22:
         Use unknown.
         
         r0: int32_t
-        r1: undefined
+        r1: undefined1
     - name: unk_fun_overlay_22_0211f398
       address:
         NA: 0x211F398
@@ -664,8 +664,6 @@ overlay22:
         
         r0: undefined4 pointer
         r1: int32_t
-        r2: undefined4
-        r3: undefined4
     - name: unk_fun_overlay_22_0211fa64
       address:
         NA: 0x211FA64
@@ -933,7 +931,7 @@ overlay22:
       description: |-
         Use unknown.
         
-        r0: int32_t pointerpointer
+        r0: int32_t pointer
     - name: unk_fun_overlay_22_02120b4c
       address:
         NA: 0x2120B4C

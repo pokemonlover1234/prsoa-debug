@@ -284,7 +284,7 @@ overlay9:
         Use unknown.
         
         r0: int32_t
-        r1: undefined
+        r1: undefined1
     - name: unk_fun_overlay_09_0211d980
       address:
         NA: 0x211D980

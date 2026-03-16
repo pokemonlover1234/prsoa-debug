@@ -439,8 +439,6 @@ overlay27:
         
         r0: undefined4 pointer
         r1: int32_t
-        r2: undefined4
-        r3: undefined4
     - name: unk_fun_overlay_27_0211e8d8
       address:
         NA: 0x211E8D8
@@ -475,7 +473,6 @@ overlay27:
         stack[7]: int32_t
         stack[8]: int32_t
         stack[9]: undefined4
-        stack[10]: int32_t
     - name: unk_fun_overlay_27_0211eacc
       address:
         NA: 0x211EACC
@@ -643,7 +640,7 @@ overlay27:
       description: |-
         Use unknown.
         
-        r0: undefined pointer
+        r0: undefined1 pointer
     - name: unk_fun_overlay_27_0211f8c8
       address:
         NA: 0x211F8C8
@@ -708,7 +705,7 @@ overlay27:
       description: |-
         Use unknown.
         
-        r0: int32_t pointerpointer
+        r0: int32_t pointer
     - name: unk_fun_overlay_27_0211fba4
       address:
         NA: 0x211FBA4
@@ -999,7 +996,7 @@ overlay27:
         r0: int32_t
         r1: undefined4
         r2: undefined4
-        r3: undefined
+        r3: undefined1
     - name: unk_fun_overlay_27_02120cc4
       address:
         NA: 0x2120CC4

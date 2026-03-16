@@ -157,7 +157,6 @@ overlay5:
         r0: int32_t
         r1: int32_t
         r2: int32_t
-        r3: undefined4
     - name: unk_fun_overlay_05_0211d2a4
       address:
         NA: 0x211D2A4

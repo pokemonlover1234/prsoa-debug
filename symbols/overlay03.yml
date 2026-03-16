@@ -1432,7 +1432,7 @@ overlay3:
         Use unknown.
         
         r0: int32_t
-        r1: int32_t
+        r1: int32_t pointer
         r2: uint32_t
     - name: unk_fun_overlay_03_021296c4
       address:

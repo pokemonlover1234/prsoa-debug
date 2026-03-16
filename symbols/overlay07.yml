@@ -84,7 +84,7 @@ overlay7:
         Use unknown.
         
         r0: int32_t
-    - name: thunk_unk_fun_overlay_07_02007d98
+    - name: ov_07_thunk_unk_fun_02007d98
       address:
         NA: 0x211CD70
       description: |-
@@ -265,7 +265,7 @@ overlay7:
         Use unknown.
         
         r0: int32_t
-        r1: undefined
+        r1: undefined1
         r2: int32_t
     - name: unk_fun_overlay_07_0211eb3c
       address:

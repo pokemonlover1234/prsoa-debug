@@ -19,7 +19,7 @@ overlay2:
       description: |-
         Use unknown.
         
-        r0: int32_t
+        r0: astruct_1 pointer
         r1: undefined4
         r2: undefined4
         r3: undefined4
@@ -29,10 +29,7 @@ overlay2:
       description: |-
         Use unknown.
         
-        r0: int32_t
-        r1: undefined4
-        r2: undefined4
-        r3: undefined4
+        r0: astruct_1 pointer
     - name: unk_fun_overlay_02_0211d108
       address:
         NA: 0x211D108

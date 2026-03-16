@@ -90,9 +90,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0211cdbc
       address:
@@ -156,9 +156,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0211d4c0
       address:
@@ -166,7 +166,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0211d7d4
       address:
@@ -174,9 +174,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0211d804
       address:
@@ -184,7 +184,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0211d860
       address:
@@ -206,8 +206,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
+        r0: int32_t
+        r1: undefined4
         r2: undefined4
     - name: unk_fun_overlay_11_0211d8a0
       address:
@@ -215,7 +215,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
     - name: unk_fun_overlay_11_0211d8c4
       address:
@@ -258,9 +258,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: int32_t 
+        r0: int32_t
+        r1: undefined4
+        r2: int32_t
         r3: undefined4
     - name: unk_fun_overlay_11_0211e0bc
       address:
@@ -324,9 +324,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0211efb4
       address:
@@ -341,9 +341,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0211f008
       address:
@@ -351,7 +351,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0211f06c
       address:
@@ -359,9 +359,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0211f0bc
       address:
@@ -439,8 +439,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_0211fbe4
       address:
@@ -448,9 +448,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: undefined4 
+        r0: int32_t
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0211fc60
       address:
@@ -507,7 +507,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_021202cc
       address:
@@ -543,9 +543,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02120c1c
       address:
@@ -574,7 +574,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
     - name: unk_fun_overlay_11_02121010
       address:
@@ -617,9 +617,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02121428
       address:
@@ -634,9 +634,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02121658
       address:
@@ -644,7 +644,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_021216c4
       address:
@@ -652,7 +652,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_021217c0
       address:
@@ -660,7 +660,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
     - name: unk_fun_overlay_11_021217d4
       address:
@@ -668,9 +668,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: int32_t 
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t
         r3: undefined4
     - name: unk_fun_overlay_11_02121964
       address:
@@ -678,9 +678,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02121a08
       address:
@@ -709,9 +709,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02121eec
       address:
@@ -733,7 +733,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_02122150
       address:
@@ -776,7 +776,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
     - name: unk_fun_overlay_11_0212280c
       address:
@@ -784,9 +784,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021229f0
       address:
@@ -794,8 +794,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_02122b04
       address:
@@ -803,9 +803,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02122b7c
       address:
@@ -813,10 +813,10 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
-        r3: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
         stack[0]: undefined4
     - name: unk_fun_overlay_11_02122ba8
       address:
@@ -824,8 +824,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
+        r0: int32_t
+        r1: undefined4
         r2: int32_t
     - name: unk_fun_overlay_11_02122bd4
       address:
@@ -833,7 +833,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
     - name: unk_fun_overlay_11_02122bf8
       address:
@@ -841,8 +841,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: undefined4
     - name: unk_fun_overlay_11_02122c08
       address:
@@ -850,8 +850,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: undefined4
     - name: unk_fun_overlay_11_02122c18
       address:
@@ -859,9 +859,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: int32_t 
+        r0: int32_t
+        r1: undefined4
+        r2: int32_t
         r3: undefined4
     - name: unk_fun_overlay_11_02122c48
       address:
@@ -883,11 +883,11 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: int32_t 
-        r3: undefined4 
-        stack[0]: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: int32_t
+        r3: undefined4
+        stack[0]: undefined4
         stack[1]: int32_t
     - name: unk_fun_overlay_11_0212331c
       address:
@@ -895,13 +895,13 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: int32_t 
-        r3: undefined4 
-        stack[0]: int32_t 
-        stack[1]: undefined4 
-        stack[2]: int32_t 
+        r0: int32_t
+        r1: undefined4
+        r2: int32_t
+        r3: undefined4
+        stack[0]: int32_t
+        stack[1]: undefined4
+        stack[2]: int32_t
         stack[3]: int32_t
     - name: unk_fun_overlay_11_021234a8
       address:
@@ -909,9 +909,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined pointer
-        r2: int32_t 
+        r0: int32_t
+        r1: undefined1 pointer
+        r2: int32_t
         r3: int32_t
     - name: unk_fun_overlay_11_02123598
       address:
@@ -920,11 +920,11 @@ overlay11:
         Use unknown.
         
         r0: char pointer
-        r1: undefined4 
-        r2: undefined4 
-        r3: undefined4 
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
         stack[0]: uint16_t pointer
-        stack[1]: undefined4 
+        stack[1]: undefined4
         stack[2]: int32_t
     - name: unk_fun_overlay_11_0212374c
       address:
@@ -932,8 +932,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
+        r0: undefined4
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_02123794
       address:
@@ -941,7 +941,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_02123a78
       address:
@@ -949,7 +949,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
     - name: unk_fun_overlay_11_02123b98
       address:
@@ -971,7 +971,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_02123c8c
       address:
@@ -979,9 +979,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: char pointer
-        r2: undefined4 
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02123cec
       address:
@@ -989,7 +989,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
     - name: unk_fun_overlay_11_02123d0c
       address:
@@ -1004,9 +1004,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
-        r2: undefined4 
+        r0: undefined4
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02123ddc
       address:
@@ -1064,7 +1064,7 @@ overlay11:
         Use unknown.
         
         r0: uint16_t pointer
-        r1: uint16_t 
+        r1: uint16_t
         r2: uint32_t
     - name: unk_fun_overlay_11_02124054
       address:
@@ -1086,7 +1086,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_021240d4
       address:
@@ -1094,7 +1094,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_02124150
       address:
@@ -1102,9 +1102,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: undefined4 
+        r0: int32_t
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021241a0
       address:
@@ -1119,9 +1119,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: int32_t 
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t
         r3: undefined4
     - name: unk_fun_overlay_11_021241ec
       address:
@@ -1129,8 +1129,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_02124260
       address:
@@ -1138,8 +1138,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_02124278
       address:
@@ -1154,7 +1154,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_02124318
       address:
@@ -1169,7 +1169,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0212439c
       address:
@@ -1177,7 +1177,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_021243c4
       address:
@@ -1185,9 +1185,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: int32_t 
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t
         r3: int32_t
     - name: unk_fun_overlay_11_021243f8
       address:
@@ -1195,9 +1195,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: int32_t 
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t
         r3: int32_t
     - name: unk_fun_overlay_11_02124438
       address:
@@ -1205,7 +1205,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_02124520
       address:
@@ -1221,8 +1221,8 @@ overlay11:
         Use unknown.
         
         r0: int32_t pointer
-        r1: int32_t 
-        r2: int32_t 
+        r1: int32_t
+        r2: int32_t
         r3: int32_t
     - name: unk_fun_overlay_11_02124604
       address:
@@ -1230,7 +1230,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_02124680
       address:
@@ -1238,9 +1238,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: undefined4 
+        r0: int32_t
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02124730
       address:
@@ -1248,9 +1248,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021247a8
       address:
@@ -1258,9 +1258,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: undefined4 
+        r0: int32_t
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02124820
       address:
@@ -1276,8 +1276,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: undefined4
     - name: unk_fun_overlay_11_02124888
       address:
@@ -1299,7 +1299,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0212494c
       address:
@@ -1307,7 +1307,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
     - name: unk_fun_overlay_11_02124968
       address:
@@ -1315,13 +1315,13 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
-        r3: undefined4 
-        stack[0]: undefined4 
-        stack[1]: undefined4 
-        stack[2]: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+        stack[0]: undefined4
+        stack[1]: undefined4
+        stack[2]: undefined4
         stack[3]: undefined4
     - name: unk_fun_overlay_11_021249e0
       address:
@@ -1336,9 +1336,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02124ad4
       address:
@@ -1346,9 +1346,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02124b10
       address:
@@ -1356,9 +1356,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02124b78
       address:
@@ -1366,9 +1366,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02124bb0
       address:
@@ -1376,8 +1376,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
+        r0: int32_t
+        r1: undefined4
         r2: undefined4
     - name: unk_fun_overlay_11_02124c28
       address:
@@ -1385,9 +1385,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02124c64
       address:
@@ -1395,9 +1395,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02124cbc
       address:
@@ -1405,9 +1405,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02124e38
       address:
@@ -1415,9 +1415,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02124eb0
       address:
@@ -1432,7 +1432,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_02124ed0
       address:
@@ -1517,7 +1517,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_021255ec
       address:
@@ -1581,8 +1581,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: uint32_t 
+        r0: undefined4
+        r1: uint32_t
         r2: undefined4
     - name: unk_fun_overlay_11_02125fdc
       address:
@@ -1745,8 +1745,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: undefined4
         r2: int32_t
     - name: unk_fun_overlay_11_02126770
       address:
@@ -1852,9 +1852,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined2 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined2
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021269f4
       address:
@@ -1918,9 +1918,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02126bdc
       address:
@@ -1984,7 +1984,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: undefined1
     - name: unk_fun_overlay_11_02126d78
       address:
         NA: 0x2126D78
@@ -1998,7 +1998,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: undefined1
     - name: unk_fun_overlay_11_02126d9c
       address:
         NA: 0x2126D9C
@@ -2012,7 +2012,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: undefined1
     - name: unk_fun_overlay_11_02126dc0
       address:
         NA: 0x2126DC0
@@ -2112,7 +2112,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: void
+        No params.
     - name: unk_fun_overlay_11_02126eb8
       address:
         NA: 0x2126EB8
@@ -2203,7 +2203,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: uint32_t 
+        r0: uint32_t
         r1: uint32_t pointer
         r2: uint32_t pointer
     - name: unk_fun_overlay_11_0212702c
@@ -2226,8 +2226,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: uint32_t 
-        r1: uint32_t 
+        r0: uint32_t
+        r1: uint32_t
         r2: uint32_t pointer
     - name: unk_fun_overlay_11_021270b8
       address:
@@ -2236,9 +2236,9 @@ overlay11:
         Use unknown.
         
         r0: uint32_t pointer
-        r1: undefined4 
-        r2: int32_t 
-        r3: int32_t 
+        r1: undefined4 pointer
+        r2: uint32_t
+        r3: int32_t
         stack[0]: uint32_t
     - name: unk_fun_overlay_11_02127274
       address:
@@ -2337,9 +2337,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined2 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined2
         r3: undefined4
     - name: unk_fun_overlay_11_02127a70
       address:
@@ -2354,7 +2354,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined2
     - name: unk_fun_overlay_11_02127aa4
       address:
@@ -2404,7 +2404,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_02127d9c
       address:
@@ -2426,9 +2426,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02127fa4
       address:
@@ -2450,11 +2450,11 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined2 
-        r2: undefined2 
-        r3: uint32_t 
-        stack[0]: undefined2 
+        r0: int32_t
+        r1: undefined2
+        r2: undefined2
+        r3: uint32_t
+        stack[0]: undefined2
         stack[1]: undefined2
     - name: unk_fun_overlay_11_021281cc
       address:
@@ -2462,9 +2462,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: uint16_t 
-        r2: undefined4 
+        r0: undefined4
+        r1: uint16_t
+        r2: undefined4
         r3: undefined4
     - name: thunk_unk_fun_overlay_11_02127904
       address:
@@ -2472,9 +2472,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: bool
-        r1: undefined4 
-        r2: undefined2 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined2
         r3: undefined4
     - name: unk_fun_overlay_11_02128220
       address:
@@ -2538,8 +2538,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined2 
+        r0: undefined4
+        r1: undefined2
         r2: undefined4
     - name: unk_fun_overlay_11_02128444
       address:
@@ -2568,7 +2568,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined2
     - name: unk_fun_overlay_11_021285ac
       address:
@@ -2576,15 +2576,15 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: code pointer
+        r0: undefined4
+        r1: voidpointer pointer
     - name: unk_fun_overlay_11_021285e0
       address:
         NA: 0x21285E0
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_0212861c
       address:
@@ -2592,8 +2592,36 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
+    - name: unk_fun_overlay_11_02128634
+      address:
+        NA: 0x2128634
+      description: |-
+        Use unknown.
+        
+        r0: uint32_t
+    - name: unk_fun_overlay_11_02128654
+      address:
+        NA: 0x2128654
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0212865c
+      address:
+        NA: 0x212865C
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_02128670
+      address:
+        NA: 0x2128670
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
     - name: unk_fun_overlay_11_0212868c
       address:
         NA: 0x212868C
@@ -2622,6 +2650,39 @@ overlay11:
         Use unknown.
         
         No params.
+    - name: unk_fun_overlay_11_021287ec
+      address:
+        NA: 0x21287EC
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_021287f4
+      address:
+        NA: 0x21287F4
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_02128810
+      address:
+        NA: 0x2128810
+      description: |-
+        Use unknown.
+        
+        r0: undefined2
+        r1: undefined4
+        r2: undefined4 pointer
+    - name: unk_fun_overlay_11_021288bc
+      address:
+        NA: 0x21288BC
+      description: |-
+        Use unknown.
+        
+        r0: uint32_t
+        r1: undefined4
+        r2: undefined4 pointer
+        r3: undefined4
     - name: unk_fun_overlay_11_02128974
       address:
         NA: 0x2128974
@@ -2656,7 +2717,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: int8_t
     - name: unk_fun_overlay_11_02128b40
       address:
         NA: 0x2128B40
@@ -2684,9 +2745,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: thunk_unk_fun_overlay_11_02128b40
       address:
@@ -2694,7 +2755,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: void
+        No params.
     - name: unk_fun_overlay_11_02128c14
       address:
         NA: 0x2128C14
@@ -2708,8 +2769,68 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined2
+    - name: unk_fun_overlay_11_02128c58
+      address:
+        NA: 0x2128C58
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_02128c70
+      address:
+        NA: 0x2128C70
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_02128cc8
+      address:
+        NA: 0x2128CC8
+      description: |-
+        Use unknown.
+        
+        r0: char
+        r1: undefined4
+        r2: int32_t
+    - name: unk_fun_overlay_11_02128d64
+      address:
+        NA: 0x2128D64
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: int8_t pointer
+    - name: unk_fun_overlay_11_02128e30
+      address:
+        NA: 0x2128E30
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_02128e38
+      address:
+        NA: 0x2128E38
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_02128e60
+      address:
+        NA: 0x2128E60
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_02128e84
+      address:
+        NA: 0x2128E84
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_11_02128ee0
       address:
         NA: 0x2128EE0
@@ -2786,8 +2907,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: undefined4
         r2: int32_t
     - name: unk_fun_overlay_11_021291dc
       address:
@@ -2886,10 +3007,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
-        r2: undefined4 
-        r3: undefined4
+        r0: undefined4 pointer
+        r1: int32_t
     - name: unk_fun_overlay_11_02129830
       address:
         NA: 0x2129830
@@ -2917,10 +3036,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
-        r3: undefined4
+        r0: undefined4 pointer
     - name: unk_fun_overlay_11_021298c4
       address:
         NA: 0x21298C4
@@ -2935,22 +3051,50 @@ overlay11:
         Use unknown.
         
         No params.
+    - name: unk_fun_overlay_11_02129970
+      address:
+        NA: 0x2129970
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: undefined4
+        r2: char pointer
+        r3: undefined4
+    - name: unk_fun_overlay_11_02129a1c
+      address:
+        NA: 0x2129A1C
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: int8_t pointer
+    - name: unk_fun_overlay_11_02129a3c
+      address:
+        NA: 0x2129A3C
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined1 pointer
     - name: unk_fun_overlay_11_02129a54
       address:
         NA: 0x2129A54
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: undefined1
     - name: unk_fun_overlay_11_02129a74
       address:
         NA: 0x2129A74
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02129ac0
       address:
@@ -2959,13 +3103,45 @@ overlay11:
         Use unknown.
         
         r0: uint32_t
+    - name: unk_fun_overlay_11_02129aec
+      address:
+        NA: 0x2129AEC
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: undefined4
+        r2: undefined1 pointer
+    - name: unk_fun_overlay_11_02129b14
+      address:
+        NA: 0x2129B14
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_02129b1c
+      address:
+        NA: 0x2129B1C
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4 pointer
+    - name: unk_fun_overlay_11_02129b58
+      address:
+        NA: 0x2129B58
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_11_02129b60
       address:
         NA: 0x2129B60
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_02129d64
       address:
@@ -2987,9 +3163,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212a4c4
       address:
@@ -3004,9 +3180,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212a570
       address:
@@ -3098,9 +3274,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: byte pointer
-        r2: undefined4 
+        r0: undefined4
+        r1: int8_t pointer
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212b110
       address:
@@ -3108,8 +3284,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: byte pointer
+        r0: int32_t
+        r1: int8_t pointer
     - name: unk_fun_overlay_11_0212b260
       address:
         NA: 0x212B260
@@ -3130,7 +3306,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: byte pointer
+        r0: int8_t pointer
         r1: int32_t
     - name: unk_fun_overlay_11_0212b59c
       address:
@@ -3138,16 +3314,16 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: byte pointer
+        r0: int8_t pointer
     - name: unk_fun_overlay_11_0212b6ac
       address:
         NA: 0x212B6AC
       description: |-
         Use unknown.
         
-        r0: byte pointer
-        r1: undefined4 
-        r2: undefined4 
+        r0: int8_t pointer
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212b7e4
       address:
@@ -3155,15 +3331,15 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined pointer
+        r0: undefined1 pointer
     - name: unk_fun_overlay_11_0212b8a0
       address:
         NA: 0x212B8A0
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: undefined4
         r2: undefined4
     - name: unk_fun_overlay_11_0212b938
       address:
@@ -3171,8 +3347,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: undefined4
         r2: undefined4
     - name: unk_fun_overlay_11_0212ba98
       address:
@@ -3180,8 +3356,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: undefined4
         r2: undefined4
     - name: unk_fun_overlay_11_0212bb6c
       address:
@@ -3189,7 +3365,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_0212bb7c
       address:
@@ -3204,10 +3380,10 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
-        r3: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4 pointer
+        r3: undefined4
         stack[0]: int32_t pointer
     - name: unk_fun_overlay_11_0212bd58
       address:
@@ -3257,10 +3433,37 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
+    - name: unk_fun_overlay_11_0212c09c
+      address:
+        NA: 0x212C09C
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined1 pointer
+    - name: unk_fun_overlay_11_0212c0d4
+      address:
+        NA: 0x212C0D4
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined1 pointer
+    - name: unk_fun_overlay_11_0212c10c
+      address:
+        NA: 0x212C10C
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined1 pointer
     - name: unk_fun_overlay_11_0212c154
       address:
         NA: 0x212C154
@@ -3274,7 +3477,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_0212c1a8
       address:
@@ -3290,6 +3493,13 @@ overlay11:
         Use unknown.
         
         No params.
+    - name: unk_fun_overlay_11_0212c1ec
+      address:
+        NA: 0x212C1EC
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_11_0212c21c
       address:
         NA: 0x212C21C
@@ -3297,8 +3507,8 @@ overlay11:
         Use unknown.
         
         r0: int32_t pointer
-        r1: undefined4 
-        r2: undefined4 
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212c2e4
       address:
@@ -3342,14 +3552,14 @@ overlay11:
         Use unknown.
         
         r0: int32_t pointer
-        r1: undefined
+        r1: undefined1
     - name: unk_fun_overlay_11_0212c3e4
       address:
         NA: 0x212C3E4
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0212c4a0
       address:
@@ -3359,7 +3569,7 @@ overlay11:
         
         r0: int32_t pointer
         r1: int32_t pointer
-        r2: int32_t 
+        r2: int32_t
         r3: int32_t
     - name: unk_fun_overlay_11_0212c5fc
       address:
@@ -3368,10 +3578,10 @@ overlay11:
         Use unknown.
         
         r0: int32_t pointer
-        r1: undefined4 
-        r2: undefined4 
-        r3: int32_t 
-        stack[0]: undefined4 
+        r1: undefined4
+        r2: undefined4
+        r3: int32_t
+        stack[0]: undefined4
         stack[1]: int32_t
     - name: unk_fun_overlay_11_0212c6c0
       address:
@@ -3393,9 +3603,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t pointer
-        r2: undefined4 
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212c7fc
       address:
@@ -3403,10 +3613,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: undefined4 
-        r3: undefined4
+        r0: int8_t pointer
+        r1: int32_t
+        r2: undefined4
     - name: unk_fun_overlay_11_0212c840
       address:
         NA: 0x212C840
@@ -3428,7 +3637,7 @@ overlay11:
         Use unknown.
         
         r0: undefined4 pointer
-        r1: undefined4 
+        r1: undefined4
         r2: undefined2
     - name: unk_fun_overlay_11_0212c8b8
       address:
@@ -3437,7 +3646,7 @@ overlay11:
         Use unknown.
         
         r0: int32_t pointer
-        r1: int32_t 
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_0212c938
       address:
@@ -3452,9 +3661,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: uint32_t
     - name: unk_fun_overlay_11_0212c97c
       address:
@@ -3463,7 +3672,7 @@ overlay11:
         Use unknown.
         
         r0: int32_t pointer
-        r1: int32_t 
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_0212c9f4
       address:
@@ -3485,9 +3694,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212ca54
       address:
@@ -3502,8 +3711,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: undefined4
         r2: undefined4
     - name: unk_fun_overlay_11_0212cae0
       address:
@@ -3518,9 +3727,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
-        r2: undefined4 
+        r0: undefined4
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212cba4
       address:
@@ -3542,10 +3751,55 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
+    - name: unk_fun_overlay_11_0212ccf0
+      address:
+        NA: 0x212CCF0
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0212ccf8
+      address:
+        NA: 0x212CCF8
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0212cd00
+      address:
+        NA: 0x212CD00
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0212cd08
+      address:
+        NA: 0x212CD08
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+    - name: unk_fun_overlay_11_0212cd80
+      address:
+        NA: 0x212CD80
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0212cdc4
+      address:
+        NA: 0x212CDC4
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
     - name: unk_fun_overlay_11_0212cdf4
       address:
         NA: 0x212CDF4
@@ -3566,8 +3820,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
+        r0: int32_t
+        r1: undefined4
         r2: int32_t
     - name: unk_fun_overlay_11_0212cec0
       address:
@@ -3582,9 +3836,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212cfd4
       address:
@@ -3614,8 +3868,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
+        r0: undefined4
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_0212d880
       address:
@@ -3630,9 +3884,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
-        r2: undefined4 
+        r0: undefined4
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212d978
       address:
@@ -3647,7 +3901,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
     - name: unk_fun_overlay_11_0212d9e8
       address:
@@ -3662,9 +3916,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212dc84
       address:
@@ -3679,9 +3933,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212e518
       address:
@@ -3689,9 +3943,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212e9b4
       address:
@@ -3699,8 +3953,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined
+        r0: int32_t
+        r1: undefined1
     - name: unk_fun_overlay_11_0212e9d8
       address:
         NA: 0x212E9D8
@@ -3714,9 +3968,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212ea38
       address:
@@ -3724,9 +3978,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0212eb5c
       address:
@@ -3734,7 +3988,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: uint32_t 
+        r0: uint32_t
         r1: uint32_t pointer
         r2: uint32_t pointer
     - name: unk_fun_overlay_11_0212eba4
@@ -3743,7 +3997,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: uint16_t pointer
     - name: unk_fun_overlay_11_0212ebcc
       address:
@@ -3877,8 +4131,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: undefined4
         r2: int32_t
     - name: unk_fun_overlay_11_0212fec8
       address:
@@ -3942,9 +4196,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021302d8
       address:
@@ -3952,7 +4206,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
     - name: unk_fun_overlay_11_021302f0
       address:
@@ -3989,8 +4243,8 @@ overlay11:
         Use unknown.
         
         r0: int16_t pointer
-        r1: undefined4 
-        r2: undefined4 
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021304b4
       address:
@@ -4005,9 +4259,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021304fc
       address:
@@ -4022,9 +4276,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02130b14
       address:
@@ -4067,9 +4321,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02131980
       address:
@@ -4084,7 +4338,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: code pointerpointer
+        r0: undefined4 pointer
     - name: unk_fun_overlay_11_0213270c
       address:
         NA: 0x213270C
@@ -4112,7 +4366,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t
+        r0: undefined4 pointer
     - name: unk_fun_overlay_11_0213291c
       address:
         NA: 0x213291C
@@ -4126,7 +4380,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
     - name: unk_fun_overlay_11_02132984
       address:
@@ -4134,7 +4388,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: uint32_t 
+        r0: uint32_t
         r1: undefined4
     - name: unk_fun_overlay_11_021329c4
       address:
@@ -4142,8 +4396,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: uint32_t 
-        r1: undefined4 
+        r0: uint32_t
+        r1: undefined4
         r2: undefined4
     - name: unk_fun_overlay_11_02132a0c
       address:
@@ -4235,8 +4489,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_02132fa0
       address:
@@ -4244,7 +4498,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_02133030
       address:
@@ -4252,9 +4506,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined 
-        r1: int32_t 
-        r2: undefined4 
+        r0: undefined1
+        r1: int32_t
+        r2: undefined4
         r3: int32_t
     - name: unk_fun_overlay_11_021330f8
       address:
@@ -4262,9 +4516,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined 
-        r1: int32_t 
-        r2: byte 
+        r0: undefined1
+        r1: int32_t
+        r2: int8_t
         r3: int32_t
     - name: unk_fun_overlay_11_02133144
       address:
@@ -4272,9 +4526,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: byte 
+        r0: int32_t
+        r1: int32_t
+        r2: int8_t
         r3: int32_t
     - name: unk_fun_overlay_11_021331b0
       address:
@@ -4282,7 +4536,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0213332c
       address:
@@ -4332,16 +4586,16 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: byte pointer
+        r0: int32_t
+        r1: undefined4
+        r2: int8_t pointer
     - name: unk_fun_overlay_11_0213386c
       address:
         NA: 0x213386C
       description: |-
         Use unknown.
         
-        r0: byte pointer
+        r0: int8_t pointer
     - name: unk_fun_overlay_11_021338f4
       address:
         NA: 0x21338F4
@@ -4481,9 +4735,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02134308
       address:
@@ -4526,7 +4780,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_02134750
       address:
@@ -4534,7 +4788,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: uint32_t 
+        r0: uint32_t
         r1: int32_t
     - name: unk_fun_overlay_11_02134814
       address:
@@ -4549,9 +4803,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: int32_t 
+        r0: undefined4
+        r1: undefined4
+        r2: int32_t
         r3: uint32_t
     - name: unk_fun_overlay_11_02134898
       address:
@@ -4616,15 +4870,15 @@ overlay11:
         Use unknown.
         
         r0: undefined4 pointer
-        r1: int32_t 
-        r2: int32_t
+        r1: int32_t
+        r2: undefined4 pointer
     - name: unk_fun_overlay_11_02134cac
       address:
         NA: 0x2134CAC
       description: |-
         Use unknown.
         
-        r0: byte pointer
+        r0: int8_t pointer
     - name: unk_fun_overlay_11_02134d00
       address:
         NA: 0x2134D00
@@ -4645,9 +4899,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02134e14
       address:
@@ -4655,7 +4909,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_02134e3c
       address:
@@ -4663,17 +4917,17 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4
+        r0: undefined4
+        r1: undefined4 pointer
     - name: unk_fun_overlay_11_02134e88
       address:
         NA: 0x2134E88
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02134eac
       address:
@@ -4681,17 +4935,17 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t
+        r0: int32_t
+        r1: undefined4 pointer
     - name: unk_fun_overlay_11_02134ebc
       address:
         NA: 0x2134EBC
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
-        r2: undefined4 
+        r0: undefined4
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02134fc0
       address:
@@ -4699,8 +4953,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4
+        r0: undefined4
+        r1: undefined4 pointer
     - name: unk_fun_overlay_11_021351b8
       address:
         NA: 0x21351B8
@@ -4714,9 +4968,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: uint32_t 
+        r0: int32_t
+        r1: int32_t
+        r2: uint32_t
         r3: uint32_t
     - name: unk_fun_overlay_11_02135390
       address:
@@ -4732,8 +4986,8 @@ overlay11:
         Use unknown.
         
         r0: undefined4 pointer
-        r1: undefined4 
-        r2: undefined4 
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021354c4
       address:
@@ -4804,9 +5058,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: char pointer
-        r2: undefined4 
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02136170
       address:
@@ -4821,9 +5075,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021361dc
       address:
@@ -4831,7 +5085,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int8_t pointer
         r1: int32_t pointer
     - name: unk_fun_overlay_11_0213647c
       address:
@@ -4839,7 +5093,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: char pointer
         r2: int32_t
     - name: unk_fun_overlay_11_021367c0
@@ -4848,7 +5102,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int8_t pointer
         r1: undefined4 pointer
     - name: unk_fun_overlay_11_021368dc
       address:
@@ -4899,15 +5153,22 @@ overlay11:
         Use unknown.
         
         r0: int32_t
+    - name: unk_fun_overlay_11_02136c58
+      address:
+        NA: 0x2136C58
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
     - name: unk_fun_overlay_11_02136f74
       address:
         NA: 0x2136F74
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int8_t pointer
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02137028
       address:
@@ -4922,7 +5183,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: char pointer
         r2: char pointer
     - name: unk_fun_overlay_11_021371c4
@@ -4931,9 +5192,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: char pointer
-        r2: undefined4 
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021372d0
       address:
@@ -4941,9 +5202,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: char pointer
-        r2: undefined4 
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02137364
       address:
@@ -4951,9 +5212,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t pointer
-        r2: int32_t 
+        r2: int32_t
         r3: undefined4
     - name: unk_fun_overlay_11_021373bc
       address:
@@ -4961,7 +5222,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t pointer
     - name: unk_fun_overlay_11_021373fc
       address:
@@ -4969,9 +5230,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t pointer
-        r2: int32_t 
+        r2: int32_t
         r3: undefined4
     - name: unk_fun_overlay_11_021374a4
       address:
@@ -4979,7 +5240,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: char pointer
     - name: unk_fun_overlay_11_021375f8
       address:
@@ -4987,7 +5248,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t pointer
         r2: char pointer
         r3: char pointer
@@ -4997,9 +5258,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: undefined4 
+        r0: int32_t
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021379ec
       address:
@@ -5007,7 +5268,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: char pointer
     - name: unk_fun_overlay_11_02137a44
       address:
@@ -5015,9 +5276,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: int32_t 
+        r0: undefined4
+        r1: undefined4
+        r2: int32_t
         r3: uint32_t
     - name: unk_fun_overlay_11_02137a98
       address:
@@ -5025,8 +5286,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: undefined4
         r2: char pointer
         r3: int32_t
     - name: unk_fun_overlay_11_02137ad8
@@ -5035,8 +5296,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_02137b60
       address:
@@ -5044,9 +5305,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: code pointerpointer
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4 pointer
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02137c40
       address:
@@ -5097,8 +5358,8 @@ overlay11:
         Use unknown.
         
         r0: char pointer
-        r1: undefined4 
-        r2: undefined4 
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02138fe4
       address:
@@ -5106,9 +5367,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: code pointer
-        r1: code pointer
-        r2: undefined4 
+        r0: voidpointer pointer
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0213907c
       address:
@@ -5123,9 +5384,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: int8_t pointer
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02139330
       address:
@@ -5147,9 +5408,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: uint32_t 
-        r2: int32_t 
+        r0: undefined4 pointer
+        r1: uint32_t
+        r2: int32_t
         r3: uint32_t
     - name: unk_fun_overlay_11_021397a8
       address:
@@ -5157,19 +5418,19 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: uint32_t 
-        r2: byte pointer
-        r3: byte pointer
+        r0: int32_t
+        r1: uint32_t
+        r2: int8_t pointer
+        r3: int8_t pointer
     - name: unk_fun_overlay_11_02139914
       address:
         NA: 0x2139914
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02139940
       address:
@@ -5184,7 +5445,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: int32_t
     - name: unk_fun_overlay_11_02139af4
       address:
@@ -5199,9 +5460,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02139b64
       address:
@@ -5209,8 +5470,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: undefined4
     - name: unk_fun_overlay_11_02139bec
       address:
@@ -5225,7 +5486,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4
+        r0: undefined4 pointer
     - name: unk_fun_overlay_11_02139c98
       address:
         NA: 0x2139C98
@@ -5239,7 +5500,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: uint32_t 
+        r0: uint32_t
         r1: int32_t
     - name: unk_fun_overlay_11_02139d0c
       address:
@@ -5254,9 +5515,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4 pointer
+        r1: undefined4 pointer
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02139db0
       address:
@@ -5264,16 +5525,16 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: byte pointer
+        r0: int8_t pointer
     - name: unk_fun_overlay_11_02139ddc
       address:
         NA: 0x2139DDC
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: uint32_t 
-        r2: uint32_t 
+        r0: int32_t
+        r1: uint32_t
+        r2: uint32_t
         r3: uint32_t
     - name: unk_fun_overlay_11_0213a248
       address:
@@ -5281,8 +5542,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: uint32_t 
+        r0: undefined4
+        r1: uint32_t
         r2: undefined4
     - name: unk_fun_overlay_11_0213a2d8
       address:
@@ -5290,8 +5551,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: undefined4
         r2: undefined4
     - name: unk_fun_overlay_11_0213a354
       address:
@@ -5299,9 +5560,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0213a3a0
       address:
@@ -5316,7 +5577,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t
+        r0: undefined4 pointer
     - name: unk_fun_overlay_11_0213a4fc
       address:
         NA: 0x213A4FC
@@ -5330,16 +5591,16 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t
+        r0: int8_t pointer
     - name: unk_fun_overlay_11_0213a810
       address:
         NA: 0x213A810
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0213a910
       address:
@@ -5347,26 +5608,24 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t
+        r0: int16_t pointer
     - name: unk_fun_overlay_11_0213a990
       address:
         NA: 0x213A990
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: undefined4 
-        r3: undefined4
+        r0: int32_t
+        r1: int32_t
     - name: unk_fun_overlay_11_0213a9bc
       address:
         NA: 0x213A9BC
       description: |-
         Use unknown.
         
-        r0: uint32_t 
-        r1: uint32_t 
-        r2: uint32_t 
+        r0: uint32_t
+        r1: uint32_t
+        r2: uint32_t
         r3: uint32_t
     - name: unk_fun_overlay_11_0213ab40
       address:
@@ -5381,9 +5640,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0213ad60
       address:
@@ -5442,7 +5701,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
     - name: unk_fun_overlay_11_0213b108
       address:
@@ -5465,7 +5724,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_0213b13c
       address:
@@ -5473,7 +5732,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: int32_t
     - name: unk_fun_overlay_11_0213b180
       address:
@@ -5481,9 +5740,19 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
-        r2: undefined4 
+        r0: undefined4
+        r1: int32_t
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213b1bc
+      address:
+        NA: 0x213B1BC
+      description: |-
+        Use unknown.
+        
+        r0: int8_t pointer
+        r1: undefined2
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0213b21c
       address:
@@ -5491,7 +5760,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t
+        r0: int8_t pointer
     - name: unk_fun_overlay_11_0213b234
       address:
         NA: 0x213B234
@@ -5548,6 +5817,13 @@ overlay11:
         Use unknown.
         
         No params.
+    - name: ov_11_thunk_unk_fun_02056194
+      address:
+        NA: 0x213B598
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_11_0213b5a4
       address:
         NA: 0x213B5A4
@@ -5555,8 +5831,8 @@ overlay11:
         Use unknown.
         
         r0: int32_t pointer
-        r1: undefined4 
-        r2: undefined4 
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0213b6d0
       address:
@@ -5572,8 +5848,8 @@ overlay11:
         Use unknown.
         
         r0: char pointer
-        r1: undefined4 
-        r2: undefined4 
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0213b790
       address:
@@ -5602,7 +5878,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
     - name: unk_fun_overlay_11_0213b988
       address:
@@ -5610,9 +5886,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0213b9a0
       address:
@@ -5620,8 +5896,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_0213ba98
       address:
@@ -5636,7 +5912,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: char pointer
         r2: char pointer
     - name: unk_fun_overlay_11_0213bdac
@@ -5652,8 +5928,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: undefined4
         r2: undefined4
     - name: unk_fun_overlay_11_0213be2c
       address:
@@ -5668,8 +5944,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: int8_t pointer
+        r1: undefined4
         r2: int32_t
     - name: unk_fun_overlay_11_0213be98
       address:
@@ -5677,8 +5953,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: undefined4
         r2: undefined4
     - name: unk_fun_overlay_11_0213becc
       address:
@@ -5686,8 +5962,843 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
+    - name: unk_fun_overlay_11_0213bef8
+      address:
+        NA: 0x213BEF8
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213bf08
+      address:
+        NA: 0x213BF08
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213bf18
+      address:
+        NA: 0x213BF18
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+    - name: unk_fun_overlay_11_0213c008
+      address:
+        NA: 0x213C008
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213ca20
+      address:
+        NA: 0x213CA20
+      description: |-
+        Use unknown.
+        
+        r0: uint32_t
+        r1: uint32_t
+    - name: unk_fun_overlay_11_0213ca38
+      address:
+        NA: 0x213CA38
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213ca64
+      address:
+        NA: 0x213CA64
+      description: |-
+        Use unknown.
+        
+        r0: uint16_t pointer
+    - name: unk_fun_overlay_11_0213cabc
+      address:
+        NA: 0x213CABC
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+    - name: unk_fun_overlay_11_0213cac8
+      address:
+        NA: 0x213CAC8
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213cad4
+      address:
+        NA: 0x213CAD4
+      description: |-
+        Use unknown.
+        
+        r0: uint16_t pointer
+    - name: unk_fun_overlay_11_0213cccc
+      address:
+        NA: 0x213CCCC
+      description: |-
+        Use unknown.
+        
+        r0: int8_t pointer
+        r1: int32_t
+    - name: unk_fun_overlay_11_0213ccf0
+      address:
+        NA: 0x213CCF0
+      description: |-
+        Use unknown.
+        
+        r0: uint32_t pointer
+    - name: unk_fun_overlay_11_0213cd6c
+      address:
+        NA: 0x213CD6C
+      description: |-
+        Use unknown.
+        
+        r0: undefined4 pointer
+    - name: unk_fun_overlay_11_0213cdb0
+      address:
+        NA: 0x213CDB0
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: int32_t
+        r2: undefined4
+    - name: unk_fun_overlay_11_0213cde0
+      address:
+        NA: 0x213CDE0
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+    - name: unk_fun_overlay_11_0213ce0c
+      address:
+        NA: 0x213CE0C
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: int32_t
+        r2: int32_t pointer
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213ceac
+      address:
+        NA: 0x213CEAC
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t pointer
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213cf88
+      address:
+        NA: 0x213CF88
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t pointer
+        r3: int32_t
+    - name: unk_fun_overlay_11_0213d060
+      address:
+        NA: 0x213D060
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t pointer
+        r3: int32_t
+    - name: unk_fun_overlay_11_0213d104
+      address:
+        NA: 0x213D104
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+    - name: unk_fun_overlay_11_0213d1f8
+      address:
+        NA: 0x213D1F8
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: undefined4
+    - name: unk_fun_overlay_11_0213d23c
+      address:
+        NA: 0x213D23C
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: int32_t
+    - name: unk_fun_overlay_11_0213d288
+      address:
+        NA: 0x213D288
+      description: |-
+        Use unknown.
+        
+        r0: undefined1 pointer
+        r1: int32_t
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213d344
+      address:
+        NA: 0x213D344
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: int32_t
+    - name: unk_fun_overlay_11_0213d368
+      address:
+        NA: 0x213D368
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: int32_t
+    - name: unk_fun_overlay_11_0213d4bc
+      address:
+        NA: 0x213D4BC
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: int32_t
+    - name: unk_fun_overlay_11_0213d574
+      address:
+        NA: 0x213D574
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: undefined4
+    - name: unk_fun_overlay_11_0213d5a4
+      address:
+        NA: 0x213D5A4
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: char pointer
+        r2: int32_t
+        r3: int32_t
+        stack[0]: int32_t
+    - name: unk_fun_overlay_11_0213d6b4
+      address:
+        NA: 0x213D6B4
+      description: |-
+        Use unknown.
+        
+        r0: uint32_t
+    - name: unk_fun_overlay_11_0213d6c4
+      address:
+        NA: 0x213D6C4
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213d718
+      address:
+        NA: 0x213D718
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213d85c
+      address:
+        NA: 0x213D85C
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: int32_t
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213d938
+      address:
+        NA: 0x213D938
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: int32_t
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213d9a4
+      address:
+        NA: 0x213D9A4
+      description: |-
+        Use unknown.
+        
+        r0: undefined1 pointer
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213da30
+      address:
+        NA: 0x213DA30
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: undefined2 pointer
+        r2: undefined4
+        r3: int16_t pointer
+        stack[0]: undefined2 pointer
+        stack[1]: undefined4
+    - name: unk_fun_overlay_11_0213da84
+      address:
+        NA: 0x213DA84
+      description: |-
+        Use unknown.
+        
+        r0: undefined2 pointer
+        r1: undefined2
+        r2: undefined2
+        r3: undefined2
+        stack[0]: undefined1
+        stack[1]: undefined1
+        stack[2]: undefined4
+    - name: unk_fun_overlay_11_0213dadc
+      address:
+        NA: 0x213DADC
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: int32_t
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213db44
+      address:
+        NA: 0x213DB44
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
+        r3: undefined1 pointer
+        stack[0]: undefined4
+        stack[1]: undefined4
+        stack[2]: int32_t
+    - name: unk_fun_overlay_11_0213dbc0
+      address:
+        NA: 0x213DBC0
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
+        r3: int32_t
+        stack[0]: undefined4
+        stack[1]: undefined4
+        stack[2]: int32_t
+    - name: unk_fun_overlay_11_0213dc48
+      address:
+        NA: 0x213DC48
+      description: |-
+        Use unknown.
+        
+        r0: undefined4 pointer
+        r1: int32_t
+        r2: uint32_t
+        r3: uint32_t
+    - name: unk_fun_overlay_11_0213dcac
+      address:
+        NA: 0x213DCAC
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: int32_t
+        r2: int32_t
+        r3: uint32_t
+    - name: unk_fun_overlay_11_0213dcd8
+      address:
+        NA: 0x213DCD8
+      description: |-
+        Use unknown.
+        
+        r0: uint32_t pointer
+    - name: unk_fun_overlay_11_0213dd18
+      address:
+        NA: 0x213DD18
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+    - name: unk_fun_overlay_11_0213dd40
+      address:
+        NA: 0x213DD40
+      description: |-
+        Use unknown.
+        
+        r0: uint32_t
+        r1: int32_t
+        r2: int32_t
+        r3: int32_t
+        stack[0]: int32_t
+    - name: unk_fun_overlay_11_0213dd78
+      address:
+        NA: 0x213DD78
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: uint32_t pointer
+    - name: unk_fun_overlay_11_0213ddb0
+      address:
+        NA: 0x213DDB0
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: int32_t
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213de2c
+      address:
+        NA: 0x213DE2C
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: int32_t
+        r2: int32_t
+        r3: int32_t
+        stack[0]: int32_t
+    - name: unk_fun_overlay_11_0213de60
+      address:
+        NA: 0x213DE60
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t
+    - name: unk_fun_overlay_11_0213de84
+      address:
+        NA: 0x213DE84
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213dedc
+      address:
+        NA: 0x213DEDC
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
+    - name: unk_fun_overlay_11_0213df34
+      address:
+        NA: 0x213DF34
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213df58
+      address:
+        NA: 0x213DF58
+      description: |-
+        Use unknown.
+        
+        r0: int8_t pointer
+        r1: int8_t pointer
+        r2: int32_t
+    - name: unk_fun_overlay_11_0213df78
+      address:
+        NA: 0x213DF78
+      description: |-
+        Use unknown.
+        
+        r0: undefined4 pointer
+        r1: undefined4 pointer
+        r2: uint32_t
+    - name: unk_fun_overlay_11_0213df88
+      address:
+        NA: 0x213DF88
+      description: |-
+        Use unknown.
+        
+        r0: int8_t pointer
+        r1: uint32_t
+        r2: uint32_t
+    - name: unk_fun_overlay_11_0213df94
+      address:
+        NA: 0x213DF94
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213dfa8
+      address:
+        NA: 0x213DFA8
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4 pointer
+        r2: undefined4
+        r3: undefined4
+        stack[0]: int32_t pointer
+    - name: unk_fun_overlay_11_0213dffc
+      address:
+        NA: 0x213DFFC
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213e00c
+      address:
+        NA: 0x213E00C
+      description: |-
+        Does nothing but return. Likely a debug hook for the above function.
+        
+        No params.
+    - name: SocketVeneer
+      address:
+        NA: 0x213E010
+      description: |-
+        [MANUAL DESCRIPTION]
+        
+        No params.
+    - name: unk_fun_overlay_11_0213e018
+      address:
+        NA: 0x213E018
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined1 pointer
+        r2: undefined1
+    - name: unk_fun_overlay_11_0213e02c
+      address:
+        NA: 0x213E02C
+      description: |-
+        Use unknown.
+        
+        r0: uint32_t
+    - name: unk_fun_overlay_11_0213e054
+      address:
+        NA: 0x213E054
+      description: |-
+        Use unknown.
+        
+        r0: uint32_t
+    - name: unk_fun_overlay_11_0213e06c
+      address:
+        NA: 0x213E06C
+      description: |-
+        Use unknown.
+        
+        r0: uint32_t
+    - name: unk_fun_overlay_11_0213e094
+      address:
+        NA: 0x213E094
+      description: |-
+        Use unknown.
+        
+        r0: uint32_t
+    - name: unk_fun_overlay_11_0213e0ac
+      address:
+        NA: 0x213E0AC
+      description: |-
+        Use unknown.
+        
+        r0: char pointer
+    - name: unk_fun_overlay_11_0213e0c0
+      address:
+        NA: 0x213E0C0
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213e130
+      address:
+        NA: 0x213E130
+      description: |-
+        Use unknown.
+        
+        r0: undefined4 pointer
+    - name: unk_fun_overlay_11_0213e13c
+      address:
+        NA: 0x213E13C
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4 pointer
+    - name: unk_fun_overlay_11_0213e144
+      address:
+        NA: 0x213E144
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: uint32_t pointer
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213e1d0
+      address:
+        NA: 0x213E1D0
+      description: |-
+        Use unknown.
+        
+        r0: undefined4 pointer
+        r1: int32_t
+    - name: unk_fun_overlay_11_0213e1f4
+      address:
+        NA: 0x213E1F4
+      description: |-
+        Use unknown.
+        
+        r0: undefined4 pointer
+        r1: int32_t
+        r2: undefined4
+    - name: unk_fun_overlay_11_0213e22c
+      address:
+        NA: 0x213E22C
+      description: |-
+        Use unknown.
+        
+        r0: voidpointer pointer
+        r1: voidpointer pointer
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213e2f0
+      address:
+        NA: 0x213E2F0
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213e388
+      address:
+        NA: 0x213E388
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213e3c0
+      address:
+        NA: 0x213E3C0
+      description: |-
+        Use unknown.
+        
+        r0: int32_t pointer
+    - name: unk_fun_overlay_11_0213e538
+      address:
+        NA: 0x213E538
+      description: |-
+        Use unknown.
+        
+        r0: undefined4 pointer
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: ov_11_thunk_unk_fun_02065928
+      address:
+        NA: 0x213E708
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213e710
+      address:
+        NA: 0x213E710
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213e9dc
+      address:
+        NA: 0x213E9DC
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213ea44
+      address:
+        NA: 0x213EA44
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: int32_t
+    - name: unk_fun_overlay_11_0213ea88
+      address:
+        NA: 0x213EA88
+      description: |-
+        Use unknown.
+        
+        r0: undefined1 pointer
+        r1: undefined1 pointer
+        r2: int32_t
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213eb78
+      address:
+        NA: 0x213EB78
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213ebb4
+      address:
+        NA: 0x213EBB4
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213ebec
+      address:
+        NA: 0x213EBEC
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213ec44
+      address:
+        NA: 0x213EC44
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4 pointer
+        r2: undefined4
+    - name: unk_fun_overlay_11_0213ecc8
+      address:
+        NA: 0x213ECC8
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: int32_t
+        r2: int32_t
+    - name: unk_fun_overlay_11_0213f08c
+      address:
+        NA: 0x213F08C
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213f258
+      address:
+        NA: 0x213F258
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213f334
+      address:
+        NA: 0x213F334
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: int32_t
+        r2: int32_t
+    - name: unk_fun_overlay_11_0213f454
+      address:
+        NA: 0x213F454
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213f47c
+      address:
+        NA: 0x213F47C
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0213f4f0
+      address:
+        NA: 0x213F4F0
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0213f594
+      address:
+        NA: 0x213F594
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_021422cc
+      address:
+        NA: 0x21422CC
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_02142384
+      address:
+        NA: 0x2142384
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
+        r3: voidpointer pointer
+        stack[0]: undefined4
+        stack[1]: uint32_t
+    - name: unk_fun_overlay_11_0214246c
+      address:
+        NA: 0x214246C
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_02142500
+      address:
+        NA: 0x2142500
+      description: |-
+        Use unknown.
+        
+        r0: undefined4 pointer
+    - name: unk_fun_overlay_11_02142538
+      address:
+        NA: 0x2142538
+      description: |-
+        Use unknown.
+        
+        r0: void pointer
+    - name: unk_fun_overlay_11_0214254c
+      address:
+        NA: 0x214254C
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_11_02142568
       address:
         NA: 0x2142568
@@ -5701,9 +6812,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02142740
       address:
@@ -5711,9 +6822,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02142838
       address:
@@ -5735,14 +6846,14 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: undefined1
     - name: unk_fun_overlay_11_0214289c
       address:
         NA: 0x214289C
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: undefined1
     - name: unk_fun_overlay_11_021428b0
       address:
         NA: 0x21428B0
@@ -5784,8 +6895,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: undefined4
         r2: undefined4
     - name: unk_fun_overlay_11_02142e9c
       address:
@@ -5807,9 +6918,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: code pointer
-        r2: undefined4 
+        r0: undefined4
+        r1: voidpointer pointer
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02142f74
       address:
@@ -5817,9 +6928,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02142fc4
       address:
@@ -5827,9 +6938,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02142ffc
       address:
@@ -5837,9 +6948,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02143070
       address:
@@ -5847,7 +6958,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_0214312c
       address:
@@ -5862,10 +6973,11 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
+
     - name: unk_fun_overlay_11_02143150
       address:
         NA: 0x2143150
@@ -5886,9 +6998,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02143238
       address:
@@ -5896,9 +7008,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02143328
       address:
@@ -5913,9 +7025,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021433e0
       address:
@@ -5951,9 +7063,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02143578
       address:
@@ -5961,9 +7073,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02143664
       address:
@@ -5992,14 +7104,14 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: undefined1
     - name: unk_fun_overlay_11_02143a24
       address:
         NA: 0x2143A24
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: undefined1
     - name: unk_fun_overlay_11_02143a38
       address:
         NA: 0x2143A38
@@ -6062,9 +7174,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: uint32_t 
+        r0: int32_t
+        r1: int32_t
+        r2: uint32_t
         r3: undefined4
     - name: unk_fun_overlay_11_0214497c
       address:
@@ -6079,9 +7191,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: undefined4 
+        r0: int32_t
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02144ac8
       address:
@@ -6111,6 +7223,7 @@ overlay11:
         Use unknown.
         
         No params.
+
     - name: unk_fun_overlay_11_02145666
       address:
         NA: 0x2145666
@@ -6131,21 +7244,21 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: undefined1
     - name: unk_fun_overlay_11_021456a8
       address:
         NA: 0x21456A8
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: undefined1
     - name: unk_fun_overlay_11_021456bc
       address:
         NA: 0x21456BC
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: undefined1
     - name: unk_fun_overlay_11_021456d0
       address:
         NA: 0x21456D0
@@ -6194,7 +7307,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: uint32_t
     - name: unk_fun_overlay_11_0214636c
       address:
@@ -6202,9 +7315,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: undefined4 
+        r0: int32_t
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02146434
       address:
@@ -6247,9 +7360,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02146acc
       address:
@@ -6257,7 +7370,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: uint32_t
     - name: unk_fun_overlay_11_02146b68
       address:
@@ -6293,7 +7406,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_02146f1c
       address:
@@ -6309,7 +7422,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_02146f58
       address:
@@ -6360,9 +7473,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02147054
       address:
@@ -6377,9 +7490,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021470c0
       address:
@@ -6403,8 +7516,8 @@ overlay11:
         Use unknown.
         
         r0: int32_t pointer
-        r1: uint32_t 
-        r2: int32_t 
+        r1: uint32_t
+        r2: int32_t
         r3: int16_t
     - name: unk_fun_overlay_11_02147130
       address:
@@ -6412,9 +7525,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0214721c
       address:
@@ -6443,7 +7556,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: void
+        No params.
     - name: unk_fun_overlay_11_021472b8
       address:
         NA: 0x21472B8
@@ -6471,9 +7584,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021476bc
       address:
@@ -6516,9 +7629,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02147f94
       address:
@@ -6533,9 +7646,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02148168
       address:
@@ -6564,9 +7677,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021484f8
       address:
@@ -6595,9 +7708,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02148698
       address:
@@ -6623,6 +7736,13 @@ overlay11:
     - name: unk_fun_overlay_11_0214895c
       address:
         NA: 0x214895C
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_02148a64
+      address:
+        NA: 0x2148A64
       description: |-
         Use unknown.
         
@@ -6661,9 +7781,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02149150
       address:
@@ -6678,9 +7798,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021492a8
       address:
@@ -6758,9 +7878,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021499b4
       address:
@@ -6789,9 +7909,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02149c8c
       address:
@@ -6813,9 +7933,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02149f0c
       address:
@@ -6838,15 +7958,22 @@ overlay11:
         Use unknown.
         
         No params.
+    - name: unk_fun_overlay_11_0214a0cc
+      address:
+        NA: 0x214A0CC
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_11_0214a19c
       address:
         NA: 0x214A19C
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0214a308
       address:
@@ -6875,9 +8002,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0214a628
       address:
@@ -6913,9 +8040,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0214ab70
       address:
@@ -6944,9 +8071,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0214af68
       address:
@@ -7010,9 +8137,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0214be64
       address:
@@ -7020,9 +8147,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: undefined4 
+        r0: int32_t
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0214bfdc
       address:
@@ -7030,7 +8157,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0214c068
       address:
@@ -7080,9 +8207,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0214c8d8
       address:
@@ -7119,15 +8246,22 @@ overlay11:
         Use unknown.
         
         No params.
+    - name: unk_fun_overlay_11_0214d128
+      address:
+        NA: 0x214D128
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_11_0214d29c
       address:
         NA: 0x214D29C
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0214d468
       address:
@@ -7142,9 +8276,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0214d80c
       address:
@@ -7187,13 +8321,41 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0214de8c
       address:
         NA: 0x214DE8C
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0214e1e8
+      address:
+        NA: 0x214E1E8
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0214e21c
+      address:
+        NA: 0x214E21C
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0214e258
+      address:
+        NA: 0x214E258
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0214e280
+      address:
+        NA: 0x214E280
       description: |-
         Use unknown.
         
@@ -7215,6 +8377,27 @@ overlay11:
     - name: unk_fun_overlay_11_0214e2b8
       address:
         NA: 0x214E2B8
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0214e2e0
+      address:
+        NA: 0x214E2E0
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0214e300
+      address:
+        NA: 0x214E300
+      description: |-
+        Use unknown.
+        
+        No params.
+    - name: unk_fun_overlay_11_0214e350
+      address:
+        NA: 0x214E350
       description: |-
         Use unknown.
         
@@ -7247,6 +8430,7 @@ overlay11:
         Use unknown.
         
         No params.
+
     - name: unk_fun_overlay_11_0214e91e
       address:
         NA: 0x214E91E
@@ -7267,9 +8451,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0214ed7c
       address:
@@ -7292,6 +8476,13 @@ overlay11:
         Use unknown.
         
         No params.
+    - name: unk_fun_overlay_11_0214f0e8
+      address:
+        NA: 0x214F0E8
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_11_0214f3dc
       address:
         NA: 0x214F3DC
@@ -7305,9 +8496,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0214f638
       address:
@@ -7315,7 +8506,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_0214f78c
       address:
@@ -7330,9 +8521,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: int32_t 
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t
         r3: undefined4
     - name: unk_fun_overlay_11_0214f924
       address:
@@ -7340,7 +8531,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0214fa78
       address:
@@ -7348,9 +8539,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined pointer
-        r1: int32_t 
-        r2: undefined4 
+        r0: undefined1 pointer
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0214fb00
       address:
@@ -7407,9 +8598,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02150684
       address:
@@ -7438,16 +8629,16 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: undefined1
     - name: unk_fun_overlay_11_02150900
       address:
         NA: 0x2150900
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02150a60
       address:
@@ -7476,9 +8667,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02150c84
       address:
@@ -7521,9 +8712,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215109c
       address:
@@ -7559,9 +8750,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215148c
       address:
@@ -7590,9 +8781,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02151770
       address:
@@ -7628,9 +8819,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02151be4
       address:
@@ -7771,9 +8962,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02153514
       address:
@@ -7803,15 +8994,22 @@ overlay11:
         Use unknown.
         
         No params.
+    - name: unk_fun_overlay_11_021536b8
+      address:
+        NA: 0x21536B8
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_11_0215380c
       address:
         NA: 0x215380C
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021538e0
       address:
@@ -7833,9 +9031,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02153c2c
       address:
@@ -7857,9 +9055,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02153dcc
       address:
@@ -7881,9 +9079,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02154074
       address:
@@ -7913,15 +9111,22 @@ overlay11:
         Use unknown.
         
         No params.
+    - name: unk_fun_overlay_11_0215425c
+      address:
+        NA: 0x215425C
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_11_021542f0
       address:
         NA: 0x21542F0
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02154434
       address:
@@ -7957,9 +9162,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021548c4
       address:
@@ -7974,9 +9179,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: int32_t 
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t
         r3: int32_t
     - name: unk_fun_overlay_11_02154988
       address:
@@ -7984,9 +9189,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: int32_t 
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t
         r3: undefined4
     - name: unk_fun_overlay_11_021549f0
       address:
@@ -8001,10 +9206,10 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined 
-        r2: undefined4 
-        r3: int32_t 
+        r0: int32_t
+        r1: undefined1
+        r2: undefined4
+        r3: int32_t
         stack[0]: int32_t
     - name: unk_fun_overlay_11_02154b24
       address:
@@ -8012,9 +9217,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02154b60
       address:
@@ -8036,7 +9241,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: void
+        r0: int32_t
     - name: unk_fun_overlay_11_02154b94
       address:
         NA: 0x2154B94
@@ -8099,7 +9304,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: int16_t pointer
     - name: unk_fun_overlay_11_021550d4
       address:
@@ -8114,9 +9319,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02155144
       address:
@@ -8138,9 +9343,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02155278
       address:
@@ -8162,9 +9367,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021555a8
       address:
@@ -8172,9 +9377,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021555ec
       address:
@@ -8196,23 +9401,77 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: undefined1
     - name: unk_fun_overlay_11_02155628
       address:
         NA: 0x2155628
       description: |-
         Use unknown.
         
-        r0: undefined
+        r0: undefined1
     - name: unk_fun_overlay_11_0215563c
       address:
         NA: 0x215563C
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4 pointer
+    - name: unk_fun_overlay_11_0215566c
+      address:
+        NA: 0x215566C
+      description: |-
+        Use unknown.
+        
+        r0: undefined4 pointer
+    - name: unk_fun_overlay_11_02155804
+      address:
+        NA: 0x2155804
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_02155820
+      address:
+        NA: 0x2155820
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0215583c
+      address:
+        NA: 0x215583C
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0215585c
+      address:
+        NA: 0x215585C
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_0215587c
+      address:
+        NA: 0x215587C
+      description: |-
+        Use unknown.
+        
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215589c
       address:
@@ -8220,7 +9479,57 @@ overlay11:
       description: |-
         Use unknown.
         
+        r0: undefined4 pointer
+    - name: unk_fun_overlay_11_021558c0
+      address:
+        NA: 0x21558C0
+      description: |-
+        Use unknown.
+        
         r0: undefined4
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_02155900
+      address:
+        NA: 0x2155900
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_02155940
+      address:
+        NA: 0x2155940
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_02155984
+      address:
+        NA: 0x2155984
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+    - name: unk_fun_overlay_11_021559c8
+      address:
+        NA: 0x21559C8
+      description: |-
+        Use unknown.
+        
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
     - name: unk_fun_overlay_11_02155a0c
       address:
         NA: 0x2155A0C
@@ -8234,9 +9543,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02155b04
       address:
@@ -8251,17 +9560,14 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t
+        r0: undefined4 pointer
     - name: unk_fun_overlay_11_02155cf4
       address:
         NA: 0x2155CF4
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
-        r3: undefined4
+        r0: undefined4 pointer
     - name: unk_fun_overlay_11_02155e04
       address:
         NA: 0x2155E04
@@ -8275,10 +9581,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
-        r3: undefined4
+        r0: int32_t
     - name: unk_fun_overlay_11_02155e50
       address:
         NA: 0x2155E50
@@ -8292,9 +9595,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: uint32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: uint32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02156068
       address:
@@ -8302,9 +9605,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: undefined4 
+        r0: int32_t
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021560f0
       address:
@@ -8326,9 +9629,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021561c8
       address:
@@ -8350,7 +9653,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_02156230
       address:
@@ -8400,9 +9703,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02156d98
       address:
@@ -8417,9 +9720,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02156f50
       address:
@@ -8448,9 +9751,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215747c
       address:
@@ -8458,10 +9761,10 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
-        r2: int32_t 
-        r3: undefined4 
+        r0: undefined4
+        r1: int32_t
+        r2: int32_t
+        r3: undefined4
         stack[0]: undefined4
     - name: unk_fun_overlay_11_021577a8
       address:
@@ -8469,9 +9772,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021577ec
       address:
@@ -8500,9 +9803,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02157d4c
       address:
@@ -8524,7 +9827,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_0215818c
       address:
@@ -8539,9 +9842,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: uint32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: uint32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02158300
       address:
@@ -8549,9 +9852,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: uint32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: uint32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021583d8
       address:
@@ -8559,9 +9862,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: uint32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: uint32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021584b0
       address:
@@ -8597,8 +9900,17 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: uint32_t
+    - name: unk_fun_overlay_11_02158734
+      address:
+        NA: 0x2158734
+      description: |-
+        Use unknown.
+        
+        r0: uint32_t
+        r1: undefined4
+        r2: uint16_t pointer
     - name: unk_fun_overlay_11_02158a58
       address:
         NA: 0x2158A58
@@ -8626,9 +9938,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: uint32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: uint32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02158ba0
       address:
@@ -8672,6 +9984,13 @@ overlay11:
         Use unknown.
         
         No params.
+    - name: unk_fun_overlay_11_02158e04
+      address:
+        NA: 0x2158E04
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_11_02158ea0
       address:
         NA: 0x2158EA0
@@ -8679,6 +9998,7 @@ overlay11:
         Use unknown.
         
         No params.
+
     - name: unk_fun_overlay_11_02158ed8
       address:
         NA: 0x2158ED8
@@ -8790,7 +10110,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_021597b8
       address:
@@ -8826,8 +10146,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined2 
+        r0: int32_t
+        r1: undefined2
         r2: undefined2
     - name: unk_fun_overlay_11_02159bc4
       address:
@@ -8877,7 +10197,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4 pointer
     - name: unk_fun_overlay_11_02159f0c
       address:
@@ -8920,7 +10240,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined pointer
+        r0: undefined1 pointer
         r1: undefined4
     - name: unk_fun_overlay_11_0215a4ac
       address:
@@ -8991,10 +10311,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined2 
-        r1: undefined2 
-        r2: undefined4 
-        r3: undefined4
+        r0: undefined2
+        r1: undefined2
+        r2: undefined4 pointer
     - name: unk_fun_overlay_11_0215ab78
       address:
         NA: 0x215AB78
@@ -9029,7 +10348,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: uint32_t pointer
         r2: int32_t
     - name: unk_fun_overlay_11_0215b060
@@ -9038,9 +10357,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215b094
       address:
@@ -9050,7 +10369,7 @@ overlay11:
         
         r0: char pointer
         r1: char pointer
-        r2: int32_t 
+        r2: int32_t
         r3: undefined4
     - name: unk_fun_overlay_11_0215b0ec
       address:
@@ -9072,9 +10391,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: int32_t 
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t
         r3: undefined4
     - name: unk_fun_overlay_11_0215b370
       address:
@@ -9089,7 +10408,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0215b3fc
       address:
@@ -9104,9 +10423,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: uint32_t 
+        r0: int32_t
+        r1: int32_t
+        r2: uint32_t
         r3: int32_t
     - name: unk_fun_overlay_11_0215b4a8
       address:
@@ -9114,9 +10433,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: int32_t 
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t
         r3: int32_t
     - name: unk_fun_overlay_11_0215b528
       address:
@@ -9124,9 +10443,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: int32_t 
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t
         r3: uint32_t
     - name: unk_fun_overlay_11_0215b618
       address:
@@ -9134,8 +10453,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_0215b678
       address:
@@ -9143,8 +10462,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: uint32_t pointer
         r3: uint32_t pointer
     - name: unk_fun_overlay_11_0215b6a8
@@ -9153,9 +10472,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215b6d8
       address:
@@ -9170,8 +10489,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_0215b794
       address:
@@ -9179,7 +10498,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_0215b7c0
       address:
@@ -9187,7 +10506,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0215b808
       address:
@@ -9202,8 +10521,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_0215b87c
       address:
@@ -9211,9 +10530,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215b898
       address:
@@ -9236,9 +10555,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215b990
       address:
@@ -9260,9 +10579,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: undefined4 
+        r0: int32_t
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215bbc8
       address:
@@ -9270,9 +10589,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined2 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined2
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215bc58
       address:
@@ -9280,9 +10599,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215bd5c
       address:
@@ -9297,10 +10616,10 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: int32_t 
-        r3: undefined4 
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t
+        r3: undefined4
         stack[0]: undefined4 pointer
         stack[1]: int32_t
     - name: unk_fun_overlay_11_0215be84
@@ -9316,7 +10635,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0215c0b0
       address:
@@ -9345,11 +10664,11 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
-        r3: undefined4 
-        stack[0]: undefined2 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
+        stack[0]: undefined2
         stack[1]: int32_t
     - name: unk_fun_overlay_11_0215c224
       address:
@@ -9357,11 +10676,11 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
-        r2: undefined4 
-        r3: undefined4 
-        stack[0]: int32_t 
+        r0: undefined4
+        r1: int32_t
+        r2: undefined4
+        r3: undefined4
+        stack[0]: int32_t
         stack[1]: int16_t pointer
         stack[2]: int32_t
     - name: unk_fun_overlay_11_0215c2d0
@@ -9384,10 +10703,10 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
-        r3: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
         stack[0]: undefined4
     - name: unk_fun_overlay_11_0215c43c
       address:
@@ -9402,8 +10721,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined2 
-        r1: undefined2 
+        r0: undefined2
+        r1: undefined2
         r2: undefined2 pointer
     - name: unk_fun_overlay_11_0215c46c
       address:
@@ -9411,10 +10730,10 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined2 
-        r1: undefined2 
-        r2: undefined2 
-        r3: undefined2 
+        r0: undefined2
+        r1: undefined2
+        r2: undefined2
+        r3: undefined2
         stack[0]: undefined2 pointer
     - name: unk_fun_overlay_11_0215c484
       address:
@@ -9431,7 +10750,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: uint32_t
     - name: unk_fun_overlay_11_0215c50c
       address:
@@ -9439,7 +10758,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: uint32_t
     - name: unk_fun_overlay_11_0215c568
       address:
@@ -9447,8 +10766,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: int16_t pointer
     - name: unk_fun_overlay_11_0215c680
       address:
@@ -9456,9 +10775,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: uint32_t 
-        r2: int32_t 
+        r0: int32_t
+        r1: undefined4
+        r2: int32_t
         r3: int32_t
     - name: unk_fun_overlay_11_0215c7ec
       address:
@@ -9466,7 +10785,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4
+        r0: int8_t pointer
     - name: unk_fun_overlay_11_0215c82c
       address:
         NA: 0x215C82C
@@ -9480,7 +10799,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_0215c89c
       address:
@@ -9488,7 +10807,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4
+        r0: uint32_t
     - name: unk_fun_overlay_11_0215c8c0
       address:
         NA: 0x215C8C0
@@ -9587,8 +10906,8 @@ overlay11:
         Use unknown.
         
         r0: int16_t pointer
-        r1: undefined4 
-        r2: undefined4 
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215cf08
       address:
@@ -9624,9 +10943,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215d0d4
       address:
@@ -9634,9 +10953,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215d0f0
       address:
@@ -9659,7 +10978,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t pointer
     - name: unk_fun_overlay_11_0215d168
       address:
@@ -9667,7 +10986,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t pointer
     - name: unk_fun_overlay_11_0215d178
       address:
@@ -9682,9 +11001,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215d288
       address:
@@ -9706,7 +11025,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0215d30c
       address:
@@ -9721,9 +11040,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
-        r2: int32_t 
+        r0: int32_t
+        r1: int32_t
+        r2: int32_t
         r3: uint32_t pointer
     - name: unk_fun_overlay_11_0215d544
       address:
@@ -9738,7 +11057,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0215d5b0
       address:
@@ -9781,9 +11100,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215d930
       address:
@@ -9812,18 +11131,18 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
-        r3: uint32_t 
-        stack[0]: undefined
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
+        r3: uint32_t
+        stack[0]: undefined1
     - name: unk_fun_overlay_11_0215dac8
       address:
         NA: 0x215DAC8
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
     - name: unk_fun_overlay_11_0215dad0
       address:
@@ -9831,15 +11150,15 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4
-    - name: thunk_unk_fun_overlay_11_0215dafc
+    - name: unk_fun_overlay_11_0215daf0
       address:
         NA: 0x215DAF0
       description: |-
         Use unknown.
         
-        r0: void 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0215dafc
       address:
@@ -9847,7 +11166,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_0215db40
       address:
@@ -9855,8 +11174,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined
+        r0: int32_t
+        r1: undefined1
     - name: unk_fun_overlay_11_0215db58
       address:
         NA: 0x215DB58
@@ -9870,8 +11189,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: code pointer
-        r1: code pointer
+        r0: voidpointer pointer
+        r1: voidpointer pointer
         r2: undefined4
     - name: unk_fun_overlay_11_0215dd08
       address:
@@ -9879,9 +11198,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t pointerpointer
-        r1: int32_t 
-        r2: int32_t 
+        r0: int32_t pointer
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215de20
       address:
@@ -9889,7 +11208,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t pointerpointer
+        r0: int32_t pointer
     - name: unk_fun_overlay_11_0215de64
       address:
         NA: 0x215DE64
@@ -9903,9 +11222,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215df38
       address:
@@ -9914,8 +11233,8 @@ overlay11:
         Use unknown.
         
         r0: int32_t pointer
-        r1: undefined4 
-        r2: undefined4 
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215df5c
       address:
@@ -9924,7 +11243,7 @@ overlay11:
         Use unknown.
         
         r0: int32_t pointer
-        r1: undefined4 
+        r1: undefined4
         r2: undefined4
     - name: unk_fun_overlay_11_0215dfd0
       address:
@@ -9933,7 +11252,7 @@ overlay11:
         Use unknown.
         
         r0: int32_t pointer
-        r1: int32_t 
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_0215dfec
       address:
@@ -9941,9 +11260,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215e0a0
       address:
@@ -10007,7 +11326,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: int32_t
     - name: unk_fun_overlay_11_0215e298
       address:
@@ -10036,8 +11355,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: uint32_t 
+        r0: int32_t
+        r1: uint32_t
         r2: undefined4 pointer
         r3: uint32_t pointer
     - name: unk_fun_overlay_11_0215e354
@@ -10046,8 +11365,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t pointerpointer
+        r0: int32_t
+        r1: int32_t pointer
         r2: int32_t pointer
     - name: unk_fun_overlay_11_0215e3d0
       address:
@@ -10055,9 +11374,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
-        r2: int32_t 
+        r0: undefined4
+        r1: int32_t
+        r2: int32_t
         r3: int32_t pointer
     - name: unk_fun_overlay_11_0215e4a0
       address:
@@ -10065,8 +11384,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
+        r0: undefined4
+        r1: int32_t
         r2: int32_t
     - name: unk_fun_overlay_11_0215e510
       address:
@@ -10074,9 +11393,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
-        r2: int32_t 
+        r0: undefined4
+        r1: int32_t
+        r2: int32_t
         r3: char pointer
         stack[0]: int32_t
     - name: unk_fun_overlay_11_0215e5e0
@@ -10086,8 +11405,8 @@ overlay11:
         Use unknown.
         
         r0: int32_t pointer
-        r1: int32_t 
-        r2: int32_t 
+        r1: int32_t
+        r2: int32_t
         r3: int32_t
     - name: unk_fun_overlay_11_0215e6cc
       address:
@@ -10095,7 +11414,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: uint32_t
     - name: unk_fun_overlay_11_0215e6e0
       address:
@@ -10103,9 +11422,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: int32_t 
+        r0: int32_t
+        r1: undefined4
+        r2: int32_t
         r3: undefined4
     - name: unk_fun_overlay_11_0215e708
       address:
@@ -10113,9 +11432,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: int32_t 
+        r0: int32_t
+        r1: undefined4
+        r2: int32_t
         r3: int32_t
     - name: unk_fun_overlay_11_0215e778
       address:
@@ -10123,11 +11442,11 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: uint32_t 
-        r2: undefined4 
-        r3: int32_t 
-        stack[0]: undefined4 
+        r0: int32_t
+        r1: uint32_t
+        r2: undefined4
+        r3: int32_t
+        stack[0]: undefined4
         stack[1]: undefined4
     - name: unk_fun_overlay_11_0215ecdc
       address:
@@ -10170,9 +11489,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: uint32_t
     - name: unk_fun_overlay_11_0215ef48
       address:
@@ -10188,7 +11507,7 @@ overlay11:
         Use unknown.
         
         r0: int32_t pointer
-        r1: undefined4 
+        r1: undefined4
         r2: int32_t pointer
     - name: unk_fun_overlay_11_0215f0cc
       address:
@@ -10196,8 +11515,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
+        r0: int32_t
+        r1: undefined4
         r2: undefined4 pointer
         r3: undefined4
     - name: unk_fun_overlay_11_0215f1d0
@@ -10206,7 +11525,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: undefined4 pointer
     - name: unk_fun_overlay_11_0215f200
       address:
@@ -10221,9 +11540,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0215f2a0
       address:
@@ -10231,7 +11550,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_0215f2b0
       address:
@@ -10239,7 +11558,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_0215f2ec
       address:
@@ -10247,9 +11566,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
         r3: uint32_t
     - name: unk_fun_overlay_11_0215f368
       address:
@@ -10257,10 +11576,10 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
-        r3: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
         stack[0]: undefined4
     - name: unk_fun_overlay_11_0215f3b4
       address:
@@ -10268,10 +11587,10 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: undefined4 
-        r3: undefined4 
+        r0: int32_t
+        r1: undefined4
+        r2: undefined4
+        r3: undefined4
         stack[0]: undefined4
     - name: unk_fun_overlay_11_0215f400
       address:
@@ -10279,10 +11598,17 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
-        r2: undefined4 
+        r0: undefined4
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
+    - name: ov_11_thunk_unk_fun_02078910
+      address:
+        NA: 0x215F41C
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_11_0215f428
       address:
         NA: 0x215F428
@@ -10292,22 +11618,32 @@ overlay11:
         r0: char pointer
         r1: char pointer
         r2: int32_t
+    - name: ov_11_thunk_unk_fun_020788b8
+      address:
+        NA:
+          - 0x215F490
+          - 0x2162820
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_11_0215f49c
       address:
         NA: 0x215F49C
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4
+        r0: int8_t pointer
+        r1: uint32_t
     - name: unk_fun_overlay_11_0215f4b0
       address:
         NA: 0x215F4B0
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4
+        r0: undefined4 pointer
+        r1: undefined4 pointer
+        r2: uint32_t
     - name: unk_fun_overlay_11_0215f4c8
       address:
         NA: 0x215F4C8
@@ -10322,10 +11658,10 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
+        r0: int32_t
+        r1: undefined4
         r2: int32_t pointer
-        r3: int32_t 
+        r3: int32_t
         stack[0]: int32_t
     - name: unk_fun_overlay_11_0215f61c
       address:
@@ -10333,7 +11669,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_0215f6a8
       address:
@@ -10348,7 +11684,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: int32_t pointer
     - name: unk_fun_overlay_11_0215f784
       address:
@@ -10357,6 +11693,7 @@ overlay11:
         Use unknown.
         
         No params.
+
     - name: unk_fun_overlay_11_0215fd8a
       address:
         NA: 0x215FD8A
@@ -10377,7 +11714,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined pointer
+        r0: undefined1 pointer
         r1: uint32_t
     - name: unk_fun_overlay_11_02160bb8
       address:
@@ -10393,7 +11730,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: int32_t
     - name: unk_fun_overlay_11_02160d38
       address:
@@ -10401,7 +11738,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: uint32_t
     - name: unk_fun_overlay_11_02160df4
       address:
@@ -10425,8 +11762,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: int32_t 
+        r0: int32_t
+        r1: int32_t
         r2: char pointer
         r3: int32_t
     - name: unk_fun_overlay_11_02160f6c
@@ -10442,7 +11779,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
+        r0: int32_t
         r1: char pointer
     - name: unk_fun_overlay_11_02161080
       address:
@@ -10450,8 +11787,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: undefined4
         r2: undefined4
     - name: unk_fun_overlay_11_021610f0
       address:
@@ -10490,8 +11827,8 @@ overlay11:
         Use unknown.
         
         r0: char pointer
-        r1: int32_t 
-        r2: int32_t 
+        r1: int32_t
+        r2: int32_t
         r3: uint32_t
     - name: unk_fun_overlay_11_021612b0
       address:
@@ -10499,9 +11836,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined pointer
-        r1: int32_t 
-        r2: int32_t 
+        r0: undefined1 pointer
+        r1: int32_t
+        r2: int32_t
         r3: undefined4
     - name: unk_fun_overlay_11_021613e0
       address:
@@ -10516,12 +11853,12 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: code pointer
-        r2: undefined4 
-        r3: undefined4 
-        stack[0]: undefined4 
-        stack[1]: undefined4 
+        r0: undefined4
+        r1: voidpointer pointer
+        r2: undefined4
+        r3: undefined4
+        stack[0]: undefined4
+        stack[1]: undefined4
         stack[2]: undefined4
     - name: unk_fun_overlay_11_02161618
       address:
@@ -10529,9 +11866,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02161640
       address:
@@ -10546,7 +11883,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_021617c4
       address:
@@ -10561,7 +11898,7 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
+        r0: undefined4
         r1: undefined4
     - name: unk_fun_overlay_11_02161b40
       address:
@@ -10571,8 +11908,8 @@ overlay11:
         
         r0: int32_t pointer
         r1: int32_t pointer
-        r2: undefined4 
-        r3: undefined4 
+        r2: undefined4
+        r3: undefined4
         stack[0]: undefined4
     - name: unk_fun_overlay_11_02161e6c
       address:
@@ -10588,9 +11925,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
-        r2: undefined4 
+        r0: undefined4
+        r1: undefined4
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02161f40
       address:
@@ -10598,8 +11935,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4 
+        r0: undefined4
+        r1: undefined4
         r2: int32_t
     - name: unk_fun_overlay_11_02162200
       address:
@@ -10607,9 +11944,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: undefined4 
-        r2: uint32_t 
+        r0: int32_t
+        r1: undefined4
+        r2: uint32_t
         r3: undefined4
     - name: thunk_unk_fun_overlay_11_0215f4c8
       address:
@@ -10625,9 +11962,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
-        r2: undefined4 
+        r0: undefined4
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_0216241c
       address:
@@ -10635,9 +11972,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
-        r2: undefined4 
+        r0: undefined4
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_02162448
       address:
@@ -10645,9 +11982,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: int32_t 
-        r2: undefined4 
+        r0: undefined4
+        r1: int32_t
+        r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_11_021626c8
       address:
@@ -10719,22 +12056,30 @@ overlay11:
         Use unknown.
         
         r0: undefined4
+    - name: ov_11_thunk_unk_fun_02078930
+      address:
+        NA: 0x216282C
+      description: |-
+        Use unknown.
+        
+        No params.
     - name: unk_fun_overlay_11_02162838
       address:
         NA: 0x2162838
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4
+        r0: int8_t pointer
+        r1: uint32_t
     - name: unk_fun_overlay_11_0216284c
       address:
         NA: 0x216284C
       description: |-
         Use unknown.
         
-        r0: undefined4 
-        r1: undefined4
+        r0: undefined4 pointer
+        r1: undefined4 pointer
+        r2: uint32_t
     - name: thunk_unk_fun_overlay_11_02160ca0
       address:
         NA: 0x2162864
@@ -10757,9 +12102,9 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: uint32_t 
-        r2: uint32_t 
+        r0: int32_t
+        r1: uint32_t
+        r2: uint32_t
         r3: int32_t
     - name: unk_fun_overlay_11_0216295c
       address:
@@ -10767,8 +12112,8 @@ overlay11:
       description: |-
         Use unknown.
         
-        r0: int32_t 
-        r1: uint32_t 
+        r0: int32_t
+        r1: uint32_t
         r2: int32_t
   data:
     - name: OV11_STATIC_INITIALIZER

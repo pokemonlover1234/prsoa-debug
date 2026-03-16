@@ -83,7 +83,7 @@ overlay1:
         
         r0: int32_t
         r1: uint32_t
-        r2: int32_t pointerpointer
+        r2: int32_t pointer
         r3: undefined4
     - name: unk_fun_overlay_01_0211e928
       address:
@@ -757,7 +757,7 @@ overlay1:
         Use unknown.
         
         r0: undefined4 pointer
-        r1: undefined
+        r1: undefined1
         r2: int32_t pointer
     - name: unk_fun_overlay_01_0212546c
       address:
@@ -977,7 +977,7 @@ overlay1:
         Use unknown.
         
         r0: undefined4 pointer
-        r1: undefined
+        r1: undefined1
     - name: unk_fun_overlay_01_02126bd4
       address:
         NA: 0x2126BD4
@@ -1034,7 +1034,7 @@ overlay1:
         
         r0: int32_t
         r1: int32_t
-    - name: thunk_unk_fun_overlay_01_020120b0
+    - name: ov_01_thunk_unk_fun_020120b0
       address:
         NA: 0x2127280
       description: |-
@@ -1308,7 +1308,7 @@ overlay1:
       description: |-
         Use unknown.
         
-        r0: int32_t pointer
+        r0: undefined4 pointer
         r1: undefined4
         r2: undefined4
         r3: undefined4
@@ -1354,7 +1354,7 @@ overlay1:
       description: |-
         Use unknown.
         
-        r0: int32_t pointerpointer
+        r0: int32_t pointer
         r1: int32_t pointer
         r2: undefined4
         r3: undefined4
@@ -1367,7 +1367,7 @@ overlay1:
         r0: int32_t
         r1: undefined4
         r2: undefined4
-        r3: byte
+        r3: int8_t
     - name: unk_fun_overlay_01_021281b4
       address:
         NA: 0x21281B4
@@ -1543,7 +1543,7 @@ overlay1:
       description: |-
         Use unknown.
         
-        r0: int32_t pointer
+        r0: undefined4 pointer
         r1: undefined4
         r2: undefined4
         r3: undefined4
@@ -1602,21 +1602,21 @@ overlay1:
       description: |-
         Use unknown.
         
-        r0: undefined pointer
+        r0: undefined1 pointer
     - name: unk_fun_overlay_01_02128df4
       address:
         NA: 0x2128DF4
       description: |-
         Use unknown.
         
-        r0: undefined pointer
+        r0: undefined1 pointer
     - name: unk_fun_overlay_01_02128e34
       address:
         NA: 0x2128E34
       description: |-
         Use unknown.
         
-        r0: undefined pointer
+        r0: undefined1 pointer
         r1: undefined4
         r2: undefined4
         r3: undefined2
@@ -2861,7 +2861,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: undefined
+        r1: undefined1
     - name: unk_fun_overlay_01_0212c4f4
       address:
         NA: 0x212C4F4
@@ -3004,7 +3004,7 @@ overlay1:
         r0: int32_t
         r1: undefined4
         r2: undefined4
-        r3: byte
+        r3: int8_t
     - name: unk_fun_overlay_01_0212cf1c
       address:
         NA: 0x212CF1C
@@ -3204,7 +3204,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-    - name: thunk_unk_fun_overlay_01_020121f4
+    - name: ov_01_thunk_unk_fun_020121f4
       address:
         NA: 0x212E48C
       description: |-
@@ -3358,7 +3358,7 @@ overlay1:
       description: |-
         Use unknown.
         
-        r0: int32_t pointer
+        r0: uint16_t pointer
         r1: int32_t
     - name: unk_fun_overlay_01_0212edb4
       address:
@@ -3548,7 +3548,7 @@ overlay1:
         r1: int32_t
         r2: int32_t
         r3: int32_t
-        stack[0]: byte
+        stack[0]: int8_t
     - name: unk_fun_overlay_01_0212fbd0
       address:
         NA: 0x212FBD0
@@ -3617,7 +3617,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: byte pointer
+        r1: int8_t pointer
         r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_01_0213011c
@@ -3676,7 +3676,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: undefined pointer
+        r1: undefined1 pointer
     - name: unk_fun_overlay_01_0213071c
       address:
         NA: 0x213071C
@@ -3684,7 +3684,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: byte pointer
+        r1: int8_t pointer
         r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_01_021307e8
@@ -3901,10 +3901,6 @@ overlay1:
         Use unknown.
         
         r0: undefined4 pointer
-        r1: undefined4
-        r2: undefined4
-        r3: undefined4
-        stack[0]: uint16_t
     - name: unk_fun_overlay_01_02131548
       address:
         NA: 0x2131548
@@ -4150,7 +4146,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: undefined pointer
+        r1: undefined1 pointer
     - name: unk_fun_overlay_01_02132bd4
       address:
         NA: 0x2132BD4
@@ -4158,7 +4154,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: byte pointer
+        r1: int8_t pointer
         r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_01_02132cac
@@ -4220,10 +4216,6 @@ overlay1:
         Use unknown.
         
         r0: undefined4 pointer
-        r1: undefined4
-        r2: undefined4
-        r3: undefined4
-        stack[0]: uint16_t
     - name: unk_fun_overlay_01_02133148
       address:
         NA: 0x2133148
@@ -4295,7 +4287,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: undefined pointer
+        r1: undefined1 pointer
     - name: unk_fun_overlay_01_02133b08
       address:
         NA: 0x2133B08
@@ -4303,7 +4295,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: undefined pointer
+        r1: undefined1 pointer
     - name: unk_fun_overlay_01_02133b3c
       address:
         NA: 0x2133B3C
@@ -4530,7 +4522,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: undefined pointer
+        r1: undefined1 pointer
     - name: unk_fun_overlay_01_02134770
       address:
         NA: 0x2134770
@@ -4538,7 +4530,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: byte pointer
+        r1: int8_t pointer
         r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_01_02134820
@@ -4612,7 +4604,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: undefined pointer
+        r1: undefined1 pointer
     - name: unk_fun_overlay_01_02134f68
       address:
         NA: 0x2134F68
@@ -4620,7 +4612,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: byte pointer
+        r1: int8_t pointer
         r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_01_0213502c
@@ -4703,7 +4695,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: undefined pointer
+        r1: undefined1 pointer
     - name: unk_fun_overlay_01_02135794
       address:
         NA: 0x2135794
@@ -4719,7 +4711,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: byte pointer
+        r1: int8_t pointer
         r2: undefined4
         r3: undefined4
     - name: unk_fun_overlay_01_02135938
@@ -5075,8 +5067,8 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: undefined
-        r2: undefined
+        r1: undefined1
+        r2: undefined1
     - name: unk_fun_overlay_01_02136aa0
       address:
         NA: 0x2136AA0
@@ -5390,9 +5382,9 @@ overlay1:
       description: |-
         Use unknown.
         
-        r0: int32_t pointerpointer
+        r0: undefined4 pointer
         r1: int32_t pointer
-        r2: int32_t pointerpointer
+        r2: undefined4 pointer
         r3: int32_t pointer
     - name: unk_fun_overlay_01_02138028
       address:
@@ -5400,10 +5392,10 @@ overlay1:
       description: |-
         Use unknown.
         
-        r0: int32_t pointerpointer
+        r0: int32_t pointer
         r1: int32_t pointer
-        r2: int32_t pointerpointer
-        r3: int32_t pointerpointer
+        r2: int32_t pointer
+        r3: int32_t pointer
     - name: unk_fun_overlay_01_021380ac
       address:
         NA: 0x21380AC
@@ -5441,7 +5433,7 @@ overlay1:
       description: |-
         Use unknown.
         
-        r0: byte pointer
+        r0: int8_t pointer
     - name: unk_fun_overlay_01_02138268
       address:
         NA: 0x2138268
@@ -5455,7 +5447,7 @@ overlay1:
       description: |-
         Use unknown.
         
-        r0: byte pointer
+        r0: int8_t pointer
     - name: unk_fun_overlay_01_021382a4
       address:
         NA: 0x21382A4
@@ -5503,7 +5495,7 @@ overlay1:
       description: |-
         Use unknown.
         
-        r0: byte pointer
+        r0: int8_t pointer
     - name: unk_fun_overlay_01_02138490
       address:
         NA: 0x2138490
@@ -5517,7 +5509,7 @@ overlay1:
       description: |-
         Use unknown.
         
-        r0: byte pointer
+        r0: int8_t pointer
     - name: unk_fun_overlay_01_021384cc
       address:
         NA: 0x21384CC
@@ -6182,11 +6174,11 @@ overlay1:
         Use unknown.
         
         r0: undefined4 pointer
-        r1: undefined
+        r1: undefined1
         r2: undefined4
         r3: undefined4
-        stack[0]: undefined
-        stack[1]: undefined
+        stack[0]: undefined1
+        stack[1]: undefined1
     - name: unk_fun_overlay_01_0213c5f4
       address:
         NA: 0x213C5F4
@@ -6256,7 +6248,7 @@ overlay1:
         Use unknown.
         
         r0: undefined4
-        r1: undefined
+        r1: undefined1
     - name: unk_fun_overlay_01_0213cac8
       address:
         NA: 0x213CAC8
@@ -6639,7 +6631,7 @@ overlay1:
         Use unknown.
         
         r0: int32_t
-        r1: undefined
+        r1: undefined1
         r2: int32_t
     - name: unk_fun_overlay_01_0213ec40
       address:
@@ -6658,7 +6650,7 @@ overlay1:
         r0: int32_t
         r1: undefined4
         r2: undefined4
-        r3: undefined
+        r3: undefined1
     - name: unk_fun_overlay_01_0213eda4
       address:
         NA: 0x213EDA4
@@ -6676,8 +6668,8 @@ overlay1:
         
         r0: int32_t
         r1: undefined4
-        r2: undefined
-        r3: undefined
+        r2: undefined1
+        r3: undefined1
     - name: unk_fun_overlay_01_0213eddc
       address:
         NA: 0x213EDDC
