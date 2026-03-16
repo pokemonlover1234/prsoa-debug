@@ -4683,13 +4683,13 @@ arm9:
         
         r0: undefined4 
         r1: uint32_t
-    - name: ZeroMissionQuestData
+    - name: ZeroMissionQuestBody
       address:
         NA: 0x201135C
       description: |-
-        [MANUAL DESCRIPTION]
+        Zeroes the body struct of a mission_quest_data struct.
         
-        r0: undefined4
+        r0: mission_quest_data pointer
     - name: unk_fun_02011370
       address:
         NA: 0x2011370
@@ -4701,9 +4701,9 @@ arm9:
       address:
         NA: 0x2011384
       description: |-
-        [MANUAL DESCRIPTION]
+        Zeroes the footer struct of a mission_quest_data struct.
         
-        r0: mystery_struct_5 pointer
+        r0: mission_quest_data pointer
     - name: unk_fun_02011394
       address:
         NA: 0x2011394

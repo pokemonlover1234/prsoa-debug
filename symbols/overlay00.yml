@@ -7157,7 +7157,7 @@ overlay0:
       address:
         NA: 0x214E24C
       description: |-
-        [MANUAL DESCRIPTION]
+        Seems to format and debug print many text strings of sequential fields of the settings_and_variables struct.
         
         No params.
     - name: unk_fun_overlay_00_0214e83c

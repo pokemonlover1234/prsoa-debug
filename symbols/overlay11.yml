@@ -6483,7 +6483,7 @@ overlay11:
       address:
         NA: 0x213E010
       description: |-
-        [MANUAL DESCRIPTION]
+        Veneer to Socket(); in arm9. 
         
         No params.
     - name: unk_fun_overlay_11_0213e018
