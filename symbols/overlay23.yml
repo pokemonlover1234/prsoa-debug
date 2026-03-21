@@ -13,7 +13,7 @@ overlay23:
     JP: 0x28C0
   description: Unknown.
   functions:
-    - name: FunctionStub_overlay_23_0211d0bc
+    - name: function_stub_overlay_23_0211d0bc
       address:
         NA: 0x211D0BC
       description: |-

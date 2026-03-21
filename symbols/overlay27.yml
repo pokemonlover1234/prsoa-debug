@@ -13,42 +13,42 @@ overlay27:
     JP: 0x4CC0
   description: Unknown.
   functions:
-    - name: FunctionStub_overlay_27_0211e128
+    - name: function_stub_overlay_27_0211e128
       address:
         NA: 0x211E128
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_27_0211e12c
+    - name: function_stub_overlay_27_0211e12c
       address:
         NA: 0x211E12C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_27_0211e200
+    - name: function_stub_overlay_27_0211e200
       address:
         NA: 0x211E200
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_27_0211e250
+    - name: function_stub_overlay_27_0211e250
       address:
         NA: 0x211E250
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_27_02120754
+    - name: function_stub_overlay_27_02120754
       address:
         NA: 0x2120754
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_27_02121078
+    - name: function_stub_overlay_27_02121078
       address:
         NA: 0x2121078
       description: |-

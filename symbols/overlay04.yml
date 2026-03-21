@@ -13,7 +13,7 @@ overlay4:
     JP: 0xF80
   description: Unknown.
   functions:
-    - name: FunctionStub_overlay_04_0211d560
+    - name: function_stub_overlay_04_0211d560
       address:
         NA: 0x211D560
       description: |-

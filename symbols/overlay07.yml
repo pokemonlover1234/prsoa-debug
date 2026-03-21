@@ -13,7 +13,7 @@ overlay7:
     JP: 0x2E80
   description: Unknown.
   functions:
-    - name: FunctionStub_overlay_07_0211cfb0
+    - name: function_stub_overlay_07_0211cfb0
       address:
         NA: 0x211CFB0
       description: |-

@@ -13,70 +13,70 @@ overlay21:
     JP: 0x7940
   description: Unknown.
   functions:
-    - name: FunctionStub_overlay_21_02120764
+    - name: function_stub_overlay_21_02120764
       address:
         NA: 0x2120764
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_21_02120bcc
+    - name: function_stub_overlay_21_02120bcc
       address:
         NA: 0x2120BCC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_21_02121384
+    - name: function_stub_overlay_21_02121384
       address:
         NA: 0x2121384
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_21_0212172c
+    - name: function_stub_overlay_21_0212172c
       address:
         NA: 0x212172C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_21_021218bc
+    - name: function_stub_overlay_21_021218bc
       address:
         NA: 0x21218BC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_21_02121a30
+    - name: function_stub_overlay_21_02121a30
       address:
         NA: 0x2121A30
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_21_02121c20
+    - name: function_stub_overlay_21_02121c20
       address:
         NA: 0x2121C20
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_21_02121f18
+    - name: function_stub_overlay_21_02121f18
       address:
         NA: 0x2121F18
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_21_02121fb8
+    - name: function_stub_overlay_21_02121fb8
       address:
         NA: 0x2121FB8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_21_02122720
+    - name: function_stub_overlay_21_02122720
       address:
         NA: 0x2122720
       description: |-

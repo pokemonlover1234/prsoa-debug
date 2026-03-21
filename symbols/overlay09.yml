@@ -13,7 +13,7 @@ overlay9:
     JP: 0x15A0
   description: Unknown.
   functions:
-    - name: FunctionStub_overlay_09_0211cc2c
+    - name: function_stub_overlay_09_0211cc2c
       address:
         NA: 0x211CC2C
       description: |-

@@ -113,105 +113,105 @@ overlay1:
         r1: undefined4 
         r2: undefined4 
         r3: undefined4 
-    - name: FunctionStub_overlay_01_02123770
+    - name: function_stub_overlay_01_02123770
       address:
         NA: 0x2123770
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_01_021293d4
+    - name: function_stub_overlay_01_021293d4
       address:
         NA: 0x21293D4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_01_0212c028
+    - name: function_stub_overlay_01_0212c028
       address:
         NA: 0x212C028
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_01_0212e524
+    - name: function_stub_overlay_01_0212e524
       address:
         NA: 0x212E524
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_01_0212e888
+    - name: function_stub_overlay_01_0212e888
       address:
         NA: 0x212E888
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_01_0212ee20
+    - name: function_stub_overlay_01_0212ee20
       address:
         NA: 0x212EE20
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_01_0212ee38
+    - name: function_stub_overlay_01_0212ee38
       address:
         NA: 0x212EE38
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_01_02130b70
+    - name: function_stub_overlay_01_02130b70
       address:
         NA: 0x2130B70
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_01_02131b44
+    - name: function_stub_overlay_01_02131b44
       address:
         NA: 0x2131B44
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_01_02133c04
+    - name: function_stub_overlay_01_02133c04
       address:
         NA: 0x2133C04
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_01_02134350
+    - name: function_stub_overlay_01_02134350
       address:
         NA: 0x2134350
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_01_02136244
+    - name: function_stub_overlay_01_02136244
       address:
         NA: 0x2136244
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_01_021368f8
+    - name: function_stub_overlay_01_021368f8
       address:
         NA: 0x21368F8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_01_02136ae8
+    - name: function_stub_overlay_01_02136ae8
       address:
         NA: 0x2136AE8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_overlay_01_02137b94
+    - name: function_stub_overlay_01_02137b94
       address:
         NA: 0x2137B94
       description: |-

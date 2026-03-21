@@ -1428,7 +1428,7 @@ struct battle_combatants {
     undefined field4_0x7;
     int partner_gauge_current;
     int partner_gauge_max;
-    int partner_gauge_fill_rate?;
+    int partner_gauge_fill_rate;
     int8_t num_party_pokemon;
     undefined field9_0x15;
     int16_t party_form_ids[8];
@@ -1469,7 +1469,7 @@ struct battle_struct {
     undefined4 *unk_pointer_0x4;
     int16_t field2_0x8;
     int16_t field3_0xa;
-    uint capture_rank_bit_field;
+    unsigned int capture_rank_bit_field;
     int *field5_0x10;
     undefined field6_0x14;
     undefined field7_0x15;
@@ -1492,7 +1492,7 @@ struct battle_struct {
     int8_t num_caught_pokemon;
     undefined field25_0x45;
     int16_t caught_form_ids[8];
-    ushort field27_0x56;
+    int16_t field27_0x56;
     int total_loops_made;
     undefined field29_0x5c;
     int8_t unk_table_0x5e_index;

@@ -30,84 +30,84 @@ arm9:
         Once the entry function reaches the end, a constant containing the address to NitroMain is loaded into a register (r1), and a `bx` branch will jump to NitroMain.
         
         No params.
-    - name: FunctionStub_02000b98
+    - name: function_stub_02000b98
       address:
         NA: 0x2000B98
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_0200120c
+    - name: function_stub_0200120c
       address:
         NA: 0x200120C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02001eb4
+    - name: function_stub_02001eb4
       address:
         NA: 0x2001EB4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02001ecc
+    - name: function_stub_02001ecc
       address:
         NA: 0x2001ECC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_0200372c
+    - name: function_stub_0200372c
       address:
         NA: 0x200372C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_0200396c
+    - name: function_stub_0200396c
       address:
         NA: 0x200396C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02003984
+    - name: function_stub_02003984
       address:
         NA: 0x2003984
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02007ca8
+    - name: function_stub_02007ca8
       address:
         NA: 0x2007CA8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02007cc0
+    - name: function_stub_02007cc0
       address:
         NA: 0x2007CC0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02008ed8
+    - name: function_stub_02008ed8
       address:
         NA: 0x2008ED8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_0200d414
+    - name: function_stub_0200d414
       address:
         NA: 0x200D414
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02010448
+    - name: function_stub_02010448
       address:
         NA: 0x2010448
       description: |-
@@ -239,7 +239,7 @@ arm9:
         
         r0: battle_combatants pointer
         r1: int8_t 
-    - name: BattleSetBGMId
+    - name: BattleSetBgmId
       address:
         NA: 0x2010AB0
       description: |-
@@ -418,7 +418,7 @@ arm9:
         [MANUAL DESCRIPTION]
         
         r0: battle_combatants pointer
-    - name: BattleGetBGMId
+    - name: BattleGetBgmId
       address:
         NA: 0x2010BD8
       description: |-
@@ -474,7 +474,7 @@ arm9:
         [MANUAL DESCRIPTION]
         
         r0: battle_combatants pointer
-    - name: FunctionStub_02010cec
+    - name: function_stub_02010cec
       address:
         NA: 0x2010CEC
       description: |-
@@ -497,7 +497,7 @@ arm9:
         Zeroes the footer struct of a quest struct.
         
         r0: quest pointer
-    - name: FunctionStub_020117ac
+    - name: function_stub_020117ac
       address:
         NA: 0x20117AC
       description: |-
@@ -512,14 +512,14 @@ arm9:
         Zeroes an entire pokemon_data struct.
         
         r0: pokemon_data pointer
-    - name: FunctionStub_02015108
+    - name: function_stub_02015108
       address:
         NA: 0x2015108
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02015120
+    - name: function_stub_02015120
       address:
         NA: 0x2015120
       description: |-
@@ -881,63 +881,63 @@ arm9:
         
         r0: settings_and_variables pointer
         r1: index
-    - name: FunctionStub_0201a40c
+    - name: function_stub_0201a40c
       address:
         NA: 0x201A40C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_020222c8
+    - name: function_stub_020222c8
       address:
         NA: 0x20222C8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_020222d4
+    - name: function_stub_020222d4
       address:
         NA: 0x20222D4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02022710
+    - name: function_stub_02022710
       address:
         NA: 0x2022710
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_020228c0
+    - name: function_stub_020228c0
       address:
         NA: 0x20228C0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_020237e0
+    - name: function_stub_020237e0
       address:
         NA: 0x20237E0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02029778
+    - name: function_stub_02029778
       address:
         NA: 0x2029778
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_0202a5f8
+    - name: function_stub_0202a5f8
       address:
         NA: 0x202A5F8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_0202d394
+    - name: function_stub_0202d394
       address:
         NA: 0x202D394
       description: |-
@@ -965,7 +965,7 @@ arm9:
         Copies a text string to the debug buffer in RANGER_DATA.
         
         r0: pointer to pointer of text string to copy.
-    - name: BattleSetBGMIdSafe
+    - name: BattleSetBgmIdSafe
       address:
         NA: 0x202F23C
       description: |-
@@ -1120,14 +1120,14 @@ arm9:
         Retrieves the mood of a specified partner by index.
         
         r0: pointer to partner index
-    - name: FunctionStub_02032a44
+    - name: function_stub_02032a44
       address:
         NA: 0x2032A44
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_0203365c
+    - name: function_stub_0203365c
       address:
         NA: 0x203365C
       description: |-
@@ -1231,91 +1231,91 @@ arm9:
         [MANUAL DESCRIPTION]
         
         r0: int16_t 
-    - name: FunctionStub_020358fc
+    - name: function_stub_020358fc
       address:
         NA: 0x20358FC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02035fe4
+    - name: function_stub_02035fe4
       address:
         NA: 0x2035FE4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_0203e930
+    - name: function_stub_0203e930
       address:
         NA: 0x203E930
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_0204078c
+    - name: function_stub_0204078c
       address:
         NA: 0x204078C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_0204129c
+    - name: function_stub_0204129c
       address:
         NA: 0x204129C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02041920
+    - name: function_stub_02041920
       address:
         NA: 0x2041920
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02043124
+    - name: function_stub_02043124
       address:
         NA: 0x2043124
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02043128
+    - name: function_stub_02043128
       address:
         NA: 0x2043128
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_020439c4
+    - name: function_stub_020439c4
       address:
         NA: 0x20439C4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_020439c8
+    - name: function_stub_020439c8
       address:
         NA: 0x20439C8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02044144
+    - name: function_stub_02044144
       address:
         NA: 0x2044144
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02044148
+    - name: function_stub_02044148
       address:
         NA: 0x2044148
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_020441ac
+    - name: function_stub_020441ac
       address:
         NA: 0x20441AC
       description: |-
@@ -1346,7 +1346,7 @@ arm9:
         r1: undefined4
         r2: undefined4
         r3: undefined4
-    - name: FunctionStub_02046d3c
+    - name: function_stub_02046d3c
       address:
         NA: 0x2046D3C
       description: |-
@@ -1456,14 +1456,14 @@ arm9:
         
         r0: file descriptor
         return: 0 on success, or a negative value representing an error
-    - name: FunctionStub_02049d08
+    - name: function_stub_02049d08
       address:
         NA: 0x2049D08
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_0206129c
+    - name: function_stub_0206129c
       address:
         NA: 0x206129C
       description: |-
@@ -1918,7 +1918,7 @@ arm9:
     - name: Card_InitPulledOutCallback
       address:
         NA: 0x207000C
-    - name: FunctionStub_0207484c
+    - name: function_stub_0207484c
       address:
         NA: 0x207484C
       description: |-
@@ -1962,7 +1962,7 @@ arm9:
         
         r0: x
         return: abs(x)
-    - name: FunctionStub_020794d4
+    - name: function_stub_020794d4
       address:
         NA: 0x20794D4
       description: |-
@@ -2122,14 +2122,14 @@ arm9:
         r0: haystack
         r1: needle
         return: pointer into haystack where needle starts, or null pointer if no match
-    - name: FunctionStub_0207f910
+    - name: function_stub_0207f910
       address:
         NA: 0x207F910
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_0207f9c0
+    - name: function_stub_0207f9c0
       address:
         NA: 0x207F9C0
       description: |-
@@ -2451,21 +2451,21 @@ arm9:
         r0: dividend
         r1: divisor
         return: (quotient) | (remainder << 32)
-    - name: FunctionStub_02081c00
+    - name: function_stub_02081c00
       address:
         NA: 0x2081C00
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02082e20
+    - name: function_stub_02082e20
       address:
         NA: 0x2082E20
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: FunctionStub_02083544
+    - name: function_stub_02083544
       address:
         NA: 0x2083544
       description: |-
