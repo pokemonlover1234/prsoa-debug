@@ -12,7 +12,14 @@ overlay7:
     NA: 0x2E80
     JP: 0x2E80
   description: Unknown.
-  functions: []
+  functions:
+    - name: FunctionStub_overlay_07_0211cfb0
+      address:
+        NA: 0x211CFB0
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
   data:
     - name: OV7_STATIC_INITIALIZER
       address:

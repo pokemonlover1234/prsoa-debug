@@ -12,7 +12,49 @@ overlay2:
     NA: 0x800
     JP: 0x800
   description: Unknown.
-  functions: []
+  functions:
+    - name: FunctionStub_overlay_02_0211d124
+      address:
+        NA: 0x211D124
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_02_0211d128
+      address:
+        NA: 0x211D128
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_02_0211d12c
+      address:
+        NA: 0x211D12C
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_02_0211d130
+      address:
+        NA: 0x211D130
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_02_0211d134
+      address:
+        NA: 0x211D134
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_02_0211d138
+      address:
+        NA: 0x211D138
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
   data:
     - name: OV2_STATIC_INITIALIZER
       address:

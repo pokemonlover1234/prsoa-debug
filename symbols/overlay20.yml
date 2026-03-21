@@ -12,7 +12,14 @@ overlay20:
     NA: 0x620
     JP: 0x620
   description: Unknown.
-  functions: []
+  functions:
+    - name: FunctionStub_overlay_20_0211cd30
+      address:
+        NA: 0x211CD30
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
   data:
     - name: OV20_STATIC_INITIALIZER
       address:

@@ -13,6 +13,13 @@ overlay25:
     JP: 0x3340
   description: Unknown.
   functions:
+    - name: FunctionStub_overlay_25_0211ceec
+      address:
+        NA: 0x211CEEC
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
   data:
     - name: OV25_STATIC_INITIALIZER
       address:

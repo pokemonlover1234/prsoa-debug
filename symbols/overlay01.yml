@@ -12,7 +12,212 @@ overlay1:
     NA: 0x25820
     JP: 0x25D40
   description: Likely controls battles.
-  functions: []
+  functions:
+    - name: BattleStateManager
+      address:
+        NA: 0x211F11C
+      description: |-
+        [MANUAL DESCRIPTION]
+        
+        r0: battle_struct pointer
+        r1: undefined4 
+        r2: uint32_t 
+        r3: int32_t pointer
+    - name: BattleBannerGraphicFrameUpdate
+      address:
+        NA: 0x211F3CC
+      description: |-
+        [MANUAL DESCRIPTION]
+        
+        r0: battle_struct pointer
+    - name: BattleActiveFrameUpdate
+      address:
+        NA: 0x211F404
+      description: |-
+        [MANUAL DESCRIPTION]
+        
+        r0: battle_struct pointer
+        r1: undefined4 
+        r2: undefined4 
+        r3: undefined4 
+    - name: BattleVerifyFleeFrameUpdate
+      address:
+        NA: 0x211F9D8
+      description: |-
+        [MANUAL DESCRIPTION]
+        
+        r0: battle_struct pointer
+    - name: BattleViewPartyFrameUpdate
+      address:
+        NA: 0x211FA90
+      description: |-
+        [MANUAL DESCRIPTION]
+        
+        r0: battle_struct pointer
+    - name: BattleHandleWinFrameUpdate
+      address:
+        NA: 0x211FB88
+      description: |-
+        [MANUAL DESCRIPTION]
+        
+        r0: battle_struct pointer
+    - name: BattleHandleLossFrameUpdate
+      address:
+        NA: 0x211FC38
+      description: |-
+        [MANUAL DESCRIPTION]
+        
+        r0: battle_struct pointer
+        r1: undefined4 
+        r2: uint32_t 
+        r3: int32_t pointer
+    - name: EndBattleFrameUpdate
+      address:
+        NA: 0x211FCE0
+      description: |-
+        [MANUAL DESCRIPTION]
+        
+        r0: battle_struct pointer
+    - name: RegisterInBrowserFrameUpdate
+      address:
+        NA: 0x2120694
+      description: |-
+        [MANUAL DESCRIPTION]
+        
+        r0: battle_struct pointer
+        r1: undefined4 
+        r2: undefined4 
+        r3: undefined4 
+    - name: FightVictoryCheerFrameUpdate
+      address:
+        NA: 0x21208BC
+      description: |-
+        [MANUAL DESCRIPTION]
+        
+        r0: battle_struct pointer
+    - name: FreeBattlePokemonSlot
+      address:
+        NA: 0x2122CA4
+      description: |-
+        [MANUAL DESCRIPTION]
+        
+        r0: battle_struct pointer
+        r1: uint32_t 
+    - name: UpdateBrowserLifetimeCaughtAndMore
+      address:
+        NA: 0x2122DB4
+      description: |-
+        [MANUAL DESCRIPTION]
+        
+        r0: battle_struct pointer
+        r1: undefined4 
+        r2: undefined4 
+        r3: undefined4 
+    - name: FunctionStub_overlay_01_02123770
+      address:
+        NA: 0x2123770
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_01_021293d4
+      address:
+        NA: 0x21293D4
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_01_0212c028
+      address:
+        NA: 0x212C028
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_01_0212e524
+      address:
+        NA: 0x212E524
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_01_0212e888
+      address:
+        NA: 0x212E888
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_01_0212ee20
+      address:
+        NA: 0x212EE20
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_01_0212ee38
+      address:
+        NA: 0x212EE38
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_01_02130b70
+      address:
+        NA: 0x2130B70
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_01_02131b44
+      address:
+        NA: 0x2131B44
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_01_02133c04
+      address:
+        NA: 0x2133C04
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_01_02134350
+      address:
+        NA: 0x2134350
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_01_02136244
+      address:
+        NA: 0x2136244
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_01_021368f8
+      address:
+        NA: 0x21368F8
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_01_02136ae8
+      address:
+        NA: 0x2136AE8
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_01_02137b94
+      address:
+        NA: 0x2137B94
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
   data:
     - name: OV1_STATIC_INITIALIZER
       address:

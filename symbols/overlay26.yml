@@ -12,7 +12,14 @@ overlay26:
     NA: 0x1180
     JP: 0x1180
   description: Unknown.
-  functions: []
+  functions:
+    - name: FunctionStub_overlay_26_0211cf10
+      address:
+        NA: 0x211CF10
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
   data:
     - name: OV26_STATIC_INITIALIZER
       address:

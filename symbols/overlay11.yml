@@ -13,11 +13,287 @@ overlay11:
     JP: 0x4D520
   description: Unknown.
   functions:
+    - name: FunctionStub_overlay_11_0211d860
+      address:
+        NA: 0x211D860
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02126964
+      address:
+        NA: 0x2126964
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02126968
+      address:
+        NA: 0x2126968
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_0212697c
+      address:
+        NA: 0x212697C
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02126980
+      address:
+        NA: 0x2126980
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02126984
+      address:
+        NA: 0x2126984
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02128f18
+      address:
+        NA: 0x2128F18
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_0212d978
+      address:
+        NA: 0x212D978
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_0213e00c
+      address:
+        NA: 0x213E00C
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
     - name: SocketVeneer
       address:
         NA: 0x213E010
       description: |-
         Veneer to Socket(); in arm9. 
+        
+        No params.
+    - name: CloseVeneer
+      address:
+        NA: 0x213E024
+      description: |-
+        Likely a linker-generated veneer for close.
+        
+        See https://developer.arm.com/documentation/dui0474/k/image-structure-and-generation/linker-generated-veneers/what-is-a-veneer-
+        
+        r0: file descriptor
+        return: 0 on success, or a negative value representing an error
+    - name: FunctionStub_overlay_11_02147dbc
+      address:
+        NA: 0x2147DBC
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_021481a0
+      address:
+        NA: 0x21481A0
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02148518
+      address:
+        NA: 0x2148518
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02148958
+      address:
+        NA: 0x2148958
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02148e88
+      address:
+        NA: 0x2148E88
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_021492a8
+      address:
+        NA: 0x21492A8
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02149538
+      address:
+        NA: 0x2149538
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02149758
+      address:
+        NA: 0x2149758
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_021499ec
+      address:
+        NA: 0x21499EC
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02149f44
+      address:
+        NA: 0x2149F44
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_0214a308
+      address:
+        NA: 0x214A308
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_0214a660
+      address:
+        NA: 0x214A660
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_0214aba8
+      address:
+        NA: 0x214ABA8
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_0214e2b4
+      address:
+        NA: 0x214E2B4
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02150a60
+      address:
+        NA: 0x2150A60
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02150cbc
+      address:
+        NA: 0x2150CBC
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_021510d4
+      address:
+        NA: 0x21510D4
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_021517a8
+      address:
+        NA: 0x21517A8
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02151d30
+      address:
+        NA: 0x2151D30
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_0215232c
+      address:
+        NA: 0x215232C
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02153088
+      address:
+        NA: 0x2153088
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02153660
+      address:
+        NA: 0x2153660
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02153664
+      address:
+        NA: 0x2153664
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02153c2c
+      address:
+        NA: 0x2153C2C
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_021540ac
+      address:
+        NA: 0x21540AC
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_0215446c
+      address:
+        NA: 0x215446C
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_0215e1f4
+      address:
+        NA: 0x215E1F4
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_021626e0
+      address:
+        NA: 0x21626E0
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_11_02162734
+      address:
+        NA: 0x2162734
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
   data:

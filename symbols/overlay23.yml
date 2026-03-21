@@ -12,7 +12,14 @@ overlay23:
     NA: 0x2920
     JP: 0x28C0
   description: Unknown.
-  functions: []
+  functions:
+    - name: FunctionStub_overlay_23_0211d0bc
+      address:
+        NA: 0x211D0BC
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
   data:
     - name: OV23_STATIC_INITIALIZER
       address:

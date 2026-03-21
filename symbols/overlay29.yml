@@ -9,7 +9,14 @@ overlay29:
     EU: 0x360
     NA: 0x360
   description: Unknown. Missing from the JP release.
-  functions: []
+  functions:
+    - name: FunctionStub_overlay_29_0211c9e8
+      address:
+        NA: 0x211C9E8
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
   data:
     - name: OV29_STATIC_INITIALIZER
       address:

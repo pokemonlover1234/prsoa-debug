@@ -12,7 +12,21 @@ overlay24:
     NA: 0x940
     JP: 0x940
   description: Unknown.
-  functions: []
+  functions:
+    - name: FunctionStub_overlay_24_0211d008
+      address:
+        NA: 0x211D008
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
+    - name: FunctionStub_overlay_24_0211d00c
+      address:
+        NA: 0x211D00C
+      description: |-
+        Does nothing but return. Likely a debug hook for a nearby function.
+        
+        No params.
   data:
     - name: OV24_STATIC_INITIALIZER
       address:
