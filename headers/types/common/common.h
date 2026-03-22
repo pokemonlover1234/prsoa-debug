@@ -79,8 +79,8 @@ struct ranger_core_data {
     int8_t max_hp;
     int8_t styler_rank : 4;
     enum styler_type styler_type : 4;
-    int32_t partner_gauge_current;    // Maximum varies by partner.
-    int32_t partner_gauge_maximum;    // Maximum varies by partner.
+    int32_t partner_assist_gauge; // Maximum varies by partner. May contain other data as nibbles.
+    undefined field8_0x8;
     int8_t partner_pokemon_moods[17]; // 0x0 normal, 0x1 happy, 0x2 very happy?
     struct room_id_16 room;
     int16_t player_coordinates[2];
