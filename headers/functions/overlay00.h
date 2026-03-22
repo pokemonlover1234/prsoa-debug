@@ -95,6 +95,8 @@ int16_t GetPokeAssistsUsedRecordSimple(void);
 void SetPokeAssistsUsedSimple(undefined2 param_1);
 int32_t GetMaxPlayTimeSeconds(void);
 int32_t GetCurrentPartnerPokemonPokeAssists(void);
+void ret_0215061C(void);
+void ret_02150620(void);
 void ret_02150880(void);
 void ret_02151818(void);
 void ret_0215181C(void);

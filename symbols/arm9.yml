@@ -2214,7 +2214,50 @@ arm9:
         r1: src
         r2: n
         return: dest
-
+    - name: __vsprintf_internal_slice
+      address:
+        NA: 0x207B5D0
+      description: |-
+        This is what implements the bulk of __vsprintf_internal.
+        
+        The __vsprintf_internal in the modern-day version of glibc relies on __vfprintf_internal; this function has a slightly different interface, but it serves a similar role.
+        
+        r0: function pointer to append to the string being built (__vsprintf_internal uses TryAppendToSlice)
+        r1: string buffer slice
+        r2: format
+        r3: ap
+        return: number of characters printed, excluding the null-terminator
+    - name: TryAppendToSlice
+      address:
+        NA: 0x207BE20
+      description: |-
+        Best-effort append the given data to a slice. If the slice's capacity is reached, any remaining data will be truncated.
+        
+        r0: slice pointer
+        r1: buffer of data to append
+        r2: number of bytes in the data buffer
+        return: true
+    - name: __vsprintf_internal
+      address:
+        NA: 0x207BF7C
+      description: |-
+        This is what implements vsprintf. It's akin to __vsprintf_internal in the modern-day version of glibc (in fact, it's probably an older version of this).
+        
+        r0: str
+        r1: maxlen (vsprintf passes UINT32_MAX for this)
+        r2: format
+        r3: ap
+        return: number of characters printed, excluding the null-terminator
+    - name: vsprintf
+      address:
+        NA: 0x207BFE4
+      description: |-
+        The vsprintf(3) C library function.
+        
+        r0: str
+        r1: format
+        r2: ap
+        return: number of characters printed, excluding the null-terminator
     - name: strlen
       address:
         NA: 0x207C1B0
