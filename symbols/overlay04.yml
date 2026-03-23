@@ -13,92 +13,11 @@ overlay4:
     JP: 0xF80
   description: Unknown.
   functions:
-    - name: unk_fun_overlay_04_0211c9e0
-      address:
-        NA: 0x211C9E0
-      description: |-
-        Use unknown.
-        
-        r0: undefined4 pointer
-        r1: int32_t
-    - name: unk_fun_overlay_04_0211ca30
-      address:
-        NA: 0x211CA30
-      description: |-
-        Use unknown.
-        
-        r0: undefined4 pointer
-    - name: unk_fun_overlay_04_0211cb28
-      address:
-        NA: 0x211CB28
-      description: |-
-        Use unknown.
-        
-        r0: undefined4 pointer
-    - name: unk_fun_overlay_04_0211cc28
-      address:
-        NA: 0x211CC28
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: unk_fun_overlay_04_0211ccd8
-      address:
-        NA: 0x211CCD8
-      description: |-
-        Use unknown.
-        
-        r0: int32_t
-    - name: unk_fun_overlay_04_0211d060
-      address:
-        NA: 0x211D060
-      description: |-
-        Use unknown.
-        
-        r0: int32_t
-    - name: unk_fun_overlay_04_0211d394
-      address:
-        NA: 0x211D394
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: unk_fun_overlay_04_0211d440
-      address:
-        NA: 0x211D440
-      description: |-
-        Use unknown.
-        
-        r0: int32_t
-        r1: undefined4
-        r2: undefined4
-        r3: undefined4
-    - name: unk_fun_overlay_04_0211d560
+    - name: ret_0211d560
       address:
         NA: 0x211D560
       description: |-
-        Does nothing but return. Likely a debug hook for the above function.
-        
-        No params.
-    - name: unk_fun_overlay_04_0211d564
-      address:
-        NA: 0x211D564
-      description: |-
-        Use unknown.
-        
-        r0: int32_t
-    - name: unk_fun_overlay_04_0211d788
-      address:
-        NA: 0x211D788
-      description: |-
-        Use unknown.
-        
-        r0: int32_t
-    - name: unk_fun_overlay_04_0211d7a4
-      address:
-        NA: 0x211D7A4
-      description: |-
-        Use unknown.
+        Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
   data:

@@ -6,13 +6,13 @@
 
 struct ranger_data {
     struct ranger_core_data core_data;
-    // This seems to update the as maps are entered... enteries 0-441 correspond to room_ids 0x0
-    // thru 0x1b8.
-    undefined4 room_nibble_field_0[441][6]; // This is really 441 sets of 48 nibbles!
-    undefined4 room_nibble_field_1[441][4]; // This is really 441 sets of 32 nibbles!
-    undefined4 room_nibble_field_2[441][4]; // This is really 441 sets of 32 nibbles!
-    undefined4 room_nibble_field_3[441][4]; // This is really 441 sets of 32 nibbles!
-    undefined4 field4_0x7c38;               // Related to battle result somehow...
+    struct trigger_spawn_nibbles
+        map_triggers[441]; // This is really 441 sets of 48 nibbles. One for each map!
+    struct pokemon_spawn_nibbles pokemon_spawns[441]; // This is really 441 sets of 32 nibbles!
+    struct npc_spawn_nibbles npc_spawns[441];         // This is really 441 sets of 32 nibbles!
+    struct target_destroyed_nibbles
+        targets_destroyed[441]; // This is really 441 sets of 32 nibbles!
+    undefined4 field4_0x7c38;   // Related to battle result somehow...
     struct ranger_pokedex pokedex;
     struct ranger_glossary glossary;
     undefined4 field5_0x7f60;
@@ -81,7 +81,7 @@ struct ranger_data {
     undefined1 field38_0x87ea[22];
     undefined1 field33832_0x8800[2];
     undefined field33834_0x8802;
-    undefined field33835_0x8803;
+    bool can_partner_poke_assist; // Needs more testing.
 };
 
 ASSERT_SIZE(struct ranger_data, 34820);
@@ -92,84 +92,7 @@ ASSERT_SIZE(struct ranger_data, 34820);
 // large offset, when referring what I believe to to a completely different struct in all other
 // ways. This is my solution to that problem...
 struct ranger_data_old {
-    struct ranger_core_data core_data;
-    // This seems to update the as maps are entered... enteries 0-441 correspond to room_ids 0x0
-    // thru 0x1b8.
-    undefined4 room_nibble_field_0[441][6]; // This is really 441 sets of 48 nibbles!
-    undefined4 room_nibble_field_1[441][4]; // This is really 441 sets of 32 nibbles!
-    undefined4 room_nibble_field_2[441][4]; // This is really 441 sets of 32 nibbles!
-    undefined4 room_nibble_field_3[441][4]; // This is really 441 sets of 32 nibbles!
-    undefined4 field13_0x7c38;              // Related to battle result somehow...
-    struct ranger_pokedex pokedex;
-    struct ranger_glossary glossary;
-    undefined4 field14_0x7f60;
-    undefined4 field15_0x7f64;
-    undefined4 field16_0x7f68;
-    undefined2 field17_0x7f6c;
-    undefined2 field18_0x7f6e[63];
-    undefined2 field19_0x7fec[10];
-    undefined4 field20_0x8000[27];
-    undefined2 field21_0x806c[64];
-    undefined2 field22_0x80ec[32];
-    undefined2 field23_0x812c[32];
-    undefined2 field24_0x816c[32];
-    undefined4 field25_0x81ac;
-    undefined4 field26_0x81b0;
-    undefined4 field27_0x81b4;
-    undefined4 field28_0x81b8[31];
-    undefined4 field29_0x8234[48];
-    undefined2 field30_0x82f4[160];
-    undefined2 field31_0x8434;
-    undefined2 field32_0x8436[32];
-    undefined2 field33_0x8476[48];
-    undefined2 field34_0x84d6[32];
-    undefined2 field35_0x8516[48];
-    undefined2 field36_0x8576[32];
-    undefined2 field37_0x85b6[48];
-    undefined2 field38_0x8616[32];
-    undefined2 field39_0x8656[48];
-    undefined2 field40_0x86b6[32];
-    undefined2 field41_0x86f6[48];
-    undefined1 field42_0x8756;
-    int8_t player_language; // 0 if JP/NA. EU: eng = 1 fre = 2 ger = 3, ita = 4 spa = 5
-    struct ranger_records records;
-    // struct styler_upgrades styler_upgrades;
-    enum styler_upgrade_level grass_defense : 2;
-    enum styler_upgrade_level water_defense : 2;
-    enum styler_upgrade_level electric_defense : 2;
-    enum styler_upgrade_level fire_defense : 2;
-
-    enum styler_upgrade_level fighting_defense : 2;
-    enum styler_upgrade_level poison_defense : 2;
-    enum styler_upgrade_level psychic_defense : 2;
-    enum styler_upgrade_level bug_defense : 2;
-
-    enum styler_upgrade_level ground_defense : 2;
-    enum styler_upgrade_level flying_defense : 2;
-    enum styler_upgrade_level dark_defense : 2;
-    enum styler_upgrade_level rock_defense : 2;
-
-    enum styler_upgrade_level ghost_defense : 2;
-    enum styler_upgrade_level ice_defense : 2;
-    enum styler_upgrade_level normal_defense : 2;
-    enum styler_upgrade_level steel_defense : 2;
-
-    enum styler_upgrade_level dragon_defense : 2;
-    enum styler_upgrade_level time_assist : 2;
-    enum styler_upgrade_level latent_power : 2;
-    enum styler_upgrade_level combo_bonus : 2;
-
-    enum styler_upgrade_level recovery : 2;
-    enum styler_upgrade_level energy_plus : 2;
-    enum styler_upgrade_level power_plus : 2;
-    enum styler_upgrade_level long_line : 2;
-    undefined field_0x88e2;
-    char player_name[7]; // In other languages, the player name has a different length.
-    undefined1 field44_0x87ea[22];
-    // This is likely the beginning of a sub-struct!
-    undefined1 field45_0x8800[2];
-    undefined field46_0x8802;
-    undefined field47_0x8803;
+    struct ranger_data ranger_data_new;
     // There appear to be 3 tables of recruited pokemon, each with 10 entries. Of those, only 8 per
     // table are actually stored in the save file.
     struct pokemon_data recruited_pokemon_tables[3][10];

@@ -1,14 +1,12 @@
 #ifndef HEADERS_FUNCTIONS_OVERLAY10_H_
 #define HEADERS_FUNCTIONS_OVERLAY10_H_
 
-void unk_fun_overlay_10_0211c9e0(void);
-undefined4 unk_fun_overlay_10_0211c9e4(void);
-undefined4 unk_fun_overlay_10_0211c9ec(undefined4 param_1);
-void unk_fun_overlay_10_0211ca08(void);
-void unk_fun_overlay_10_0211ca0c(void);
-void unk_fun_overlay_10_0211ca10(void);
-void unk_fun_overlay_10_0211ca14(void);
-void unk_fun_overlay_10_0211ca18(void);
-void unk_fun_overlay_10_0211ca1c(void);
-undefined4 unk_fun_overlay_10_0211ca20(void);
+void ret_0211c9e0(void);
+void ret_0211ca08(void);
+void ret_0211ca0c(void);
+void ret_0211ca10(void);
+void ret_0211ca14(void);
+void ret_0211ca18(void);
+void ret_0211ca1c(void);
+
 #endif

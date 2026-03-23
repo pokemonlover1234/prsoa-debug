@@ -13,86 +13,48 @@ overlay2:
     JP: 0x800
   description: Unknown.
   functions:
-    - name: unk_fun_overlay_02_0211c9e0
-      address:
-        NA: 0x211C9E0
-      description: |-
-        Use unknown.
-        
-        r0: unk struct pointer
-        r1: undefined4
-        r2: undefined4
-        r3: undefined4
-    - name: unk_fun_overlay_02_0211d08c
-      address:
-        NA: 0x211D08C
-      description: |-
-        Use unknown.
-        
-        r0: unk struct pointer
-    - name: unk_fun_overlay_02_0211d108
-      address:
-        NA: 0x211D108
-      description: |-
-        Use unknown.
-        
-        r0: undefined4
-    - name: unk_fun_overlay_02_0211d124
+    - name: ret_0211d124
       address:
         NA: 0x211D124
       description: |-
-        Does nothing but return. Likely a debug hook for the above function.
+        Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: unk_fun_overlay_02_0211d128
+    - name: ret_0211d128
       address:
         NA: 0x211D128
       description: |-
-        Does nothing but return. Likely a debug hook for the above function.
+        Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: unk_fun_overlay_02_0211d12c
+    - name: ret_0211d12c
       address:
         NA: 0x211D12C
       description: |-
-        Does nothing but return. Likely a debug hook for the above function.
+        Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: unk_fun_overlay_02_0211d130
+    - name: ret_0211d130
       address:
         NA: 0x211D130
       description: |-
-        Does nothing but return. Likely a debug hook for the above function.
+        Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: unk_fun_overlay_02_0211d134
+    - name: ret_0211d134
       address:
         NA: 0x211D134
       description: |-
-        Does nothing but return. Likely a debug hook for the above function.
+        Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: unk_fun_overlay_02_0211d138
+    - name: ret_0211d138
       address:
         NA: 0x211D138
       description: |-
-        Does nothing but return. Likely a debug hook for the above function.
+        Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: unk_fun_overlay_02_0211d13c
-      address:
-        NA: 0x211D13C
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: unk_fun_overlay_02_0211d144
-      address:
-        NA: 0x211D144
-      description: |-
-        Use unknown.
-        
-        r0: undefined4
   data:
     - name: OV2_STATIC_INITIALIZER
       address:

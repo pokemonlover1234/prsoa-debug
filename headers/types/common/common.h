@@ -79,10 +79,7 @@ struct ranger_core_data {
     int8_t max_hp;
     int8_t styler_rank : 4;
     enum styler_type styler_type : 4;
-    undefined field4_0x4;
-    undefined field5_0x5;
-    undefined field6_0x6;
-    undefined field7_0x7;
+    int32_t partner_assist_gauge; // Maximum varies by partner. May contain other data as nibbles.
     undefined field8_0x8;
     int8_t partner_pokemon_moods[17]; // 0x0 normal, 0x1 happy, 0x2 very happy?
     struct room_id_16 room;
@@ -91,10 +88,9 @@ struct ranger_core_data {
     undefined field29_0x21;
     undefined field30_0x22;
     undefined field31_0x23;
-    undefined field32_0x24;
-    undefined field33_0x25;
-    undefined field34_0x26;
-    undefined field35_0x27;
+    int16_t player_face_direction;
+    // This seems to mess with pathing and collision when edited. Copied to caught pokemon?
+    int16_t player_collision_data;
     int32_t current_styler_exp;
     int32_t current_player_exp;
 };
@@ -106,25 +102,17 @@ struct pokemon_data {
     struct form_id_16 form;        // NOT natdex number!
     struct room_id_16 room_caught; // Used to determine if a pokemon was already caught here.
     int16_t room_caught_index;     // Index of this pokemon in room_caught's available pokemon.
-    undefined field5_0x6;
+    undefined field5_0x6;          // Seems to be padding
     undefined field6_0x7;
-    undefined field7_0x8; // Seems to be 00-05.
-    undefined field8_0x9;
-    undefined field9_0xa;
-    undefined field10_0xb;
+    // Bitfield of data that affects whether the pokemon exists, can use poke-assists, can be
+    // released, etc. Requires more research to fully understand...
+    undefined4 slot_status_fields;
     // These last 12 bytes change rapidly, and are likely related to pokemon motion.
-    undefined field11_0xc;
-    undefined field12_0xd;
-    undefined field13_0xe;
-    undefined field14_0xf;
-    undefined field15_0x10;
-    undefined field16_0x11;
-    undefined field17_0x12;
-    undefined field18_0x13;
-    undefined field19_0x14;
-    undefined field20_0x15;
-    undefined field21_0x16;
-    undefined field22_0x17;
+    int x_coordinate;
+    int y_coordinate;
+    int16_t face_angle;
+    int16_t collision_data; // This is copied from the field of the same name in ranger_core_data.
+                            // It seems to mess with pathing and collision when edited.
 };
 
 ASSERT_SIZE(struct pokemon_data, 24);
@@ -1154,10 +1142,9 @@ struct ranger_records {
     int32_t targets_checked_record;
     int32_t game_saves_record;
     int32_t pokemon_rides_record;
-    // This seems to determine the "Best Partner" Ranger Record in-game. It is unclear what exactly
-    // increments these fields. Maybe Partner Poke-Assists? None of these entries are permitted to
-    // exceed 9,999,999.
-    int32_t best_partner_pokemon_record_table[17];
+    // This seems to determine the obscure "Best Partner" Ranger Record in-game. It increments by
+    // one at the end of each battle where the partner used a poke-assist. Cannot exceed 9,999,999.
+    int32_t best_partner_record_table[17];
     int32_t capture_line_len_record;
     int32_t num_loops_record;
     int16_t pokemon_captured_record;
@@ -1426,12 +1413,219 @@ struct quest_variables {
 
 ASSERT_SIZE(struct quest_variables, 44);
 
-// This is populated in an unknown way upon starting any battle.
+// This is populated in an unknown way before starting any battle.
 struct battle_init {
     undefined unk_fields[2048];
 };
 
 ASSERT_SIZE(struct battle_init, 2048);
+
+struct battle_combatants {
+    int* unk_struct_ptr_0x0;
+    int8_t current_hp;
+    int8_t styler_level;
+    bool partner_assist_unlocked;
+    undefined field4_0x7;
+    int partner_gauge_current;
+    int partner_gauge_max;
+    int partner_gauge_fill_rate;
+    int8_t num_party_pokemon;
+    undefined field9_0x15;
+    int16_t party_form_ids[8];
+    int8_t party_slot_statuses_table[8];
+    int8_t num_enemy_forms;
+    undefined field13_0x2f;
+    int16_t enemy_form_ids[4];
+    int8_t unk_enemy_data_0x38[4];
+    int8_t unk_enemy_data_0x3C[4];
+    int8_t num_enemy_pokemon;      // Created by Rename Structure Field action
+    int8_t unk_enemy_data_0x41[8]; // Might be related to enemy catch status?
+    int8_t arena_graphic_id;
+    int8_t weather_graphic_id;
+    int8_t sequence_script_id; // runs "data/script/battle/sequence/s%03d.fsb" with this id.
+    int8_t tutorial_script_id; // runs "data/script/battle/tutorial/s%03d.fsb" with this id.
+    int8_t start_script_id;    // runs "data/script/battle/start/s%03d.fsb" with this id.
+    int8_t bgm_id;
+    bool can_view_party;
+    bool can_flee;
+    bool show_boss_health_bar;
+    int8_t field28_0x52;
+    undefined field29_0x53;
+    int8_t field30_0x54;
+    undefined field31_0x55;
+    int16_t gender_and_uniform; // bit 0: ranger_gender. bit 1+ styler_type, aka uniform
+    int8_t field_alloc_bits;    // bit 0: , bit 1: , bit 2: field_0x56.
+    undefined field34_0x59;
+    undefined field35_0x5a;
+    undefined field36_0x5b;
+    // May be larger than this!
+};
+
+ASSERT_SIZE(struct battle_combatants, 92);
+
+struct trigger_spawn_nibbles {
+    enum map_nibble trigger_00 : 4;
+    enum map_nibble trigger_01 : 4;
+    enum map_nibble trigger_02 : 4;
+    enum map_nibble trigger_03 : 4;
+    enum map_nibble trigger_04 : 4;
+    enum map_nibble trigger_05 : 4;
+    enum map_nibble trigger_06 : 4;
+    enum map_nibble trigger_07 : 4;
+    enum map_nibble trigger_08 : 4;
+    enum map_nibble trigger_09 : 4;
+    enum map_nibble trigger_10 : 4;
+    enum map_nibble trigger_11 : 4;
+    enum map_nibble trigger_12 : 4;
+    enum map_nibble trigger_13 : 4;
+    enum map_nibble trigger_14 : 4;
+    enum map_nibble trigger_15 : 4;
+    enum map_nibble trigger_16 : 4;
+    enum map_nibble trigger_17 : 4;
+    enum map_nibble trigger_18 : 4;
+    enum map_nibble trigger_19 : 4;
+    enum map_nibble trigger_20 : 4;
+    enum map_nibble trigger_21 : 4;
+    enum map_nibble trigger_22 : 4;
+    enum map_nibble trigger_23 : 4;
+    enum map_nibble trigger_24 : 4;
+    enum map_nibble trigger_25 : 4;
+    enum map_nibble trigger_26 : 4;
+    enum map_nibble trigger_27 : 4;
+    enum map_nibble trigger_28 : 4;
+    enum map_nibble trigger_29 : 4;
+    enum map_nibble trigger_30 : 4;
+    enum map_nibble trigger_31 : 4;
+    enum map_nibble trigger_32 : 4;
+    enum map_nibble trigger_33 : 4;
+    enum map_nibble trigger_34 : 4;
+    enum map_nibble trigger_35 : 4;
+    enum map_nibble trigger_36 : 4;
+    enum map_nibble trigger_37 : 4;
+    enum map_nibble trigger_38 : 4;
+    enum map_nibble trigger_39 : 4;
+    enum map_nibble trigger_40 : 4;
+    enum map_nibble trigger_41 : 4;
+    enum map_nibble trigger_42 : 4;
+    enum map_nibble trigger_43 : 4;
+    enum map_nibble trigger_44 : 4;
+    enum map_nibble trigger_45 : 4;
+    enum map_nibble trigger_46 : 4;
+    enum map_nibble trigger_47 : 4;
+};
+
+ASSERT_SIZE(struct trigger_spawn_nibbles, 24);
+
+struct pokemon_spawn_nibbles {
+    enum map_nibble pokemon_00 : 4;
+    enum map_nibble pokemon_01 : 4;
+    enum map_nibble pokemon_02 : 4;
+    enum map_nibble pokemon_03 : 4;
+    enum map_nibble pokemon_04 : 4;
+    enum map_nibble pokemon_05 : 4;
+    enum map_nibble pokemon_06 : 4;
+    enum map_nibble pokemon_07 : 4;
+    enum map_nibble pokemon_08 : 4;
+    enum map_nibble pokemon_09 : 4;
+    enum map_nibble pokemon_10 : 4;
+    enum map_nibble pokemon_11 : 4;
+    enum map_nibble pokemon_12 : 4;
+    enum map_nibble pokemon_13 : 4;
+    enum map_nibble pokemon_14 : 4;
+    enum map_nibble pokemon_15 : 4;
+    enum map_nibble pokemon_16 : 4;
+    enum map_nibble pokemon_17 : 4;
+    enum map_nibble pokemon_18 : 4;
+    enum map_nibble pokemon_19 : 4;
+    enum map_nibble pokemon_20 : 4;
+    enum map_nibble pokemon_21 : 4;
+    enum map_nibble pokemon_22 : 4;
+    enum map_nibble pokemon_23 : 4;
+    enum map_nibble pokemon_24 : 4;
+    enum map_nibble pokemon_25 : 4;
+    enum map_nibble pokemon_26 : 4;
+    enum map_nibble pokemon_27 : 4;
+    enum map_nibble pokemon_28 : 4;
+    enum map_nibble pokemon_29 : 4;
+    enum map_nibble pokemon_30 : 4;
+    enum map_nibble pokemon_31 : 4;
+};
+
+ASSERT_SIZE(struct pokemon_spawn_nibbles, 16);
+
+struct npc_spawn_nibbles {
+    enum map_nibble npc_00 : 4;
+    enum map_nibble npc_01 : 4;
+    enum map_nibble npc_02 : 4;
+    enum map_nibble npc_03 : 4;
+    enum map_nibble npc_04 : 4;
+    enum map_nibble npc_05 : 4;
+    enum map_nibble npc_06 : 4;
+    enum map_nibble npc_07 : 4;
+    enum map_nibble npc_08 : 4;
+    enum map_nibble npc_09 : 4;
+    enum map_nibble npc_10 : 4;
+    enum map_nibble npc_11 : 4;
+    enum map_nibble npc_12 : 4;
+    enum map_nibble npc_13 : 4;
+    enum map_nibble npc_14 : 4;
+    enum map_nibble npc_15 : 4;
+    enum map_nibble npc_16 : 4;
+    enum map_nibble npc_17 : 4;
+    enum map_nibble npc_18 : 4;
+    enum map_nibble npc_19 : 4;
+    enum map_nibble npc_20 : 4;
+    enum map_nibble npc_21 : 4;
+    enum map_nibble npc_22 : 4;
+    enum map_nibble npc_23 : 4;
+    enum map_nibble npc_24 : 4;
+    enum map_nibble npc_25 : 4;
+    enum map_nibble npc_26 : 4;
+    enum map_nibble npc_27 : 4;
+    enum map_nibble npc_28 : 4;
+    enum map_nibble npc_29 : 4;
+    enum map_nibble npc_30 : 4;
+    enum map_nibble npc_31 : 4;
+};
+
+ASSERT_SIZE(struct npc_spawn_nibbles, 16);
+
+struct target_destroyed_nibbles {
+    enum map_nibble target_00 : 4;
+    enum map_nibble target_01 : 4;
+    enum map_nibble target_02 : 4;
+    enum map_nibble target_03 : 4;
+    enum map_nibble target_04 : 4;
+    enum map_nibble target_05 : 4;
+    enum map_nibble target_06 : 4;
+    enum map_nibble target_07 : 4;
+    enum map_nibble target_08 : 4;
+    enum map_nibble target_09 : 4;
+    enum map_nibble target_10 : 4;
+    enum map_nibble target_11 : 4;
+    enum map_nibble target_12 : 4;
+    enum map_nibble target_13 : 4;
+    enum map_nibble target_14 : 4;
+    enum map_nibble target_15 : 4;
+    enum map_nibble target_16 : 4;
+    enum map_nibble target_17 : 4;
+    enum map_nibble target_18 : 4;
+    enum map_nibble target_19 : 4;
+    enum map_nibble target_20 : 4;
+    enum map_nibble target_21 : 4;
+    enum map_nibble target_22 : 4;
+    enum map_nibble target_23 : 4;
+    enum map_nibble target_24 : 4;
+    enum map_nibble target_25 : 4;
+    enum map_nibble target_26 : 4;
+    enum map_nibble target_27 : 4;
+    enum map_nibble target_28 : 4;
+    enum map_nibble target_29 : 4;
+    enum map_nibble target_30 : 4;
+    enum map_nibble target_31 : 4;
+};
+
+ASSERT_SIZE(struct target_destroyed_nibbles, 16);
 
 #include "ranger_data.h"
 

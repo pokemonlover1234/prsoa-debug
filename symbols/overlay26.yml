@@ -13,84 +13,11 @@ overlay26:
     JP: 0x1180
   description: Unknown.
   functions:
-    - name: unk_fun_overlay_26_0211c9e0
-      address:
-        NA: 0x211C9E0
-      description: |-
-        Use unknown.
-        
-        r0: undefined4 pointer
-    - name: unk_fun_overlay_26_0211ca1c
-      address:
-        NA: 0x211CA1C
-      description: |-
-        Use unknown.
-        
-        r0: int32_t pointer
-    - name: unk_fun_overlay_26_0211ca4c
-      address:
-        NA: 0x211CA4C
-      description: |-
-        Use unknown.
-        
-        r0: int32_t pointer
-    - name: unk_fun_overlay_26_0211ca84
-      address:
-        NA: 0x211CA84
-      description: |-
-        Use unknown.
-        
-        r0: int32_t
-    - name: unk_fun_overlay_26_0211cef4
-      address:
-        NA: 0x211CEF4
-      description: |-
-        Use unknown.
-        
-        r0: int32_t
-    - name: unk_fun_overlay_26_0211cf10
+    - name: ret_0211cf10
       address:
         NA: 0x211CF10
       description: |-
-        Does nothing but return. Likely a debug hook for the above function.
-        
-        No params.
-    - name: unk_fun_overlay_26_0211cf14
-      address:
-        NA: 0x211CF14
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: unk_fun_overlay_26_0211d094
-      address:
-        NA: 0x211D094
-      description: |-
-        Use unknown.
-        
-        r0: int32_t
-    - name: unk_fun_overlay_26_0211d348
-      address:
-        NA: 0x211D348
-      description: |-
-        Use unknown.
-        
-        r0: int32_t
-    - name: unk_fun_overlay_26_0211d3c0
-      address:
-        NA: 0x211D3C0
-      description: |-
-        Use unknown.
-        
-        r0: undefined4
-        r1: undefined4
-        r2: undefined4
-        r3: undefined4
-    - name: unk_fun_overlay_26_0211d5c4
-      address:
-        NA: 0x211D5C4
-      description: |-
-        Use unknown.
+        Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
   data:

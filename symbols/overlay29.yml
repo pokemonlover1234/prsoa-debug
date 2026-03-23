@@ -10,65 +10,13 @@ overlay29:
     NA: 0x360
   description: Unknown. Missing from the JP release.
   functions:
-    - name: unk_fun_overlay_29_0211c9e0
-      address:
-        NA: 0x211C9E0
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: unk_fun_overlay_29_0211c9e8
+    - name: ret_0211c9e8
       address:
         NA: 0x211C9E8
       description: |-
-        Does nothing but return. Likely a debug hook for the above function.
+        Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: unk_fun_overlay_29_0211c9ec
-      address:
-        NA: 0x211C9EC
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: unk_fun_overlay_29_0211cb54
-      address:
-        NA: 0x211CB54
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: unk_fun_overlay_29_0211cc44
-      address:
-        NA: 0x211CC44
-      description: |-
-        Use unknown.
-        
-        r0: undefined4
-        r1: undefined4
-        r2: undefined4
-        r3: undefined4
-    - name: unk_fun_overlay_29_0211cc90
-      address:
-        NA: 0x211CC90
-      description: |-
-        Use unknown.
-        
-        r0: undefined4
-    - name: unk_fun_overlay_29_0211ccac
-      address:
-        NA: 0x211CCAC
-      description: |-
-        Use unknown.
-        
-        No params.
-    - name: unk_fun_overlay_29_0211ccb4
-      address:
-        NA: 0x211CCB4
-      description: |-
-        Use unknown.
-        
-        r0: undefined4
   data:
     - name: OV29_STATIC_INITIALIZER
       address:
