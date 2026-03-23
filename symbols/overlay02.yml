@@ -13,42 +13,42 @@ overlay2:
     JP: 0x800
   description: Unknown.
   functions:
-    - name: ret_0211D124
+    - name: ret_0211d124
       address:
         NA: 0x211D124
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0211D128
+    - name: ret_0211d128
       address:
         NA: 0x211D128
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0211D12C
+    - name: ret_0211d12c
       address:
         NA: 0x211D12C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0211D130
+    - name: ret_0211d130
       address:
         NA: 0x211D130
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0211D134
+    - name: ret_0211d134
       address:
         NA: 0x211D134
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0211D138
+    - name: ret_0211d138
       address:
         NA: 0x211D138
       description: |-

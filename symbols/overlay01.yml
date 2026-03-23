@@ -120,63 +120,63 @@ overlay1:
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_021293D4
+    - name: ret_021293d4
       address:
         NA: 0x21293D4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0212C028
+    - name: ret_0212c028
       address:
         NA: 0x212C028
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0212E524
+    - name: ret_0212e524
       address:
         NA: 0x212E524
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0212E888
+    - name: ret_0212e888
       address:
         NA: 0x212E888
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0212EE20
+    - name: ret_0212ee20
       address:
         NA: 0x212EE20
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0212EE38
+    - name: ret_0212ee38
       address:
         NA: 0x212EE38
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02130B70
+    - name: ret_02130b70
       address:
         NA: 0x2130B70
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02131B44
+    - name: ret_02131b44
       address:
         NA: 0x2131B44
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02133C04
+    - name: ret_02133c04
       address:
         NA: 0x2133C04
       description: |-
@@ -197,35 +197,35 @@ overlay1:
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_021368F8
+    - name: ret_021368f8
       address:
         NA: 0x21368F8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02136AE8
+    - name: ret_02136ae8
       address:
         NA: 0x2136AE8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02137B90
+    - name: ret_02137b90
       address:
         NA: 0x2137B90
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02137B94
+    - name: ret_02137b94
       address:
         NA: 0x2137B94
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0213AE14
+    - name: ret_0213ae14
       address:
         NA: 0x213AE14
       description: |-

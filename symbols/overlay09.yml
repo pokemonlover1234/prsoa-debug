@@ -13,7 +13,7 @@ overlay9:
     JP: 0x15A0
   description: Seems to be loaded when flying on Staraptor.
   functions:
-    - name: ret_0211CC2C
+    - name: ret_0211cc2c
       address:
         NA: 0x211CC2C
       description: |-

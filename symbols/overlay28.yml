@@ -13,7 +13,7 @@ overlay28:
     JP: 0x1320
   description: Seems to be loaded in the Map menu option.
   functions:
-    - name: ret_0211CC8C
+    - name: ret_0211cc8c
       address:
         NA: 0x211CC8C
       description: |-

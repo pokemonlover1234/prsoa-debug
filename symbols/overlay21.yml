@@ -20,7 +20,7 @@ overlay21:
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02120BCC
+    - name: ret_02120bcc
       address:
         NA: 0x2120BCC
       description: |-
@@ -34,56 +34,56 @@ overlay21:
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_021215A4
+    - name: ret_021215a4
       address:
         NA: 0x21215A4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0212172C
+    - name: ret_0212172c
       address:
         NA: 0x212172C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_021218BC
+    - name: ret_021218bc
       address:
         NA: 0x21218BC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02121A30
+    - name: ret_02121a30
       address:
         NA: 0x2121A30
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02121C20
+    - name: ret_02121c20
       address:
         NA: 0x2121C20
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02121E90
+    - name: ret_02121e90
       address:
         NA: 0x2121E90
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02121F18
+    - name: ret_02121f18
       address:
         NA: 0x2121F18
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02121FB8
+    - name: ret_02121fb8
       address:
         NA: 0x2121FB8
       description: |-

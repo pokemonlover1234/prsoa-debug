@@ -13,7 +13,7 @@ overlay7:
     JP: 0x2E80
   description: Seems to be active during the release menu option.
   functions:
-    - name: ret_0211CFB0
+    - name: ret_0211cfb0
       address:
         NA: 0x211CFB0
       description: |-

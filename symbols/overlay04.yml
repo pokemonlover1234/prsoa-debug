@@ -13,7 +13,7 @@ overlay4:
     JP: 0xF80
   description: Unknown.
   functions:
-    - name: ret_0211D560
+    - name: ret_0211d560
       address:
         NA: 0x211D560
       description: |-

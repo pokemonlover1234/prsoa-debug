@@ -10,7 +10,7 @@ overlay29:
     NA: 0x360
   description: Unknown. Missing from the JP release.
   functions:
-    - name: ret_0211C9E8
+    - name: ret_0211c9e8
       address:
         NA: 0x211C9E8
       description: |-

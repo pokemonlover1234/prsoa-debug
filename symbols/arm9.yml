@@ -29,49 +29,49 @@ arm9:
         Once the entry function reaches the end, a constant containing the address to NitroMain is loaded into a register (r1), and a `bx` branch will jump to NitroMain.
         
         No params.
-    - name: ret_02000B98
+    - name: ret_02000b98
       address:
         NA: 0x2000B98
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02000B9C
+    - name: ret_02000b9c
       address:
         NA: 0x2000B9C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0200120C
+    - name: ret_0200120c
       address:
         NA: 0x200120C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02001EB4
+    - name: ret_02001eb4
       address:
         NA: 0x2001EB4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02001ECC
+    - name: ret_02001ecc
       address:
         NA: 0x2001ECC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0200372C
+    - name: ret_0200372c
       address:
         NA: 0x200372C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0200396C
+    - name: ret_0200396c
       address:
         NA: 0x200396C
       description: |-
@@ -85,63 +85,63 @@ arm9:
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02007CA8
+    - name: ret_02007ca8
       address:
         NA: 0x2007CA8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02007CC0
+    - name: ret_02007cc0
       address:
         NA: 0x2007CC0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02008ED8
+    - name: ret_02008ed8
       address:
         NA: 0x2008ED8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0200BBC0
+    - name: ret_0200bbc0
       address:
         NA: 0x200BBC0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0200BBC4
+    - name: ret_0200bbc4
       address:
         NA: 0x200BBC4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0200C404
+    - name: ret_0200c404
       address:
         NA: 0x200C404
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0200D414
+    - name: ret_0200d414
       address:
         NA: 0x200D414
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0200EE10
+    - name: ret_0200ee10
       address:
         NA: 0x200EE10
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0200FA58
+    - name: ret_0200fa58
       address:
         NA: 0x200FA58
       description: |-
@@ -521,7 +521,7 @@ arm9:
         Retrieves the current gender and uniform for the player from the battle_combatants struct.
         
         r0: battle_combatants pointer
-    - name: ret_02010CEC
+    - name: ret_02010cec
       address:
         NA: 0x2010CEC
       description: |-
@@ -542,7 +542,7 @@ arm9:
         Zeroes the footer struct of a quest struct.
         
         r0: quest pointer
-    - name: ret_020117AC
+    - name: ret_020117ac
       address:
         NA: 0x20117AC
       description: |-
@@ -891,35 +891,35 @@ arm9:
         
         r0: settings_and_variables pointer
         r1: index
-    - name: ret_0201A40C
+    - name: ret_0201a40c
       address:
         NA: 0x201A40C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_020222C8
+    - name: ret_020222c8
       address:
         NA: 0x20222C8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_020222CC
+    - name: ret_020222cc
       address:
         NA: 0x20222CC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_020222D0
+    - name: ret_020222d0
       address:
         NA: 0x20222D0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_020222D4
+    - name: ret_020222d4
       address:
         NA: 0x20222D4
       description: |-
@@ -933,14 +933,14 @@ arm9:
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_020228C0
+    - name: ret_020228c0
       address:
         NA: 0x20228C0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_020237E0
+    - name: ret_020237e0
       address:
         NA: 0x20237E0
       description: |-
@@ -954,14 +954,14 @@ arm9:
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0202A5F8
+    - name: ret_0202a5f8
       address:
         NA: 0x202A5F8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0202D394
+    - name: ret_0202d394
       address:
         NA: 0x202D394
       description: |-
@@ -1134,14 +1134,14 @@ arm9:
         Retrieves the mood of a specified partner by index.
         
         r0: pointer to partner index
-    - name: ret_02032A44
+    - name: ret_02032a44
       address:
         NA: 0x2032A44
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0203331C
+    - name: ret_0203331c
       address:
         NA: 0x203331C
       description: |-
@@ -1155,7 +1155,7 @@ arm9:
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_020333D8
+    - name: ret_020333d8
       address:
         NA: 0x20333D8
       description: |-
@@ -1169,7 +1169,7 @@ arm9:
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0203365C
+    - name: ret_0203365c
       address:
         NA: 0x203365C
       description: |-
@@ -1260,35 +1260,35 @@ arm9:
         Converts a form_id to the corresponding partner index, if possible.
         
         r0: form_id
-    - name: ret_020358FC
+    - name: ret_020358fc
       address:
         NA: 0x20358FC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02035FE4
+    - name: ret_02035fe4
       address:
         NA: 0x2035FE4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0203E930
+    - name: ret_0203e930
       address:
         NA: 0x203E930
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0204078C
+    - name: ret_0204078c
       address:
         NA: 0x204078C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0204129C
+    - name: ret_0204129c
       address:
         NA: 0x204129C
       description: |-
@@ -1316,14 +1316,14 @@ arm9:
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_020439C4
+    - name: ret_020439c4
       address:
         NA: 0x20439C4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_020439C8
+    - name: ret_020439c8
       address:
         NA: 0x20439C8
       description: |-
@@ -1344,7 +1344,7 @@ arm9:
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_020441AC
+    - name: ret_020441ac
       address:
         NA: 0x20441AC
       description: |-
@@ -1373,7 +1373,7 @@ arm9:
         r1: undefined4
         r2: undefined4
         r3: undefined4
-    - name: ret_02046D3C
+    - name: ret_02046d3c
       address:
         NA: 0x2046D3C
       description: |-
@@ -1474,28 +1474,28 @@ arm9:
         
         r0: file descriptor
         return: 0 on success, or a negative value representing an error
-    - name: ret_02049D08
+    - name: ret_02049d08
       address:
         NA: 0x2049D08
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0205FC98
+    - name: ret_0205fc98
       address:
         NA: 0x205FC98
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0205FCB8
+    - name: ret_0205fcb8
       address:
         NA: 0x205FCB8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0206129C
+    - name: ret_0206129c
       address:
         NA: 0x206129C
       description: |-
@@ -1508,7 +1508,7 @@ arm9:
     - name: GX_InitGxState
       address:
         NA: 0x20615AC
-    - name: ret_020647A0
+    - name: ret_020647a0
       address:
         NA: 0x20647A0
       description: |-
@@ -1874,7 +1874,7 @@ arm9:
     - name: Card_InitPulledOutCallback
       address:
         NA: 0x207000C
-    - name: ret_0207484C
+    - name: ret_0207484c
       address:
         NA: 0x207484C
       description: |-
@@ -1910,7 +1910,7 @@ arm9:
         
         r0: x
         return: abs(x)
-    - name: ret_020794D4
+    - name: ret_020794d4
       address:
         NA: 0x20794D4
       description: |-
@@ -2100,14 +2100,14 @@ arm9:
         r0: haystack
         r1: needle
         return: pointer into haystack where needle starts, or null pointer if no match
-    - name: ret_0207F910
+    - name: ret_0207f910
       address:
         NA: 0x207F910
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0207F9C0
+    - name: ret_0207f9c0
       address:
         NA: 0x207F9C0
       description: |-
@@ -2406,14 +2406,14 @@ arm9:
         r0: dividend
         r1: divisor
         return: (quotient) | (remainder << 32)
-    - name: ret_02081C00
+    - name: ret_02081c00
       address:
         NA: 0x2081C00
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_02082E20
+    - name: ret_02082e20
       address:
         NA: 0x2082E20
       description: |-

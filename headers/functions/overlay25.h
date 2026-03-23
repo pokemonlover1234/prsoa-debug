@@ -1,5 +1,5 @@
 #ifndef HEADERS_FUNCTIONS_OVERLAY25_H_
 #define HEADERS_FUNCTIONS_OVERLAY25_H_
-void ret_0211CEEC(void);
+void ret_0211ceec(void);
 
 #endif

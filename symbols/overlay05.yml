@@ -13,56 +13,56 @@ overlay5:
     JP: 0x43E0
   description: Seems to be active when viewing the styler status menu.
   functions:
-    - name: ret_0211CE0C
+    - name: ret_0211ce0c
       address:
         NA: 0x211CE0C
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0211EAD4
+    - name: ret_0211ead4
       address:
         NA: 0x211EAD4
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0211EAD8
+    - name: ret_0211ead8
       address:
         NA: 0x211EAD8
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0211EADC
+    - name: ret_0211eadc
       address:
         NA: 0x211EADC
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0211EAE0
+    - name: ret_0211eae0
       address:
         NA: 0x211EAE0
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0211EC58
+    - name: ret_0211ec58
       address:
         NA: 0x211EC58
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0211F550
+    - name: ret_0211f550
       address:
         NA: 0x211F550
       description: |-
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
-    - name: ret_0211F554
+    - name: ret_0211f554
       address:
         NA: 0x211F554
       description: |-
