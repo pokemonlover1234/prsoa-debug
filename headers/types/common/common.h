@@ -1463,7 +1463,6 @@ struct battle_combatants {
 
 ASSERT_SIZE(struct battle_combatants, 92);
 
-
 struct trigger_spawn_nibbles {
     enum map_nibble trigger_00 : 4;
     enum map_nibble trigger_01 : 4;
