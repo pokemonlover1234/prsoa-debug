@@ -11,7 +11,7 @@ overlay23:
     EU: 0x2920
     NA: 0x2920
     JP: 0x28C0
-  description: Unknown.
+  description: Seems to display Ranger Records.
   functions:
     - name: ret_0211d0bc
       address:

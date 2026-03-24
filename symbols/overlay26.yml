@@ -11,7 +11,7 @@ overlay26:
     EU: 0x11C0
     NA: 0x1180
     JP: 0x1180
-  description: Unknown.
+  description: "Unknown. Might handle dual-screen visual displays, like the construction of Altru Tower."
   functions:
     - name: ret_0211cf10
       address:

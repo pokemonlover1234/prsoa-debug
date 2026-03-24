@@ -11,7 +11,7 @@ overlay20:
     EU: 0x620
     NA: 0x620
     JP: 0x620
-  description: Unknown.
+  description: Unknown. Initiates a game save when called.
   functions:
     - name: ret_0211cd30
       address:

@@ -11,7 +11,7 @@ overlay10:
     EU: 0xC0
     NA: 0xC0
     JP: 0xC0
-  description: Unknown.
+  description: Unknown. Might be related to resuming overworld activity.
   functions:
     - name: ret_0211c9e0
       address:
