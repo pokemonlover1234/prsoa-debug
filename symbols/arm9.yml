@@ -50,6 +50,23 @@ arm9:
         Does nothing but return. Likely a debug hook for a nearby function.
         
         No params.
+    - name: LoadOverlay
+      address:
+        NA: 0x2001488
+      description: |-
+        Tries to load an overlay if it's not already loaded, and does some other (unknown) checks.
+        
+        r0: Overlay number
+        r1: Some bool, skips certain code if false
+    - name: SetGameState
+      address:
+        NA: 0x2001568
+      description: |-
+        Called when changing the game state. Always tries to load an overlay, and usually ends up calling the entrypoint function for that overlay afterwards.
+        
+        r0: New game state
+        r1: Unknown
+        return: Unknown pointer
     - name: ret_02001eb4
       address:
         NA: 0x2001EB4
@@ -1813,6 +1830,9 @@ arm9:
     - name: MI_Init
       address:
         NA: 0x206842C
+    - name: Snd_CalcChannelVolume
+      address:
+        NA: 0x20690F8
     - name: Pxi_Init
       address:
         NA: 0x206955C
@@ -2438,3 +2458,6 @@ arm9:
         NA: 0x800
         JP: 0x800
       description: "The header of the DS cartridge secure area. See https://problemkaputt.de/gbatek.htm#dscartridgesecurearea"
+    - name: S_VOLUME_TABLE
+      address:
+        NA: 0x2089B24
