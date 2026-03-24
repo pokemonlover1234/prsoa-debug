@@ -8,7 +8,7 @@ overlay29:
   length:
     EU: 0x360
     NA: 0x360
-  description: Unknown. Missing from the JP release.
+  description: Might be related to cart removal. When run, says data cannot be read from cart. Missing from the JP release.
   functions:
     - name: ret_0211c9e8
       address:

@@ -11,7 +11,7 @@ overlay25:
     EU: 0x33A0
     NA: 0x3340
     JP: 0x3340
-  description: Unknown.
+  description: Seems to play the credits when called.
   functions:
     - name: ret_0211ceec
       address:

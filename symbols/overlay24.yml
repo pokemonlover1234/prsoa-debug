@@ -11,7 +11,7 @@ overlay24:
     EU: 0x960
     NA: 0x940
     JP: 0x940
-  description: Unknown.
+  description: Unknown. Seems to read Ranger Net Mission Data when called.
   functions:
     - name: ret_0211d008
       address:

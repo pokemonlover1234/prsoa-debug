@@ -11,7 +11,7 @@ overlay4:
     EU: 0xF60
     NA: 0xF60
     JP: 0xF80
-  description: Unknown.
+  description: Seems to be responsible for plot narration?
   functions:
     - name: ret_0211d560
       address:
