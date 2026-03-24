@@ -1,6 +1,7 @@
 #ifndef HEADERS_DATA_H_
 #define HEADERS_DATA_H_
 
+#include "arm9.h"
 #include "overlay00.h"
 #include "overlay01.h"
 #include "overlay02.h"
