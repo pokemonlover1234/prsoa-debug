@@ -15,8 +15,8 @@ struct ranger_data {
     undefined4 field4_0x7c38;   // Related to battle result somehow...
     struct ranger_pokedex pokedex;
     struct ranger_glossary glossary;
-    undefined4 field5_0x7f60;
-    undefined4 field6_0x7f64;
+    undefined8 map_and_fly_bitfield; // Seems to handle world map unlocks as a bitfield. More research needed.
+    // This block of fields seems to be related to wandering enemies. More research needed.
     undefined4 field7_0x7f68;
     undefined2 field8_0x7f6c;
     undefined2 field9_0x7f6e[63];
@@ -80,7 +80,7 @@ struct ranger_data {
     char player_name[7];
     undefined1 field38_0x87ea[22];
     undefined1 field33832_0x8800[2];
-    undefined field33834_0x8802;
+    enum mount_species_8 current_mount;
     bool can_partner_poke_assist; // Needs more testing.
 };
 
