@@ -6,7 +6,7 @@
 // Seems to be stored on the stack for the duration of the battle.
 struct battle_struct {
     undefined4* function_ptr_0x0;
-    struct megastruct *megastruct_ptr;
+    struct megastruct* megastruct_ptr;
     int16_t field2_0x8;
     int16_t field3_0xa;
     unsigned int capture_rank_bit_field;
