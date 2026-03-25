@@ -15,7 +15,7 @@ struct ranger_data {
     undefined4 field4_0x7c38;   // Related to battle result somehow...
     struct ranger_pokedex pokedex;
     struct ranger_glossary glossary;
-    undefined8 map_and_fly_bitfield; // Seems to handle world map unlocks as a bitfield. More research needed.
+    long long map_and_fly_bitfield; // Seems to handle world map unlocks as a bitfield. Something like 37 bits long? More research needed.
     // This block of fields seems to be related to wandering enemies. More research needed.
     undefined4 field7_0x7f68;
     undefined2 field8_0x7f6c;
