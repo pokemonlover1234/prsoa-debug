@@ -80,7 +80,7 @@ struct ranger_data {
     char player_name[7];
     undefined1 field38_0x87ea[22];
     undefined1 field33832_0x8800[2];
-    enum mount_species_8 current_mount;
+    struct mount_species_8 current_mount;
     bool can_partner_poke_assist; // Needs more testing.
 };
 
