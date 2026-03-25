@@ -1,3 +1,9 @@
+  prsoa-debug is based on UsernameFodder's pmdsky-debug project. It is a
+modified version of pmdsky-debug that follows the same structure, but
+documents Pokémon Ranger: Shadows of Almia rather than Pokémon Mystery
+Dungeon: Explorers of Sky. pmdsky-debug follows the GPLv3 license, so
+prsoa-debug follows this license as well. The GPLv3 license is below:
+
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
