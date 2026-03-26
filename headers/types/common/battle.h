@@ -2,10 +2,11 @@
 #define HEADERS_TYPES_BATTLE_H_
 
 #include "common.h"
+#include "megastruct.h"
 // Seems to be stored on the stack for the duration of the battle.
 struct battle_struct {
     undefined4* function_ptr_0x0;
-    undefined4* unk_pointer_0x4;
+    struct megastruct* megastruct_ptr;
     int16_t field2_0x8;
     int16_t field3_0xa;
     unsigned int capture_rank_bit_field;
