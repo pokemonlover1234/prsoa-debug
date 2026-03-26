@@ -551,7 +551,7 @@ struct ov_11_unk_struct_size_0x730 {
     undefined field133_0x155;
     undefined field134_0x156;
     undefined field135_0x157;
-    int field136_0x158[2][34]; // May be bigger in one dimension. 34 is correct.
+    int field136_0x158[2][34];     // May be bigger in one dimension. 34 is correct.
     undefined field137_0x268[192]; // May be part of the previous field.
     undefined4 field329_0x328[4];
     undefined field330_0x338;
