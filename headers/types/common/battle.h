@@ -168,11 +168,13 @@ struct battle_graphic_struct {
     int field106_0x80;
     // Not confirmed to be a continuous field
     undefined fields3_0x84[64];
-    uint field171_0xc4;
+    uint32_t field171_0xc4;
     int field172_0xc8;
     int field173_0xcc;
     // Not confirmed to be a continuous field
-    undefined fields4_0xd0[74];
+    undefined fields4_0xd0[72];
+    undefined4 field246_0x118;
+    undefined4 field247_0x11c;
     int32_t field248_0x120;
     int32_t field249_0x124;
     // Not confirmed to be a continuous field
@@ -180,7 +182,8 @@ struct battle_graphic_struct {
     undefined4 field290_0x150;
 };
 
-
 ASSERT_SIZE(struct battle_struct, 4840);
+
+ASSERT_SIZE(struct battle_graphic_struct, 340);
 
 #endif
